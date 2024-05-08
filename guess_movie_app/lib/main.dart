@@ -1,18 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:guess_movie/src/presentation/quiz_page.dart';
+import 'package:guess_movie/src/models/answer_model.dart';
+import 'package:guess_movie/src/presentation/pages/quiz_page.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: ((context) => AnswerModel()),
+      child: const QuizGameApp(),
+    ),
+  );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class QuizGameApp extends StatelessWidget {
+  const QuizGameApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quiz Game',
+      title: 'Quiz Game App',
       theme: ThemeData(
           useMaterial3: true,
           colorScheme: const ColorScheme(
@@ -28,9 +35,7 @@ class MyApp extends StatelessWidget {
             onError: Colors.white,
             brightness: Brightness.light,
           )),
-      home: const Scaffold(
-        body: QuizPage(),
-      ),
+      home: const QuizPage(),
     );
   }
 }

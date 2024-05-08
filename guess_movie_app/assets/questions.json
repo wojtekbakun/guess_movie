@@ -1,5 +1,6 @@
-{
+[{
     "question": "What is the capital of France?",
-    "answers": "Paris",
-    "photoUrl": "url"
+    "answer": "Paris",
+    "image_url": "url" 
 }
+]
