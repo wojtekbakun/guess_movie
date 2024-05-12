@@ -6,16 +6,14 @@ part of 'question_model.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-QuestionModel _$QuestionModelFromJson(Map<String, dynamic> json) =>
-    QuestionModel(
-      question: json['question'] as String?,
+QuestionModelJson _$QuestionModelFromJson(Map<String, dynamic> json) =>
+    QuestionModelJson(
       answer: json['answer'] as String?,
       imageUrl: json['image_url'] as String?,
     );
 
-Map<String, dynamic> _$QuestionModelToJson(QuestionModel instance) =>
+Map<String, dynamic> _$QuestionModelToJson(QuestionModelJson instance) =>
     <String, dynamic>{
-      'question': instance.question,
       'answer': instance.answer,
       'image_url': instance.imageUrl,
     };

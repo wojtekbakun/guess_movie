@@ -3,18 +3,18 @@ part 'question_model.g.dart';
 
 // This is the model class for the question
 @JsonSerializable(fieldRename: FieldRename.snake)
-class QuestionModel {
-  String? question;
+class QuestionModelJson {
   String? answer;
   String? imageUrl;
 
-  QuestionModel({this.question, this.answer, this.imageUrl});
+  QuestionModelJson({this.answer, this.imageUrl});
 
-  factory QuestionModel.fromJson(json) => _$QuestionModelFromJson(json);
+  factory QuestionModelJson.fromJson(json) => _$QuestionModelFromJson(json);
 
   toJson() => _$QuestionModelToJson(this);
 
-  static List<QuestionModel> fromJsonList(List? json) {
-    return json?.map((e) => QuestionModel.fromJson(e)).toList() ?? List.empty();
+  static List<QuestionModelJson> fromJsonList(List? json) {
+    return json?.map((e) => QuestionModelJson.fromJson(e)).toList() ??
+        List.empty();
   }
 }
