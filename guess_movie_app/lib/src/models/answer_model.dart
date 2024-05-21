@@ -4,12 +4,16 @@ import 'dart:math';
 
 import 'package:guess_movie/src/features/next_question/next_question.dart';
 import 'package:guess_movie/src/features/next_question/results.dart';
+import 'package:guess_movie/src/models/question_model.dart';
 
 class AnswerModel extends ChangeNotifier {
   //create a list of clicked, to click letters and indexes of clicked letters
   final List<String> _clickedLetters = [];
   final List<String> _toClickLetters = [];
   final List<int> _clickedIndexes = [];
+
+  final List<QuestionModelJson> _questionData = [];
+  List<QuestionModelJson> get questionData => _questionData;
 
   String _correctAnswer = '';
   int _numberOfCorrectAnswerLetters = 0;
@@ -82,7 +86,8 @@ class AnswerModel extends ChangeNotifier {
   }
 
   //load all letters and it's indexes from a word
-  void initializeLetters(BuildContext context, String word) {
+  void initializeLetters() {
+    String? word = questionData[numberOfQuestion].answer ?? 'error';
     if (_clickedLetters.isEmpty && isFirstAnswer) {
       _correctAnswer = word.toUpperCase();
       _numberOfCorrectAnswerLetters = word.length;
@@ -98,8 +103,13 @@ class AnswerModel extends ChangeNotifier {
     }
   }
 
-  void getNumberOfAllQuestions(int numberOfQuestions) {
-    _numberOfAllQuestions = numberOfQuestions;
+  void initializeQuestionsList(List<QuestionModelJson> questionData) {
+    _questionData.addAll(questionData);
+    getNumberOfAllQuestions();
+  }
+
+  void getNumberOfAllQuestions() {
+    _numberOfAllQuestions = questionData.length;
     debugPrint('Number of all questions: $_numberOfAllQuestions');
   }
 
@@ -129,7 +139,7 @@ class AnswerModel extends ChangeNotifier {
   }
 
   void toogleAnswer() {
-    _isAnswerCorrect = !_isAnswerCorrect;
+    _isAnswerCorrect = false;
     _isFirstAnswer = true;
     clearTables();
     debugPrint('toogled');
@@ -139,6 +149,11 @@ class AnswerModel extends ChangeNotifier {
     _clickedLetters.clear();
     _toClickLetters.clear();
     _clickedIndexes.clear();
+    //_questionData.clear();
+  }
+
+  void clearQuestionData() {
+    _questionData.clear();
   }
 
   void playConfetti(ConfettiController controller) {
@@ -146,16 +161,18 @@ class AnswerModel extends ChangeNotifier {
   }
 
   void nextQuestion(BuildContext context) {
+    toogleAnswer();
     Navigator.pop(context);
     _numberOfQuestion++;
+    initializeLetters();
     notifyListeners();
-    toogleAnswer();
     debugPrint('clicked next question');
   }
 
   Widget showNextQuestionDialog(BuildContext context) {
     //show next question only if there is a next question
     //(number of question is iterated in nextQuestion method after closing the dialog)
+
     if (_numberOfQuestion + 1 < _numberOfAllQuestions) {
       Future.delayed(
         const Duration(milliseconds: 0),
@@ -174,6 +191,7 @@ class AnswerModel extends ChangeNotifier {
       Future.delayed(
         const Duration(milliseconds: 0),
         () {
+          // toogleAnswer();
           showDialog(
             context: context,
             builder: (BuildContext context) {
@@ -185,6 +203,7 @@ class AnswerModel extends ChangeNotifier {
         },
       );
     }
+
     return const SizedBox.shrink();
   }
 

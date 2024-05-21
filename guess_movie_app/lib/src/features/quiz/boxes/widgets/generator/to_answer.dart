@@ -15,7 +15,9 @@ Widget toAnswerBoxGenerator({
     //height: 100,
     width: 250, //TODO change it to responsive
     child: GridView.count(
-      crossAxisCount: numberOfLetters ~/ 2, //TODO change it to responsive
+      crossAxisCount: numberOfLetters == 0
+          ? 1
+          : numberOfLetters ~/ 2, //TODO change it to responsive
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       children: List.generate(

@@ -40,6 +40,7 @@ class CategoryPanel extends StatelessWidget {
       child: ListTile(
         onTap: () {
           Navigator.pushNamed(context, '/levelPage');
+          Provider.of<AnswerModel>(context, listen: false).clearQuestionData();
           Provider.of<AnswerModel>(context, listen: false)
               .setCategoryNumber(index);
         },

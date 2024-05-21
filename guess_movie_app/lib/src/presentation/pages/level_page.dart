@@ -13,7 +13,6 @@ class LevelPage extends StatelessWidget {
     return FutureBuilder(
       future: loadQuestionFromJson(context),
       builder: (context, snapshot) {
-        final questionData = snapshot.data ?? [];
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(
             child: CircularProgressIndicator(),
@@ -29,6 +28,9 @@ class LevelPage extends StatelessWidget {
             ),
           );
         } else {
+          Provider.of<AnswerModel>(context, listen: false)
+              .initializeQuestionsList(
+                  snapshot.data as List<QuestionModelJson>);
           return Scaffold(
             appBar: myAppBar(context),
             body: SafeArea(
@@ -45,7 +47,6 @@ class LevelPage extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return LevelPanel(
                     levelNumber: index,
-                    questionData: questionData,
                   );
                 },
               ),
@@ -59,9 +60,10 @@ class LevelPage extends StatelessWidget {
 
 class LevelPanel extends StatelessWidget {
   final int levelNumber;
-  final List<QuestionModelJson> questionData;
-  const LevelPanel(
-      {super.key, required this.levelNumber, required this.questionData});
+  const LevelPanel({
+    super.key,
+    required this.levelNumber,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +71,10 @@ class LevelPanel extends StatelessWidget {
       onTap: () {
         Provider.of<AnswerModel>(context, listen: false)
             .setQuestionNumber(levelNumber);
-        Navigator.pushNamed(context, '/quizPage', arguments: questionData);
+        Navigator.pushNamed(
+          context,
+          '/quizPage',
+        );
       },
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(24),

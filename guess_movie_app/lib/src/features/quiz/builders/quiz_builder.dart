@@ -16,8 +16,8 @@ class QuizBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final model = Provider.of<AnswerModel>(context, listen: false);
-    debugPrint('letters to init: ${questionData.answer}');
-    model.initializeLetters(context, questionData.answer ?? 'error');
+    //debugPrint('letters to init: ${questionData.answer}');
+    //model.initializeLetters(context, questionData.answer ?? 'error');
     return Stack(
       alignment: Alignment.center,
       fit: StackFit.expand,
