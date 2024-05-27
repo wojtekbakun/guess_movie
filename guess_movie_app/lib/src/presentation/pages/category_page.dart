@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guess_movie/src/features/category_selection/categories_and_files_list.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
+import 'package:guess_movie/src/models/score_model.dart';
 import 'package:guess_movie/src/presentation/my_app_bar/widgets/my_app_bar.dart';
 import 'package:provider/provider.dart';
 
@@ -63,10 +64,14 @@ class CategoryPanel extends StatelessWidget {
               size: 24,
               color: Theme.of(context).colorScheme.onPrimary,
             ),
-            Text(
-              '20/30',
-              style: Theme.of(context).textTheme.bodySmall,
-            )
+            Consumer<QuizScoreModel>(builder: (context, answerData, child) {
+              debugPrint('Nowe wyniki: ${answerData.numberOfCorrectAnswers}');
+              return Text(
+                // nie aktualizuje sie, dopiero po hot reload
+                '${answerData.numberOfCorrectAnswers[index]}/${categoriesAndFilesList[index][2]}',
+                style: Theme.of(context).textTheme.bodySmall,
+              );
+            })
           ],
         ),
         title: Text(

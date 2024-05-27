@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
+import 'package:guess_movie/src/models/score_model.dart';
+import 'package:guess_movie/src/models/screen.dart';
 import 'package:guess_movie/src/presentation/pages/category_page.dart';
 import 'package:guess_movie/src/presentation/pages/home_page.dart';
 import 'package:guess_movie/src/presentation/pages/level_page.dart';
@@ -8,16 +10,30 @@ import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(
-    MultiProvider(
+  WidgetsFlutterBinding.ensureInitialized();
+
+  runApp(const Loader());
+}
+
+class Loader extends StatelessWidget {
+  const Loader({super.key});
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MultiProvider(
       providers: [
         ChangeNotifierProvider(
           create: ((context) => AnswerModel()),
         ),
+        ChangeNotifierProvider(
+          create: ((context) => QuizScoreModel()),
+        ),
       ],
       child: const QuizGameApp(),
-    ),
-  );
+    );
+  }
+
+  // Future<void> _initializeScores(BuildContext context) async {}
 }
 
 class QuizGameApp extends StatelessWidget {
@@ -26,6 +42,9 @@ class QuizGameApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    Provider.of<QuizScoreModel>(context, listen: false).initializeScoresList();
+    Provider.of<QuizScoreModel>(context, listen: false).getAllScores();
+    ScreenSizeHelper.initialize(context);
     return MaterialApp(
       title: 'Quiz Game App',
       initialRoute: '/homePage',
@@ -51,26 +70,30 @@ class QuizGameApp extends StatelessWidget {
           brightness: Brightness.light,
         ),
         textTheme: TextTheme(
-          titleMedium: GoogleFonts.prompt(
-              color: Theme.of(context).colorScheme.onPrimary,
-              fontSize: 18,
-              fontWeight: FontWeight.bold),
-          titleSmall: GoogleFonts.prompt(
-              color: Theme.of(context).colorScheme.onPrimary,
-              fontSize: 14,
-              fontWeight: FontWeight.normal),
-          bodyMedium: GoogleFonts.prompt(
+          titleMedium: TextStyle(
+            fontFamily: 'Inter',
+            fontSize: 18,
             color: Theme.of(context).colorScheme.onPrimary,
-            fontSize: 16,
           ),
-          bodySmall: GoogleFonts.prompt(
-            color: Theme.of(context).colorScheme.onPrimary,
-            fontSize: 12,
+          titleSmall: TextStyle(
+            fontFamily: 'Inter',
+            fontSize: 14,
+            color: Theme.of(context).colorScheme.surface,
           ),
-          labelLarge: GoogleFonts.prompt(
+          // bodyMedium: TextStyle(
+          //   fontFamily: 'Inter',
+          //   fontSize: 18,
+          //   color: Theme.of(context).colorScheme.onPrimary,
+          // ),
+          bodySmall: TextStyle(
+            fontFamily: 'Inter',
+            fontSize: 14,
             color: Theme.of(context).colorScheme.onPrimary,
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
+          ),
+          labelLarge: TextStyle(
+            fontFamily: 'Inter',
+            fontSize: 18,
+            color: Theme.of(context).colorScheme.onPrimary,
           ),
         ),
       ),

@@ -12,15 +12,11 @@ class ToAnswerbox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<AnswerModel>(
-      builder: (context, value, child) => Column(
-        children: [
-          toAnswerBoxGenerator(
-            context: context,
-            numberOfLetters: value.toClickLetters.length,
-            lettersToDisplay: value.toClickLetters,
-            isLetterAdded: true,
-          ),
-        ],
+      builder: (context, value, child) => toAnswerBoxGenerator(
+        context: context,
+        numberOfLetters: value.toClickLetters.length,
+        lettersToDisplay: value.toClickLetters,
+        isLetterAdded: true,
       ),
     );
   }

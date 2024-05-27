@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guess_movie/src/models/screen.dart';
 
 class BoxWithLetter extends StatelessWidget {
   final int index;
@@ -13,9 +14,16 @@ class BoxWithLetter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenwWitdth = ScreenSizeHelper.screenWidth;
+    double boxWidth = 36;
+    if (screenwWitdth < 375) {
+      boxWidth = 24;
+    } else if (screenwWitdth >= 414) {
+      boxWidth = 44;
+    }
     return Container(
-      //height: 24, //TODO change it to responsive
-      // width: 24, //TODO change it to responsive
+      height: boxWidth, //TODO change it to responsive
+      width: boxWidth, //TODO change it to responsive
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary,
         borderRadius: BorderRadius.circular(8),
@@ -46,8 +54,8 @@ class BoxWithoutLetter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // height: 24, //TODO change it to responsive
-      // width: 24, //TODO change it to responsive
+      height: 36, //TODO change it to responsive
+      width: 36, //TODO change it to responsive
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary,
         borderRadius: BorderRadius.circular(8),

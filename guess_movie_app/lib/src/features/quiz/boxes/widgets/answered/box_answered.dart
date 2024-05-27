@@ -12,7 +12,7 @@ class ClickedLetterBox extends StatelessWidget {
   Widget build(BuildContext context) {
     final model = context.read<AnswerModel>();
     return Consumer<AnswerModel>(
-      builder: (context, value, child) => answeredBoxGenerator(
+      builder: (context, value, child) => answeredGenerator(
         context: context,
         numberOfLettersToDisplay: value.clickedLetters.length,
         lettersToDisplay: value.clickedLetters,

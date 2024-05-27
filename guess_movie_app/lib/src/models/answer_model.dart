@@ -1,10 +1,11 @@
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
-
 import 'package:guess_movie/src/features/next_question/next_question.dart';
 import 'package:guess_movie/src/features/next_question/results.dart';
 import 'package:guess_movie/src/models/question_model.dart';
+import 'package:guess_movie/src/models/score_model.dart';
+import 'package:provider/provider.dart';
 
 class AnswerModel extends ChangeNotifier {
   //create a list of clicked, to click letters and indexes of clicked letters
@@ -42,6 +43,8 @@ class AnswerModel extends ChangeNotifier {
 
   int _numberOfCategory = 0;
   int get numberOfCategory => _numberOfCategory;
+  int _numberOfAllCategories = 0;
+  int get numberOfAllCategories => _numberOfAllCategories;
 
   //after clicking a letter
   void newClickedLetter(String letter, int index) {
@@ -58,6 +61,12 @@ class AnswerModel extends ChangeNotifier {
     _isFirstAnswer = false;
   }
 
+  List<String> splitIntoWords(String answer) {
+    List<String> words = answer.split(' '); // Split the answer into words
+    debugPrint('words: $words');
+    return words; // Return the number of words
+  }
+
   //manage the letter
   void manageLetter(bool added, String letter, int indexOfClickedLetter,
       BuildContext context) {
@@ -68,6 +77,8 @@ class AnswerModel extends ChangeNotifier {
             ? {
                 newClickedLetter(letter, indexOfClickedLetter),
                 _clickedIndexes.add(indexOfClickedLetter),
+                debugPrint(
+                    'indezx of clicked letter: $indexOfClickedLetter, letter: $letter, clicked letters: $_clickedLetters, clicked indexes: $_clickedIndexes'),
                 _clickedLetters.length == _numberOfCorrectAnswerLetters
                     ? checkIfAnswerIsCorrect()
                         ? {
@@ -97,6 +108,7 @@ class AnswerModel extends ChangeNotifier {
         _toClickLetters.insert(
             numberOfLetter, word[numberOfLetter].toUpperCase());
       }
+      _toClickLetters.removeWhere((element) => element == ' ');
       _toClickLetters.addAll(generateRandomLetters(word.length.isEven));
       _toClickLetters.shuffle();
       debugPrint('zainicjowano litery: _toClickLetters: $_toClickLetters');
@@ -110,6 +122,11 @@ class AnswerModel extends ChangeNotifier {
 
   void getNumberOfAllQuestions() {
     _numberOfAllQuestions = questionData.length;
+    debugPrint('Number of all questions: $_numberOfAllQuestions');
+  }
+
+  void getNumberOfAllCategories(int categoriesCount) {
+    _numberOfAllCategories = categoriesCount;
     debugPrint('Number of all questions: $_numberOfAllQuestions');
   }
 
@@ -133,15 +150,18 @@ class AnswerModel extends ChangeNotifier {
 
   bool checkIfAnswerIsCorrect() {
     bool isAnswerCorrect;
-    isAnswerCorrect = _clickedLetters.join() == _correctAnswer ? true : false;
+    List<String> typedAnswer = _clickedLetters;
+    List<String> correctAnswer = _correctAnswer.split('');
+    typedAnswer.removeWhere((element) => element == ' ');
+    isAnswerCorrect = typedAnswer.join() == correctAnswer.join() ? true : false;
     _isAnswerCorrect = isAnswerCorrect;
     return isAnswerCorrect;
   }
 
   void toogleAnswer() {
+    clearTables();
     _isAnswerCorrect = false;
     _isFirstAnswer = true;
-    clearTables();
     debugPrint('toogled');
   }
 
@@ -149,7 +169,7 @@ class AnswerModel extends ChangeNotifier {
     _clickedLetters.clear();
     _toClickLetters.clear();
     _clickedIndexes.clear();
-    //_questionData.clear();
+    //  clearQuestionData();
   }
 
   void clearQuestionData() {
@@ -162,6 +182,8 @@ class AnswerModel extends ChangeNotifier {
 
   void nextQuestion(BuildContext context) {
     toogleAnswer();
+    Provider.of<QuizScoreModel>(context, listen: false)
+        .updateAnswer(_numberOfCategory, _numberOfQuestion, true);
     Navigator.pop(context);
     _numberOfQuestion++;
     initializeLetters();
