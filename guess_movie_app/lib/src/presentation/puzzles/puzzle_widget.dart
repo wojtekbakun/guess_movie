@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:guess_movie/src/models/puzzle_model.dart';
+import 'package:provider/provider.dart';
 
 class PuzzleWidget extends StatelessWidget {
   const PuzzleWidget({super.key});
@@ -27,10 +29,12 @@ class PuzzleWidget extends StatelessWidget {
                   width: 1,
                 ),
               ),
-              child: Text(
-                '24',
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
+              child: Consumer<PuzzleModel>(builder: (context, puzzle, child) {
+                return Text(
+                  '${puzzle.puzzleCount}',
+                  style: Theme.of(context).textTheme.bodySmall,
+                );
+              }),
             ),
           ),
         ],
@@ -49,7 +53,7 @@ class PuzzleIcon extends StatelessWidget {
       'assets/icons/puzzle.svg',
       width: size,
       height: size,
-      color: Theme.of(context).colorScheme.onPrimary,
+      color: Theme.of(context).colorScheme.secondary,
     );
   }
 }

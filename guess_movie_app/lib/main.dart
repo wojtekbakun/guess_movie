@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
+import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/models/score_model.dart';
 import 'package:guess_movie/src/models/screen.dart';
 import 'package:guess_movie/src/presentation/pages/category_page.dart';
@@ -26,6 +27,9 @@ class Loader extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: ((context) => QuizScoreModel()),
+        ),
+        ChangeNotifierProvider(
+          create: ((context) => PuzzleModel()),
         ),
       ],
       child: const QuizGameApp(),
@@ -56,14 +60,14 @@ class QuizGameApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: const ColorScheme(
-          primary: Color.fromRGBO(157, 101, 201, 100),
-          secondary: Color.fromRGBO(215, 137, 215, 100),
-          surface: Color.fromRGBO(157, 101, 201, 100),
-          background: Color.fromRGBO(42, 61, 102, 100),
+          primary: Color.fromRGBO(157, 101, 201, 1),
+          secondary: Color.fromRGBO(215, 137, 215, 1),
+          surface: Color.fromRGBO(157, 101, 201, 1),
+          background: Color.fromRGBO(42, 61, 102, 1),
           error: Colors.red,
           onPrimary: Colors.white,
           onSecondary: Colors.white,
-          onSurface: Color.fromRGBO(93, 84, 164, 100),
+          onSurface: Color.fromRGBO(93, 84, 164, 1),
           onBackground: Colors.black,
           onError: Colors.white,
           brightness: Brightness.light,
@@ -82,7 +86,7 @@ class QuizGameApp extends StatelessWidget {
           ),
           bodyLarge: TextStyle(
             fontFamily: 'Inter',
-            fontSize: 24,
+            fontSize: 20,
             color: Theme.of(context).colorScheme.onPrimary,
           ),
           bodySmall: TextStyle(

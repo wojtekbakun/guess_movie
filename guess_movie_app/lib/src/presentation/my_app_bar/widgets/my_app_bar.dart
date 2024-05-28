@@ -6,9 +6,10 @@ import 'package:provider/provider.dart';
 
 PreferredSizeWidget myAppBar(BuildContext context, {bool? quitQuiz}) {
   return AppBar(
+    backgroundColor: Theme.of(context).colorScheme.onSurface,
     title: Text(
       'Quiz Game App',
-      style: TextStyle(color: Theme.of(context).colorScheme.onSecondary),
+      style: Theme.of(context).textTheme.titleMedium,
     ),
     leading: IconButton(
       icon: Icon(

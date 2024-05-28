@@ -59,8 +59,8 @@ Widget toAnswerBoxGenerator({
                       getClickedLetter(letterIndex, getLettersToDisplay());
                   letter != null
                       ? {
-                          model.manageLetter(
-                              isLetterAdded, letter, letterIndex, context),
+                          model.manageLetter(isLetterAdded, letter, letterIndex,
+                              false, context),
                         }
                       : null; //TODO implement here error sound
                 },

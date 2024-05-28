@@ -5,6 +5,7 @@ import 'package:guess_movie/src/features/quiz/boxes/widgets/answered/box_answere
 import 'package:guess_movie/src/features/quiz/boxes/widgets/to_answer/box_to_answer.dart';
 import 'package:guess_movie/src/features/quiz/builders/image_box.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
+import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/models/question_model.dart';
 import 'package:provider/provider.dart';
 import 'package:confetti/confetti.dart';
@@ -15,7 +16,8 @@ class QuizBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final model = Provider.of<AnswerModel>(context, listen: false);
+    final answerModel = Provider.of<AnswerModel>(context, listen: false);
+    final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
     //debugPrint('letters to init: ${questionData.answer}');
     //model.initializeLetters(context, questionData.answer ?? 'error');
     return Stack(
@@ -23,7 +25,7 @@ class QuizBuilder extends StatelessWidget {
       fit: StackFit.expand,
       children: [
         Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             ImageBox(
@@ -31,10 +33,36 @@ class QuizBuilder extends StatelessWidget {
             ),
             const ClickedLetterBox(),
             const ToAnswerbox(),
+            Column(
+              children: [
+                ElevatedButton(
+                  onPressed: () {
+                    answerModel.useHint(context);
+                  },
+                  style: ElevatedButton.styleFrom(
+                    shape: const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.zero,
+                    ),
+                    backgroundColor: Theme.of(context).colorScheme.onSurface,
+                  ),
+                  child: Center(
+                    child: Text(
+                      'Get Hint',
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                  color: Theme.of(context).colorScheme.error,
+                ),
+              ],
+            ),
           ],
         ),
         ConfettiWidget(
-          confettiController: model.controller,
+          confettiController: answerModel.controller,
           blastDirection: pi / 4,
           numberOfParticles: 20,
           minBlastForce: 10,

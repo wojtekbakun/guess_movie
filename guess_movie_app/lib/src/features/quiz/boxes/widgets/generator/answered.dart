@@ -11,35 +11,28 @@ Widget answeredGenerator({
   required int numberOfAllLetters,
   AnswerModel? model,
 }) {
+  int numberOfColumns = model?.splitIntoWords(model.correctAnswer).length ?? 1;
   return Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: List.generate(
-      model?.splitIntoWords(model.correctAnswer).length ??
-          1, //number of columns/words
+      numberOfColumns, //number of columns/words
       (columnIndex) {
+        int numberOfRows =
+            model?.splitIntoWords(model.correctAnswer)[columnIndex].length ?? 1;
         return Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: List.generate(
-            model?.splitIntoWords(model.correctAnswer)[columnIndex].length ??
-                1, //number of rows/characters in row
+            numberOfRows,
             (rowIndex) {
-              int n = columnIndex > 0
-                  ? model
-                          ?.splitIntoWords(model.correctAnswer)[columnIndex - 1]
-                          .length ??
-                      1
-                  : model
-                          ?.splitIntoWords(model.correctAnswer)[columnIndex]
-                          .length ??
-                      1; //number of characters in the word
-              int index =
-                  columnIndex * n + rowIndex; // index of the letter in the row
-              final isLetterToDisplay = index < (numberOfLettersToDisplay);
-              debugPrint(
-                  'n: $n, index: $index, numberOfLettersToDisplay: $numberOfLettersToDisplay');
+              int indexOfLetter =
+                  model?.getIndexOfLetter(columnIndex, rowIndex) ?? 0;
+              final isLetterToDisplay =
+                  indexOfLetter < (numberOfLettersToDisplay);
+              // debugPrint(
+              //     'column: $columnIndex, row: $rowIndex,  index: $indexOfLetter');
               return AnsweredBoxesWidget(
                 isLetterToDisplay: isLetterToDisplay,
-                index: index,
+                index: indexOfLetter,
                 lettersToDisplay: lettersToDisplay,
                 model: model ?? AnswerModel(),
                 isLetterAdded: isLetterAdded,
@@ -75,7 +68,8 @@ class AnsweredBoxesWidget extends StatelessWidget {
               String? letter = getClickedLetter(index, lettersToDisplay);
               letter != null
                   ? {
-                      model.manageLetter(isLetterAdded, letter, index, context),
+                      model.manageLetter(
+                          isLetterAdded, letter, index, false, context),
                     }
                   : null; //TODO implement here error sound
             },

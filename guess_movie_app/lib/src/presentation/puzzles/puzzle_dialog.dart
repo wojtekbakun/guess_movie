@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/presentation/puzzles/puzzle_widget.dart';
+import 'package:provider/provider.dart';
 
 class PuzzleDialog extends StatelessWidget {
   const PuzzleDialog({super.key});
@@ -45,9 +47,13 @@ class PuzzleCounter extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // Counter Text
-              Text(
-                '24x',
-                style: Theme.of(context).textTheme.labelLarge,
+              Consumer<PuzzleModel>(
+                builder: (context, puzzle, child) {
+                  return Text(
+                    '${puzzle.puzzleCount}',
+                    style: Theme.of(context).textTheme.labelLarge,
+                  );
+                },
               ),
               // Icon
               const PuzzleIcon(size: 48),
@@ -64,10 +70,11 @@ class PuzzleFree extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final puzzleModel = context.read<PuzzleModel>();
     return Padding(
       padding: const EdgeInsets.all(12.0),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: puzzleModel.incrementPuzzleCount,
         style: ElevatedButton.styleFrom(
           backgroundColor: Theme.of(context).colorScheme.secondary,
           shape: RoundedRectangleBorder(

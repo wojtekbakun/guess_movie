@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:guess_movie/src/features/next_question/next_question.dart';
 import 'package:guess_movie/src/features/next_question/results.dart';
+import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/models/question_model.dart';
 import 'package:guess_movie/src/models/score_model.dart';
 import 'package:provider/provider.dart';
@@ -46,10 +47,28 @@ class AnswerModel extends ChangeNotifier {
   int _numberOfAllCategories = 0;
   int get numberOfAllCategories => _numberOfAllCategories;
 
+  int _indexToHint = 0;
+  int get indexToHint => _indexToHint;
+
   //after clicking a letter
-  void newClickedLetter(String letter, int index) {
+  void newClickedLetter(String letter, int indexOfClickedLetter) {
     _clickedLetters.add(letter.toUpperCase());
-    _toClickLetters[index] = '-';
+    _clickedIndexes.add(indexOfClickedLetter);
+    _toClickLetters[indexOfClickedLetter] = '-';
+  }
+
+  void hintLetter(String letter, int indexOfLetterToHint) {
+    if (checkIfCurrentLettersAreCorrect()) {
+      newClickedLetter(letter, indexOfLetterToHint);
+    } else {
+      changeLetter(letter, indexToHint, indexOfLetterToHint);
+    }
+  }
+
+  void changeLetter(
+      String letter, int indexOfLetterToHint, int indexOfAnsweredLetter) {
+    _clickedLetters[indexOfLetterToHint] = letter;
+    _clickedIndexes[indexOfAnsweredLetter] = indexOfLetterToHint;
   }
 
   //after removing a letter
@@ -67,24 +86,45 @@ class AnswerModel extends ChangeNotifier {
     return words; // Return the number of words
   }
 
+  int getIndexOfLetter(int column, int row) {
+    int finalLetterIndex = 0;
+    int previousLettersIndex = 0;
+    int currentLetterIndex = 0;
+
+    List<String> words = splitIntoWords(_correctAnswer);
+    List<int> wordLengths = words.map((e) => e.length).toList();
+
+    for (int i = 0; i < column; i++) {
+      previousLettersIndex += wordLengths[i];
+    }
+
+    currentLetterIndex = row;
+    finalLetterIndex = previousLettersIndex + currentLetterIndex;
+    return finalLetterIndex;
+  }
+
   //manage the letter
-  void manageLetter(bool added, String letter, int indexOfClickedLetter,
-      BuildContext context) {
+  void manageLetter(bool? added, String? letter, int? indexOfClickedLetter,
+      bool isFromHint, BuildContext context) {
+    if (added == null || letter == null || indexOfClickedLetter == null) {
+      return debugPrint('there is not letter to update');
+    }
+
     added
         //if added
-        ? _clickedLetters.length < _numberOfCorrectAnswerLetters
+        ? _clickedLetters.length <= _numberOfCorrectAnswerLetters
             // if there is still space for letters
             ? {
-                newClickedLetter(letter, indexOfClickedLetter),
-                _clickedIndexes.add(indexOfClickedLetter),
-                debugPrint(
-                    'indezx of clicked letter: $indexOfClickedLetter, letter: $letter, clicked letters: $_clickedLetters, clicked indexes: $_clickedIndexes'),
+                isFromHint
+                    ? hintLetter(letter, indexToHint)
+                    : newClickedLetter(letter, indexOfClickedLetter),
                 _clickedLetters.length == _numberOfCorrectAnswerLetters
                     ? checkIfAnswerIsCorrect()
                         ? {
                             playConfetti(controller),
                           }
-                        : null //TODO add a message that the answer is incorrect
+                        : debugPrint(
+                            'not correct') //TODO add a message that the answer is incorrect
                     : null //TODO add a message that there is no more space for letters
               }
             //if there is no more space for letters
@@ -99,9 +139,9 @@ class AnswerModel extends ChangeNotifier {
   //load all letters and it's indexes from a word
   void initializeLetters() {
     String? word = questionData[numberOfQuestion].answer ?? 'error';
+    word.replaceAll(' ', '');
     if (_clickedLetters.isEmpty && isFirstAnswer) {
       _correctAnswer = word.toUpperCase();
-      _numberOfCorrectAnswerLetters = word.length;
       for (int numberOfLetter = 0;
           numberOfLetter < word.length;
           numberOfLetter++) {
@@ -109,8 +149,10 @@ class AnswerModel extends ChangeNotifier {
             numberOfLetter, word[numberOfLetter].toUpperCase());
       }
       _toClickLetters.removeWhere((element) => element == ' ');
+      _numberOfCorrectAnswerLetters = _toClickLetters.length;
       _toClickLetters.addAll(generateRandomLetters(word.length.isEven));
       _toClickLetters.shuffle();
+
       debugPrint('zainicjowano litery: _toClickLetters: $_toClickLetters');
     }
   }
@@ -153,6 +195,7 @@ class AnswerModel extends ChangeNotifier {
     List<String> typedAnswer = _clickedLetters;
     List<String> correctAnswer = _correctAnswer.split('');
     typedAnswer.removeWhere((element) => element == ' ');
+    correctAnswer.removeWhere((element) => element == ' ');
     isAnswerCorrect = typedAnswer.join() == correctAnswer.join() ? true : false;
     _isAnswerCorrect = isAnswerCorrect;
     return isAnswerCorrect;
@@ -231,11 +274,48 @@ class AnswerModel extends ChangeNotifier {
 
   void setCategoryNumber(int categoryNumber) {
     _numberOfCategory = categoryNumber;
-    debugPrint('Category Clicked: ${_numberOfCategory + 1}');
+    // debugPrint('Category Clicked: ${_numberOfCategory + 1}');
   }
 
   void setQuestionNumber(int questionNumber) {
     _numberOfQuestion = questionNumber;
-    debugPrint('Category Clicked: ${_numberOfQuestion + 1}');
+    //debugPrint('Category Clicked: ${_numberOfQuestion + 1}');
+  }
+
+  void getIndexToHint() {
+    for (int i = 0; i < _clickedLetters.length; i++) {
+      if (_clickedLetters[i] == _correctAnswer.replaceAll(' ', '')[i]) {
+        debugPrint('$i ok');
+      } else {
+        _indexToHint = i;
+        return;
+      }
+    }
+  }
+
+  bool checkIfCurrentLettersAreCorrect() {
+    List<String> typedLetters = _clickedLetters.toList();
+    List<String> correctLetters =
+        _correctAnswer.split('').take(typedLetters.length).toList();
+    typedLetters.removeWhere((element) => element == ' ');
+    correctLetters.removeWhere((element) => element == ' ');
+    bool isLettersCorrect =
+        typedLetters.join() == correctLetters.join() ? true : false;
+    return isLettersCorrect;
+  }
+
+  void useHint(BuildContext context) {
+    final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
+    final isHintAvailable = puzzleModel.isPuzzleAvailable;
+    getIndexToHint();
+    //is there still a box available
+    if (isHintAvailable) {
+      puzzleModel.decrementPuzzleCount();
+      String correctLetter = _correctAnswer.replaceAll(' ', '')[_indexToHint];
+      int indexOfCorrectLetterInToClickLetters =
+          _toClickLetters.indexOf(correctLetter);
+      manageLetter(true, correctLetter, indexOfCorrectLetterInToClickLetters,
+          true, context);
+    }
   }
 }

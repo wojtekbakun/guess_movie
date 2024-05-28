@@ -22,8 +22,8 @@ class QuizScoreModel extends ChangeNotifier {
         String quizScoreKey =
             'answer-category-$categoryIndex-question-$questionIndex';
         bool isCorrect = prefs.getBool(quizScoreKey) ?? false;
-        debugPrint(
-            'category: $categoryIndex, question: $questionIndex, isCorrect: $isCorrect');
+        // debugPrint(
+        //     'category: $categoryIndex, question: $questionIndex, isCorrect: $isCorrect');
         _answers[categoryIndex][questionIndex] = isCorrect;
       }
     }
@@ -36,7 +36,7 @@ class QuizScoreModel extends ChangeNotifier {
         'answer-category-$categoryIndex-question-$questionIndex';
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool(quizScoreKey, isCorrect);
-    debugPrint('saved: $quizScoreKey, $isCorrect');
+    //debugPrint('saved: $quizScoreKey, $isCorrect');
   }
 
   initializeScoresList() async {
@@ -47,7 +47,6 @@ class QuizScoreModel extends ChangeNotifier {
     _answers = questionList;
     _numberOfCorrectAnswers =
         List<int>.filled(categoriesAndFilesList.length, 0);
-    debugPrint('answers: $_answers');
   }
 
 // save the answer to the local storage and answer list

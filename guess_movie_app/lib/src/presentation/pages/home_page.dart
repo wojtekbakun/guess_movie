@@ -10,11 +10,12 @@ class HomePage extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         title: Text(
-          'Guess the movie',
+          'Quiz Game App',
           style: Theme.of(context).textTheme.titleMedium,
         ),
         automaticallyImplyLeading: false,
         centerTitle: true,
+        backgroundColor: Theme.of(context).colorScheme.onSurface,
       ),
       body: const Center(
           child: Column(
