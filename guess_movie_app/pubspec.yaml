@@ -41,8 +41,9 @@ dependencies:
   equatable: ^2.0.5
   provider: ^6.1.2
   confetti: ^0.7.0
-  google_fonts: ^6.2.1
+  #  google_fonts: ^6.2.1
   shared_preferences: ^2.2.3
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +73,7 @@ flutter:
     - assets/
     - assets/images/tech_companies/
     - assets/images/extinct_animals/
+    - assets/icons/puzzle.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -7,7 +7,6 @@ import 'package:guess_movie/src/presentation/pages/home_page.dart';
 import 'package:guess_movie/src/presentation/pages/level_page.dart';
 import 'package:guess_movie/src/presentation/pages/quiz_page.dart';
 import 'package:provider/provider.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -64,7 +63,7 @@ class QuizGameApp extends StatelessWidget {
           error: Colors.red,
           onPrimary: Colors.white,
           onSecondary: Colors.white,
-          onSurface: Colors.black,
+          onSurface: Color.fromRGBO(93, 84, 164, 100),
           onBackground: Colors.black,
           onError: Colors.white,
           brightness: Brightness.light,
@@ -73,6 +72,7 @@ class QuizGameApp extends StatelessWidget {
           titleMedium: TextStyle(
             fontFamily: 'Inter',
             fontSize: 18,
+            fontWeight: FontWeight.bold,
             color: Theme.of(context).colorScheme.onPrimary,
           ),
           titleSmall: TextStyle(
@@ -80,11 +80,11 @@ class QuizGameApp extends StatelessWidget {
             fontSize: 14,
             color: Theme.of(context).colorScheme.surface,
           ),
-          // bodyMedium: TextStyle(
-          //   fontFamily: 'Inter',
-          //   fontSize: 18,
-          //   color: Theme.of(context).colorScheme.onPrimary,
-          // ),
+          bodyLarge: TextStyle(
+            fontFamily: 'Inter',
+            fontSize: 24,
+            color: Theme.of(context).colorScheme.onPrimary,
+          ),
           bodySmall: TextStyle(
             fontFamily: 'Inter',
             fontSize: 14,
@@ -92,7 +92,7 @@ class QuizGameApp extends StatelessWidget {
           ),
           labelLarge: TextStyle(
             fontFamily: 'Inter',
-            fontSize: 18,
+            fontSize: 36,
             color: Theme.of(context).colorScheme.onPrimary,
           ),
         ),

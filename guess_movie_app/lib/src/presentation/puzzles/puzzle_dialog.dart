@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guess_movie/src/presentation/puzzles/puzzle_widget.dart';
 
 class PuzzleDialog extends StatelessWidget {
   const PuzzleDialog({super.key});
@@ -6,11 +7,12 @@ class PuzzleDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Dialog(
-      backgroundColor: Theme.of(context).colorScheme.secondary,
-      child: Container(
+      backgroundColor: Theme.of(context).colorScheme.onSurface.withOpacity(1),
+      child: const SizedBox(
         height: 300,
         width: 200,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             //Puzzle Counter
             PuzzleCounter(),
@@ -31,13 +33,24 @@ class PuzzleCounter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      // color: Theme.of(context).colorScheme.background,
       child: Column(
         children: [
           // Text
+          Text(
+            'YOU HAVE:',
+            style: Theme.of(context).textTheme.bodyLarge,
+          ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // Counter Text
+              Text(
+                '24x',
+                style: Theme.of(context).textTheme.labelLarge,
+              ),
               // Icon
+              const PuzzleIcon(size: 48),
             ],
           ),
         ],
@@ -51,12 +64,37 @@ class PuzzleFree extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        children: [
-          // Icon
-          // Text
-        ],
+    return Padding(
+      padding: const EdgeInsets.all(12.0),
+      child: ElevatedButton(
+        onPressed: () {},
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Theme.of(context).colorScheme.secondary,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8),
+          ),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 24.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // Icon
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: Icon(
+                  Icons.wallet_giftcard_sharp,
+                  color: Theme.of(context).colorScheme.onPrimary,
+                ),
+              ),
+              // Text
+              Text(
+                'FREE PUZZLE',
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -67,12 +105,36 @@ class CloseButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        children: [
-          // Icon
-          //Text
-        ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 48.0),
+      child: ElevatedButton(
+        onPressed: () {
+          Navigator.of(context).pop();
+        },
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Theme.of(context).colorScheme.background,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8),
+          ),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // Icon
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 8.0),
+              child: Icon(
+                Icons.close,
+                color: Theme.of(context).colorScheme.onPrimary,
+              ),
+            ),
+            //Text
+            Text(
+              'Close',
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
+          ],
+        ),
       ),
     );
   }
