@@ -50,25 +50,41 @@ class AnswerModel extends ChangeNotifier {
   int _indexToHint = 0;
   int get indexToHint => _indexToHint;
 
+  void changeLetter(String letter, int index, int indexToHint) {
+    _clickedLetters[index] = letter;
+    _clickedIndexes[index] = indexToHint;
+  }
+
+  void getIndexToHint() {
+    for (int i = 0; i < _clickedLetters.length; i++) {
+      debugPrint('clickedLetters: $clickedLetters - ${_clickedLetters.length}');
+      if (_clickedLetters[i] != _correctAnswer.replaceAll(' ', '')[i]) {
+        _indexToHint = i;
+        break;
+      } else {
+        _indexToHint = _clickedLetters.length;
+      }
+    }
+    notifyListeners();
+  }
+
+  void useHint(BuildContext context) {
+    // final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
+    //final isHintAvailable = puzzleModel.isPuzzleAvailable;
+
+    String correctLetter = _correctAnswer.replaceAll(' ', '')[_indexToHint];
+    int indexOfCorrectLetter = _toClickLetters.indexOf(correctLetter);
+
+    manageLetter(true, correctLetter, _indexToHint, true, context);
+    getIndexToHint();
+    //changeLetter(letter, indexOfCorrectLetter, indexToHint);
+  }
+
   //after clicking a letter
   void newClickedLetter(String letter, int indexOfClickedLetter) {
     _clickedLetters.add(letter.toUpperCase());
     _clickedIndexes.add(indexOfClickedLetter);
     _toClickLetters[indexOfClickedLetter] = '-';
-  }
-
-  void hintLetter(String letter, int indexOfLetterToHint) {
-    if (checkIfCurrentLettersAreCorrect()) {
-      newClickedLetter(letter, indexOfLetterToHint);
-    } else {
-      changeLetter(letter, indexToHint, indexOfLetterToHint);
-    }
-  }
-
-  void changeLetter(
-      String letter, int indexOfLetterToHint, int indexOfAnsweredLetter) {
-    _clickedLetters[indexOfLetterToHint] = letter;
-    _clickedIndexes[indexOfAnsweredLetter] = indexOfLetterToHint;
   }
 
   //after removing a letter
@@ -115,9 +131,7 @@ class AnswerModel extends ChangeNotifier {
         ? _clickedLetters.length <= _numberOfCorrectAnswerLetters
             // if there is still space for letters
             ? {
-                isFromHint
-                    ? hintLetter(letter, indexToHint)
-                    : newClickedLetter(letter, indexOfClickedLetter),
+                newClickedLetter(letter, indexOfClickedLetter),
                 _clickedLetters.length == _numberOfCorrectAnswerLetters
                     ? checkIfAnswerIsCorrect()
                         ? {
@@ -205,6 +219,7 @@ class AnswerModel extends ChangeNotifier {
     clearTables();
     _isAnswerCorrect = false;
     _isFirstAnswer = true;
+    _indexToHint = 0;
     debugPrint('toogled');
   }
 
@@ -280,42 +295,5 @@ class AnswerModel extends ChangeNotifier {
   void setQuestionNumber(int questionNumber) {
     _numberOfQuestion = questionNumber;
     //debugPrint('Category Clicked: ${_numberOfQuestion + 1}');
-  }
-
-  void getIndexToHint() {
-    for (int i = 0; i < _clickedLetters.length; i++) {
-      if (_clickedLetters[i] == _correctAnswer.replaceAll(' ', '')[i]) {
-        debugPrint('$i ok');
-      } else {
-        _indexToHint = i;
-        return;
-      }
-    }
-  }
-
-  bool checkIfCurrentLettersAreCorrect() {
-    List<String> typedLetters = _clickedLetters.toList();
-    List<String> correctLetters =
-        _correctAnswer.split('').take(typedLetters.length).toList();
-    typedLetters.removeWhere((element) => element == ' ');
-    correctLetters.removeWhere((element) => element == ' ');
-    bool isLettersCorrect =
-        typedLetters.join() == correctLetters.join() ? true : false;
-    return isLettersCorrect;
-  }
-
-  void useHint(BuildContext context) {
-    final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
-    final isHintAvailable = puzzleModel.isPuzzleAvailable;
-    getIndexToHint();
-    //is there still a box available
-    if (isHintAvailable) {
-      puzzleModel.decrementPuzzleCount();
-      String correctLetter = _correctAnswer.replaceAll(' ', '')[_indexToHint];
-      int indexOfCorrectLetterInToClickLetters =
-          _toClickLetters.indexOf(correctLetter);
-      manageLetter(true, correctLetter, indexOfCorrectLetterInToClickLetters,
-          true, context);
-    }
   }
 }
