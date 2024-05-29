@@ -6,6 +6,7 @@ import 'package:guess_movie/src/features/next_question/results.dart';
 import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/models/question_model.dart';
 import 'package:guess_movie/src/models/score_model.dart';
+import 'package:guess_movie/src/presentation/puzzles/puzzle_dialog.dart';
 import 'package:provider/provider.dart';
 
 class AnswerModel extends ChangeNotifier {
@@ -50,9 +51,18 @@ class AnswerModel extends ChangeNotifier {
   int _indexToHint = 0;
   int get indexToHint => _indexToHint;
 
-  void changeLetter(String letter, int index, int indexToHint) {
-    _clickedLetters[index] = letter;
-    _clickedIndexes[index] = indexToHint;
+  void modifyLetter(String letter, int index) {
+    debugPrint(
+        'modify letter: $letter, index: $index, indexToHint: $_indexToHint');
+    if (_indexToHint < _clickedLetters.length) {
+      _clickedLetters[_indexToHint] = letter;
+      _clickedIndexes[_indexToHint] = index;
+      _toClickLetters[index] = '-';
+      debugPrint('updated');
+    } else {
+      debugPrint('index out of range, adding letter');
+      newClickedLetter(letter, index);
+    }
   }
 
   void getIndexToHint() {
@@ -60,24 +70,37 @@ class AnswerModel extends ChangeNotifier {
       debugPrint('clickedLetters: $clickedLetters - ${_clickedLetters.length}');
       if (_clickedLetters[i] != _correctAnswer.replaceAll(' ', '')[i]) {
         _indexToHint = i;
+        debugPrint('incrorrect letter: $_indexToHint');
         break;
       } else {
         _indexToHint = _clickedLetters.length;
+        debugPrint('index to hint: $_indexToHint');
       }
     }
-    notifyListeners();
   }
 
   void useHint(BuildContext context) {
-    // final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
-    //final isHintAvailable = puzzleModel.isPuzzleAvailable;
-
+    final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
+    final isHintAvailable = puzzleModel.isPuzzleAvailable;
     String correctLetter = _correctAnswer.replaceAll(' ', '')[_indexToHint];
     int indexOfCorrectLetter = _toClickLetters.indexOf(correctLetter);
 
-    manageLetter(true, correctLetter, _indexToHint, true, context);
-    getIndexToHint();
-    //changeLetter(letter, indexOfCorrectLetter, indexToHint);
+    isHintAvailable
+        ? {
+            manageLetter(
+                true, correctLetter, indexOfCorrectLetter, true, context),
+            debugPrint(
+                'indexofcorrectletter: $indexOfCorrectLetter, correctLetter: $correctLetter'),
+          }
+        : {
+            debugPrint('hint not available'),
+            showDialog(
+              context: context,
+              builder: (BuildContext context) {
+                return const PuzzleDialog();
+              },
+            )
+          };
   }
 
   //after clicking a letter
@@ -120,18 +143,16 @@ class AnswerModel extends ChangeNotifier {
   }
 
   //manage the letter
-  void manageLetter(bool? added, String? letter, int? indexOfClickedLetter,
+  void manageLetter(bool added, String letter, int indexOfClickedLetter,
       bool isFromHint, BuildContext context) {
-    if (added == null || letter == null || indexOfClickedLetter == null) {
-      return debugPrint('there is not letter to update');
-    }
-
     added
         //if added
         ? _clickedLetters.length <= _numberOfCorrectAnswerLetters
             // if there is still space for letters
             ? {
-                newClickedLetter(letter, indexOfClickedLetter),
+                isFromHint
+                    ? modifyLetter(letter, indexOfClickedLetter)
+                    : newClickedLetter(letter, indexOfClickedLetter),
                 _clickedLetters.length == _numberOfCorrectAnswerLetters
                     ? checkIfAnswerIsCorrect()
                         ? {
@@ -147,6 +168,7 @@ class AnswerModel extends ChangeNotifier {
         : {
             removeClickedLetter(letter, indexOfClickedLetter),
           };
+    getIndexToHint();
     notifyListeners();
   }
 

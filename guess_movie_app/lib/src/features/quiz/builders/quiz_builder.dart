@@ -1,11 +1,9 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:guess_movie/src/features/quiz/boxes/widgets/answered/box_answered.dart';
 import 'package:guess_movie/src/features/quiz/boxes/widgets/to_answer/box_to_answer.dart';
 import 'package:guess_movie/src/features/quiz/builders/image_box.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
-import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/models/question_model.dart';
 import 'package:provider/provider.dart';
 import 'package:confetti/confetti.dart';
@@ -17,7 +15,7 @@ class QuizBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final answerModel = Provider.of<AnswerModel>(context, listen: false);
-    final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
+    //final puzzleModel = Provider.of<PuzzleModel>(context, listen: false);
     //debugPrint('letters to init: ${questionData.answer}');
     //model.initializeLetters(context, questionData.answer ?? 'error');
     return Stack(
