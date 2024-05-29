@@ -8,6 +8,7 @@ class PuzzleModel extends ChangeNotifier {
   void decrementPuzzleCount() {
     if (isPuzzleAvailable) {
       _puzzleCount--;
+      notifyListeners();
     }
   }
 

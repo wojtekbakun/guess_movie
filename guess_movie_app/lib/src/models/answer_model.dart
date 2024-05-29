@@ -73,8 +73,13 @@ class AnswerModel extends ChangeNotifier {
         debugPrint('incrorrect letter: $_indexToHint');
         break;
       } else {
-        _indexToHint = _clickedLetters.length;
-        debugPrint('index to hint: $_indexToHint');
+        //if all letters are correct take the next letter
+        if (_indexToHint == _correctAnswer.replaceAll(' ', '').length - 1) {
+          break;
+        } else {
+          _indexToHint = _clickedLetters.length;
+          debugPrint('index to hint: $_indexToHint');
+        }
       }
     }
   }
@@ -89,6 +94,7 @@ class AnswerModel extends ChangeNotifier {
         ? {
             manageLetter(
                 true, correctLetter, indexOfCorrectLetter, true, context),
+            puzzleModel.decrementPuzzleCount(),
             debugPrint(
                 'indexofcorrectletter: $indexOfCorrectLetter, correctLetter: $correctLetter'),
           }
@@ -129,7 +135,6 @@ class AnswerModel extends ChangeNotifier {
     int finalLetterIndex = 0;
     int previousLettersIndex = 0;
     int currentLetterIndex = 0;
-
     List<String> words = splitIntoWords(_correctAnswer);
     List<int> wordLengths = words.map((e) => e.length).toList();
 
@@ -147,7 +152,7 @@ class AnswerModel extends ChangeNotifier {
       bool isFromHint, BuildContext context) {
     added
         //if added
-        ? _clickedLetters.length <= _numberOfCorrectAnswerLetters
+        ? _clickedLetters.length < _numberOfCorrectAnswerLetters
             // if there is still space for letters
             ? {
                 isFromHint
@@ -294,6 +299,8 @@ class AnswerModel extends ChangeNotifier {
         const Duration(milliseconds: 0),
         () {
           // toogleAnswer();
+          Provider.of<QuizScoreModel>(context, listen: false)
+              .updateAnswer(_numberOfCategory, _numberOfQuestion, true);
           showDialog(
             context: context,
             builder: (BuildContext context) {
