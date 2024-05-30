@@ -12,8 +12,8 @@ class PuzzleModel extends ChangeNotifier {
     }
   }
 
-  void incrementPuzzleCount() {
-    _puzzleCount++;
+  void incrementPuzzleCount(int howManyToAdd) {
+    _puzzleCount += howManyToAdd;
     notifyListeners();
   }
 }

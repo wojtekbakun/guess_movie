@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guess_movie/service/admob_model.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
 import 'package:guess_movie/src/models/puzzle_model.dart';
 import 'package:guess_movie/src/models/score_model.dart';
@@ -8,10 +9,11 @@ import 'package:guess_movie/src/presentation/pages/home_page.dart';
 import 'package:guess_movie/src/presentation/pages/level_page.dart';
 import 'package:guess_movie/src/presentation/pages/quiz_page.dart';
 import 'package:provider/provider.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  MobileAds.instance.initialize();
   runApp(const Loader());
 }
 
@@ -30,6 +32,9 @@ class Loader extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: ((context) => PuzzleModel()),
+        ),
+        ChangeNotifierProvider(
+          create: ((context) => AdMobModel()),
         ),
       ],
       child: const QuizGameApp(),

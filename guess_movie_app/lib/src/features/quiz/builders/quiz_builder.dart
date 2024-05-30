@@ -10,6 +10,7 @@ import 'package:confetti/confetti.dart';
 
 class QuizBuilder extends StatelessWidget {
   final QuestionModelJson questionData;
+
   const QuizBuilder({super.key, required this.questionData});
 
   @override
@@ -31,31 +32,22 @@ class QuizBuilder extends StatelessWidget {
             ),
             const ClickedLetterBox(),
             const ToAnswerbox(),
-            Column(
-              children: [
-                ElevatedButton(
-                  onPressed: () {
-                    answerModel.useHint(context);
-                  },
-                  style: ElevatedButton.styleFrom(
-                    shape: const RoundedRectangleBorder(
-                      borderRadius: BorderRadius.zero,
-                    ),
-                    backgroundColor: Theme.of(context).colorScheme.onSurface,
-                  ),
-                  child: Center(
-                    child: Text(
-                      'Get Hint',
-                      style: Theme.of(context).textTheme.titleMedium,
-                    ),
-                  ),
+            ElevatedButton(
+              onPressed: () {
+                answerModel.useHint(context);
+              },
+              style: ElevatedButton.styleFrom(
+                shape: const RoundedRectangleBorder(
+                  borderRadius: BorderRadius.zero,
                 ),
-                Container(
-                  height: 100,
-                  width: double.infinity,
-                  color: Theme.of(context).colorScheme.error,
+                backgroundColor: Theme.of(context).colorScheme.onSurface,
+              ),
+              child: Center(
+                child: Text(
+                  'Get Hint',
+                  style: Theme.of(context).textTheme.titleMedium,
                 ),
-              ],
+              ),
             ),
           ],
         ),

@@ -58,6 +58,8 @@ class AnswerModel extends ChangeNotifier {
       _clickedLetters[_indexToHint] = letter;
       _clickedIndexes[_indexToHint] = index;
       _toClickLetters[index] = '-';
+      //removeClickedLetter(letter, _indexToHint);
+      // debugPrint('removed $letter from index: $_indexToHint');
       debugPrint('updated');
     } else {
       debugPrint('index out of range, adding letter');
@@ -71,14 +73,13 @@ class AnswerModel extends ChangeNotifier {
       if (_clickedLetters[i] != _correctAnswer.replaceAll(' ', '')[i]) {
         _indexToHint = i;
         debugPrint('incrorrect letter: $_indexToHint');
-        break;
       } else {
         //if all letters are correct take the next letter
         if (_indexToHint == _correctAnswer.replaceAll(' ', '').length - 1) {
-          break;
+          debugPrint('all letters are correct');
         } else {
           _indexToHint = _clickedLetters.length;
-          debugPrint('index to hint: $_indexToHint');
+          debugPrint('all letters are correct, index to hint: $_indexToHint');
         }
       }
     }
