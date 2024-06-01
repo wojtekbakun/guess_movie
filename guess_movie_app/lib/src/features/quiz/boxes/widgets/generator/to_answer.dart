@@ -53,21 +53,24 @@ Widget toAnswerBoxGenerator({
             calculateNumberOfRows(getLettersToDisplay().length, columnIndex),
             (rowIndex) {
               int letterIndex = rowIndex + (columnIndex * 8);
-              return GestureDetector(
-                onTap: () {
-                  String? letter =
-                      getClickedLetter(letterIndex, getLettersToDisplay());
-                  letter != null
-                      ? {
-                          model.manageLetter(isLetterAdded, letter, letterIndex,
-                              false, context),
-                        }
-                      : null; //TODO implement here error sound
-                },
-                child: BoxWithLetter(
-                  index: letterIndex,
-                  lettersToDisplay: getLettersToDisplay(),
-                  context: context,
+              return Padding(
+                padding: const EdgeInsets.all(2.0),
+                child: GestureDetector(
+                  onTap: () {
+                    String? letter =
+                        getClickedLetter(letterIndex, getLettersToDisplay());
+                    letter != null
+                        ? {
+                            model.manageLetter(isLetterAdded, letter,
+                                letterIndex, false, context),
+                          }
+                        : null; //TODO implement here error sound
+                  },
+                  child: BoxWithLetter(
+                    index: letterIndex,
+                    lettersToDisplay: getLettersToDisplay(),
+                    context: context,
+                  ),
                 ),
               );
             },

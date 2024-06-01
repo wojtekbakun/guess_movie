@@ -65,9 +65,7 @@ class CategoryPanel extends StatelessWidget {
               color: Theme.of(context).colorScheme.onPrimary,
             ),
             Consumer<QuizScoreModel>(builder: (context, answerData, child) {
-              debugPrint('Nowe wyniki: ${answerData.numberOfCorrectAnswers}');
               return Text(
-                // nie aktualizuje sie, dopiero po hot reload
                 '${answerData.numberOfCorrectAnswers[index]}/${categoriesAndFilesList[index][2]}',
                 style: Theme.of(context).textTheme.bodySmall,
               );

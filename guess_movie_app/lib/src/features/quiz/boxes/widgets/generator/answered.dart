@@ -19,25 +19,30 @@ Widget answeredGenerator({
       (columnIndex) {
         int numberOfRows =
             model?.splitIntoWords(model.correctAnswer)[columnIndex].length ?? 1;
-        return Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: List.generate(
-            numberOfRows,
-            (rowIndex) {
-              int indexOfLetter =
-                  model?.getIndexOfLetter(columnIndex, rowIndex) ?? 0;
-              final isLetterToDisplay =
-                  indexOfLetter < (numberOfLettersToDisplay);
-              // debugPrint(
-              //     'column: $columnIndex, row: $rowIndex,  index: $indexOfLetter');
-              return AnsweredBoxesWidget(
-                isLetterToDisplay: isLetterToDisplay,
-                index: indexOfLetter,
-                lettersToDisplay: lettersToDisplay,
-                model: model ?? AnswerModel(),
-                isLetterAdded: isLetterAdded,
-              );
-            },
+        return SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: List.generate(
+              numberOfRows,
+              (rowIndex) {
+                int indexOfLetter =
+                    model?.getIndexOfLetter(columnIndex, rowIndex) ?? 0;
+                final isLetterToDisplay =
+                    indexOfLetter < (numberOfLettersToDisplay);
+
+                return Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: AnsweredBoxesWidget(
+                    isLetterToDisplay: isLetterToDisplay,
+                    index: indexOfLetter,
+                    lettersToDisplay: lettersToDisplay,
+                    model: model ?? AnswerModel(),
+                    isLetterAdded: isLetterAdded,
+                  ),
+                );
+              },
+            ),
           ),
         );
       },
@@ -79,6 +84,8 @@ class AnsweredBoxesWidget extends StatelessWidget {
               context: context,
             ),
           )
-        : const BoxWithoutLetter();
+        : BoxWithoutLetter(
+            lettersToDisplay: lettersToDisplay,
+          );
   }
 }

@@ -17,9 +17,9 @@ class BoxWithLetter extends StatelessWidget {
     double screenwWitdth = ScreenSizeHelper.screenWidth;
     double boxWidth = 36;
     if (screenwWitdth < 375) {
-      boxWidth = 24;
+      boxWidth = 28;
     } else if (screenwWitdth >= 414) {
-      boxWidth = 44;
+      boxWidth = 32;
     }
     return Container(
       height: boxWidth, //TODO change it to responsive
@@ -47,15 +47,24 @@ class BoxWithLetter extends StatelessWidget {
 }
 
 class BoxWithoutLetter extends StatelessWidget {
+  final List<String> lettersToDisplay;
   const BoxWithoutLetter({
     super.key,
+    required this.lettersToDisplay,
   });
 
   @override
   Widget build(BuildContext context) {
+    double screenwWitdth = ScreenSizeHelper.screenWidth;
+    double boxWidth = 36;
+    if (screenwWitdth < 375) {
+      boxWidth = 28;
+    } else if (screenwWitdth >= 414) {
+      boxWidth = 32;
+    }
     return Container(
-      height: 36, //TODO change it to responsive
-      width: 36, //TODO change it to responsive
+      height: boxWidth, //TODO change it to responsive
+      width: boxWidth, //TODO change it to responsive
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary,
         borderRadius: BorderRadius.circular(8),

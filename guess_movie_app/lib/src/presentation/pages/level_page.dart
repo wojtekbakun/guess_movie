@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:guess_movie/src/features/quiz/boxes/functions/read_file.dart';
 import 'package:guess_movie/src/models/answer_model.dart';
 import 'package:guess_movie/src/models/question_model.dart';
+import 'package:guess_movie/src/models/score_model.dart';
 import 'package:guess_movie/src/presentation/my_app_bar/widgets/my_app_bar.dart';
 import 'package:provider/provider.dart';
 
@@ -47,6 +48,7 @@ class LevelPage extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return LevelPanel(
                     levelNumber: index,
+                    imageDirectory: snapshot.data![index].imageUrl ?? '',
                   );
                 },
               ),
@@ -60,14 +62,18 @@ class LevelPage extends StatelessWidget {
 
 class LevelPanel extends StatelessWidget {
   final int levelNumber;
+  final String imageDirectory;
   const LevelPanel({
     super.key,
     required this.levelNumber,
+    required this.imageDirectory,
   });
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
+    final model = Provider.of<AnswerModel>(context, listen: false);
+    final int categoryNumber = model.numberOfCategory;
+    return GestureDetector(
       onTap: () {
         Provider.of<AnswerModel>(context, listen: false)
             .setQuestionNumber(levelNumber);
@@ -76,15 +82,28 @@ class LevelPanel extends StatelessWidget {
           '/quizPage',
         );
       },
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-      ),
-      minVerticalPadding: 24,
-      tileColor: Theme.of(context).colorScheme.primary,
-      title: Text(
-        (levelNumber + 1).toString(),
-        style: Theme.of(context).textTheme.bodyMedium,
-      ),
+      child: Consumer<QuizScoreModel>(
+          builder: (context, value, child) => Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.secondary,
+                  borderRadius: BorderRadius.circular(24),
+                  shape: BoxShape.rectangle,
+                  border: Border.all(
+                    color: Theme.of(context).colorScheme.secondary,
+                    width: 3,
+                  ),
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(24),
+                  child: Image.asset(
+                    imageDirectory,
+                    opacity: value.answers[categoryNumber][levelNumber] == true
+                        ? const AlwaysStoppedAnimation<double>(1.0)
+                        : const AlwaysStoppedAnimation<double>(0.2),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              )),
     );
   }
 }
