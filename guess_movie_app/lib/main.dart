@@ -87,7 +87,7 @@ class QuizGameApp extends StatelessWidget {
           titleSmall: TextStyle(
             fontFamily: 'Inter',
             fontSize: 14,
-            color: Theme.of(context).colorScheme.surface,
+            color: Theme.of(context).colorScheme.background,
           ),
           bodyLarge: TextStyle(
             fontFamily: 'Inter',

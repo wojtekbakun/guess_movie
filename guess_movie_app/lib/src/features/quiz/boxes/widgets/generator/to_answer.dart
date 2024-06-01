@@ -23,6 +23,7 @@ Widget toAnswerBoxGenerator({
   int calculateNumberOfRows(int numberOfAllLetters, int currentColumn) {
     int numberOfRows = 0;
     int defaultNumberOfRows = 8;
+    debugPrint('Number of all letters: $numberOfAllLetters');
     for (int lettersLeft = numberOfAllLetters;
         lettersLeft >= 0;
         lettersLeft -= 8) {
@@ -33,6 +34,7 @@ Widget toAnswerBoxGenerator({
         numberOfRows = 8;
       }
     }
+    debugPrint('Number of rows: $numberOfRows');
     return numberOfRows;
   }
 

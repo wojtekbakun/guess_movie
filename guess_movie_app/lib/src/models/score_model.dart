@@ -74,4 +74,12 @@ class QuizScoreModel extends ChangeNotifier {
     // reset answers in local storage
     notifyListeners();
   }
+
+  double getOpacity(bool isTrue) {
+    if (isTrue) {
+      return 1.0;
+    } else {
+      return 0.2;
+    }
+  }
 }

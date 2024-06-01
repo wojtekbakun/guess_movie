@@ -1,0 +1,82 @@
+[
+    {
+        "image_url": "assets/images/car_logos/Mercedes-Benz.png",
+        "answer": "Mercedes-Benz"
+    },
+    {
+        "image_url": "assets/images/car_logos/Lexus.png",
+        "answer": "Lexus"
+    },
+    {
+        "image_url": "assets/images/car_logos/Peugeot.png",
+        "answer": "Peugeot"
+    },
+    {
+        "image_url": "assets/images/car_logos/Bentley.png",
+        "answer": "Bentley"
+    },
+    {
+        "image_url": "assets/images/car_logos/Chevrolet.png",
+        "answer": "Chevrolet"
+    },
+    {
+        "image_url": "assets/images/car_logos/Cadillac.png",
+        "answer": "Cadillac"
+    },
+    {
+        "image_url": "assets/images/car_logos/Buick.png",
+        "answer": "Buick"
+    },
+    {
+        "image_url": "assets/images/car_logos/Nio.png",
+        "answer": "Nio"
+    },
+    {
+        "image_url": "assets/images/car_logos/Volkswagen.png",
+        "answer": "Volkswagen"
+    },
+    {
+        "image_url": "assets/images/car_logos/Tesla.png",
+        "answer": "Tesla"
+    },
+    {
+        "image_url": "assets/images/car_logos/Audi.png",
+        "answer": "Audi"
+    },
+    {
+        "image_url": "assets/images/car_logos/Honda.png",
+        "answer": "Honda"
+    },
+    {
+        "image_url": "assets/images/car_logos/Rimac.png",
+        "answer": "Rimac"
+    },
+    {
+        "image_url": "assets/images/car_logos/Subaru.png",
+        "answer": "Subaru"
+    },
+    {
+        "image_url": "assets/images/car_logos/Tata.png",
+        "answer": "Tata"
+    },
+    {
+        "image_url": "assets/images/car_logos/Vauxhall.png",
+        "answer": "Vauxhall"
+    },
+    {
+        "image_url": "assets/images/car_logos/Alfa Romeo.png",
+        "answer": "Alfa Romeo"
+    },
+    {
+        "image_url": "assets/images/car_logos/Vinfast.png",
+        "answer": "Vinfast"
+    },
+    {
+        "image_url": "assets/images/car_logos/Mazda.png",
+        "answer": "Mazda"
+    },
+        {
+        "image_url": "assets/images/car_logos/mazda.jpg",
+        "answer": "Mazda"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "image_url": "assets/images/social_media/Telegram.png",
+        "answer": "Telegram"
+    },
+    {
+        "image_url": "assets/images/social_media/Bluesky.png",
+        "answer": "Bluesky"
+    },
+    {
+        "image_url": "assets/images/social_media/Threads.png",
+        "answer": "Threads"
+    },
+    {
+        "image_url": "assets/images/social_media/Instagram.png",
+        "answer": "Instagram"
+    },
+    {
+        "image_url": "assets/images/social_media/Mastodon.png",
+        "answer": "Mastodon"
+    },
+    {
+        "image_url": "assets/images/social_media/Supernova.png",
+        "answer": "Supernova"
+    },
+    {
+        "image_url": "assets/images/social_media/Weibo.png",
+        "answer": "Weibo"
+    },
+    {
+        "image_url": "assets/images/social_media/Tumblr.png",
+        "answer": "Tumblr"
+    },
+    {
+        "image_url": "assets/images/social_media/TikTok.png",
+        "answer": "TikTok"
+    },
+    {
+        "image_url": "assets/images/social_media/kuaishou.png",
+        "answer": "kuaishou"
+    },
+    {
+        "image_url": "assets/images/social_media/Discord.png",
+        "answer": "Discord"
+    },
+    {
+        "image_url": "assets/images/social_media/LinkedIn.png",
+        "answer": "LinkedIn"
+    },
+    {
+        "image_url": "assets/images/social_media/QQ.png",
+        "answer": "QQ"
+    },
+    {
+        "image_url": "assets/images/social_media/Reddit.png",
+        "answer": "Reddit"
+    },
+    {
+        "image_url": "assets/images/social_media/Twitch.png",
+        "answer": "Twitch"
+    },
+    {
+        "image_url": "assets/images/social_media/VKontakte.png",
+        "answer": "VKontakte"
+    },
+    {
+        "image_url": "assets/images/social_media/WhatsApp.png",
+        "answer": "WhatsApp"
+    },
+    {
+        "image_url": "assets/images/social_media/WeChat.png",
+        "answer": "WeChat"
+    },
+    {
+        "image_url": "assets/images/social_media/Facebook.png",
+        "answer": "Facebook"
+    },
+    {
+        "image_url": "assets/images/social_media/Snapchat.png",
+        "answer": "Snapchat"
+    }
+]

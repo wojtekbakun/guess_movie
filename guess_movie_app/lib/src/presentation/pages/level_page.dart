@@ -97,9 +97,8 @@ class LevelPanel extends StatelessWidget {
                   borderRadius: BorderRadius.circular(24),
                   child: Image.asset(
                     imageDirectory,
-                    opacity: value.answers[categoryNumber][levelNumber] == true
-                        ? const AlwaysStoppedAnimation<double>(1.0)
-                        : const AlwaysStoppedAnimation<double>(0.2),
+                    opacity: AlwaysStoppedAnimation<double>(value.getOpacity(
+                        value.answers[categoryNumber][levelNumber])),
                     fit: BoxFit.cover,
                   ),
                 ),

@@ -45,6 +45,7 @@ dependencies:
   shared_preferences: ^2.2.3
   flutter_svg: ^2.0.10+1
   google_mobile_ads: ^5.1.0
+  material_symbols_icons: ^4.2758.0
 
 dev_dependencies:
   flutter_test:
@@ -74,6 +75,10 @@ flutter:
     - assets/
     - assets/images/tech_companies/
     - assets/images/extinct_animals/
+    - assets/images/birds/
+    - assets/images/car_logos/
+    - assets/images/festivals/
+    - assets/images/social_media/
     - assets/icons/puzzle.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
