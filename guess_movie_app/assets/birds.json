@@ -1,82 +1,102 @@
 [
     {
-        "image_url": "assets/images/birds/kakapo.png",
-        "answer": "kakapo"
-    },
-    {
-        "image_url": "assets/images/birds/Nicobar Pigeon.png",
-        "answer": "Nicobar Pigeon"
-    },
-    {
-        "image_url": "assets/images/birds/secretary bird.png",
-        "answer": "secretary bird"
-    },
-    {
-        "image_url": "assets/images/birds/Stresemann's bristlefront.png",
-        "answer": "Stresemann's bristlefront"
-    },
-    {
-        "image_url": "assets/images/birds/Philippine dwarf kingfisher.png",
-        "answer": "Philippine dwarf kingfisher"
-    },
-    {
-        "image_url": "assets/images/birds/Grandala.png",
-        "answer": "Grandala"
-    },
-    {
-        "image_url": "assets/images/birds/Hoatzin.png",
-        "answer": "Hoatzin"
-    },
-    {
-        "image_url": "assets/images/birds/Shoebill Stork.png",
-        "answer": "Shoebill Stork"
-    },
-    {
-        "image_url": "assets/images/birds/Mountain Bluebird.png",
-        "answer": "Mountain Bluebird"
-    },
-    {
-        "image_url": "assets/images/birds/dracula parrot.png",
-        "answer": "dracula parrot"
-    },
-    {
-        "image_url": "assets/images/birds/ostrich.png",
-        "answer": "ostrich"
+        "image_url": "assets/images/birds/Blue-eyed ground dove.png",
+        "answer": "Blue-eyed ground dove",
+        "link": "https://en.wikipedia.org/wiki/Blue-eyed_ground_dove"
     },
     {
         "image_url": "assets/images/birds/Cebu flowerpecker.png",
-        "answer": "Cebu flowerpecker"
+        "answer": "Cebu flowerpecker",
+        "link": "https://en.wikipedia.org/wiki/Cebu_flowerpecker"
+    },
+    {
+        "image_url": "assets/images/birds/Dracula parrot.png",
+        "answer": "Dracula parrot",
+        "link": "https://en.wikipedia.org/wiki/Pesquet%27s_parrot"
     },
     {
         "image_url": "assets/images/birds/Emu.png",
-        "answer": "Emu"
+        "answer": "Emu",
+        "link": "https://en.wikipedia.org/wiki/Emu"
     },
     {
         "image_url": "assets/images/birds/Golden Pheasant.png",
-        "answer": "Golden Pheasant"
+        "answer": "Golden Pheasant",
+        "link": "https://en.wikipedia.org/wiki/Golden_pheasant"
     },
     {
-        "image_url": "assets/images/birds/Long Tailed Tit.png",
-        "answer": "Long Tailed Tit"
+        "image_url": "assets/images/birds/Grandala.png",
+        "answer": "Grandala",
+        "link": "https://en.wikipedia.org/wiki/Grandala"
     },
     {
-        "image_url": "assets/images/birds/red avadavat.png",
-        "answer": "red avadavat"
-    },
-    {
-        "image_url": "assets/images/birds/Blue eyed ground dove.png",
-        "answer": "Blue eyed ground dove"
+        "image_url": "assets/images/birds/Hoatzin.png",
+        "answer": "Hoatzin",
+        "link": "https://en.wikipedia.org/wiki/Hoatzin"
     },
     {
         "image_url": "assets/images/birds/Imperial Amazon.png",
-        "answer": "Imperial Amazon"
+        "answer": "Imperial Amazon",
+        "link": "https://en.wikipedia.org/wiki/Imperial_amazon"
+    },
+    {
+        "image_url": "assets/images/birds/Kakapo.png",
+        "answer": "Kakapo",
+        "link": "https://en.wikipedia.org/wiki/K%C4%81k%C4%81p%C5%8D"
+    },
+    {
+        "image_url": "assets/images/birds/Long Tailed Tit.png",
+        "answer": "Long Tailed Tit",
+        "link": "https://en.wikipedia.org/wiki/Long-tailed_tit"
+    },
+    {
+        "image_url": "assets/images/birds/Mountain Bluebird.png",
+        "answer": "Mountain Bluebird",
+        "link": "https://en.wikipedia.org/wiki/Mountain_bluebird"
+    },
+    {
+        "image_url": "assets/images/birds/Nicobar Pigeon.png",
+        "answer": "Nicobar Pigeon",
+        "link": "https://en.wikipedia.org/wiki/Nicobar_pigeon"
+    },
+    {
+        "image_url": "assets/images/birds/Ostrich.png",
+        "answer": "Ostrich",
+        "link": "https://en.wikipedia.org/wiki/Ostrich"
+    },
+    {
+        "image_url": "assets/images/birds/Philippine dwarf kingfisher.png",
+        "answer": "Philippine dwarf kingfisher",
+        "link": "https://en.wikipedia.org/wiki/Philippine_dwarf_kingfisher"
+    },
+    {
+        "image_url": "assets/images/birds/Red avadavat.png",
+        "answer": "Red avadavat",
+        "link": "https://en.wikipedia.org/wiki/Red_avadavat"
+    },
+    {
+        "image_url": "assets/images/birds/Secretary bird.png",
+        "answer": "Secretary bird",
+        "link": "https://en.wikipedia.org/wiki/Secretarybird"
+    },
+    {
+        "image_url": "assets/images/birds/Shoebill Stork.png",
+        "answer": "Shoebill Stork",
+        "link": "https://en.wikipedia.org/wiki/Shoebill"
+    },
+    {
+        "image_url": "assets/images/birds/Stresemann's bristlefront.png",
+        "answer": "Stresemann's bristlefront",
+        "link": "https://en.wikipedia.org/wiki/Stresemann%27s_bristlefront"
     },
     {
         "image_url": "assets/images/birds/Victoria crowned Pigeon.png",
-        "answer": "Victoria crowned Pigeon"
+        "answer": "Victoria crowned Pigeon",
+        "link": "https://en.wikipedia.org/wiki/Victoria_crowned_pigeon"
     },
     {
-        "image_url": "assets/images/birds/kiwi.png",
-        "answer": "kiwi"
+        "image_url": "assets/images/birds/\u02bbI\u02bbiwi.png",
+        "answer": "\u02bbI\u02bbiwi",
+        "link": "https://en.wikipedia.org/wiki/%CA%BBI%CA%BBiwi"
     }
 ]

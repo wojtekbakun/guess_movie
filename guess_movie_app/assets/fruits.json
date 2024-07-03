@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/fruits/Apple.png",
+        "answer": "Apple",
+        "link": "https://en.wikipedia.org/wiki/Apple"
+    },
+    {
+        "image_url": "assets/images/fruits/Blueberry.png",
+        "answer": "Blueberry",
+        "link": "https://en.wikipedia.org/wiki/Blueberry"
+    },
+    {
+        "image_url": "assets/images/fruits/Carambola.png",
+        "answer": "Carambola",
+        "link": "https://en.wikipedia.org/wiki/Carambola"
+    },
+    {
+        "image_url": "assets/images/fruits/Durian.png",
+        "answer": "Durian",
+        "link": "https://en.wikipedia.org/wiki/Durian"
+    },
+    {
+        "image_url": "assets/images/fruits/Grapes.png",
+        "answer": "Grapes",
+        "link": "https://en.wikipedia.org/wiki/Grape"
+    },
+    {
+        "image_url": "assets/images/fruits/Guava.png",
+        "answer": "Guava",
+        "link": "https://en.wikipedia.org/wiki/Guava"
+    },
+    {
+        "image_url": "assets/images/fruits/Jackfruit.png",
+        "answer": "Jackfruit",
+        "link": "https://en.wikipedia.org/wiki/Jackfruit"
+    },
+    {
+        "image_url": "assets/images/fruits/Kiwi.png",
+        "answer": "Kiwi",
+        "link": "https://en.wikipedia.org/wiki/Kiwifruit"
+    },
+    {
+        "image_url": "assets/images/fruits/Mango.png",
+        "answer": "Mango",
+        "link": "https://en.wikipedia.org/wiki/Mango"
+    },
+    {
+        "image_url": "assets/images/fruits/Mangosteen.png",
+        "answer": "Mangosteen",
+        "link": "https://en.wikipedia.org/wiki/Mangosteen"
+    },
+    {
+        "image_url": "assets/images/fruits/Marula.png",
+        "answer": "Marula",
+        "link": "https://en.wikipedia.org/wiki/Sclerocarya_birrea"
+    },
+    {
+        "image_url": "assets/images/fruits/Passion Fruit.png",
+        "answer": "Passion Fruit",
+        "link": "https://en.wikipedia.org/wiki/Passion_fruit_(fruit)"
+    },
+    {
+        "image_url": "assets/images/fruits/Pear.png",
+        "answer": "Pear",
+        "link": "https://en.wikipedia.org/wiki/Pear"
+    },
+    {
+        "image_url": "assets/images/fruits/Persimmon.png",
+        "answer": "Persimmon",
+        "link": "https://en.wikipedia.org/wiki/Persimmon"
+    },
+    {
+        "image_url": "assets/images/fruits/Pitaya.png",
+        "answer": "Pitaya",
+        "link": "https://en.wikipedia.org/wiki/Pitaya"
+    },
+    {
+        "image_url": "assets/images/fruits/Plum.png",
+        "answer": "Plum",
+        "link": "https://en.wikipedia.org/wiki/Plum"
+    },
+    {
+        "image_url": "assets/images/fruits/Pomegranate.png",
+        "answer": "Pomegranate",
+        "link": "https://en.wikipedia.org/wiki/Pomegranate"
+    },
+    {
+        "image_url": "assets/images/fruits/Rambutan.png",
+        "answer": "Rambutan",
+        "link": "https://en.wikipedia.org/wiki/Rambutan"
+    },
+    {
+        "image_url": "assets/images/fruits/Strawberry.png",
+        "answer": "Strawberry",
+        "link": "https://en.wikipedia.org/wiki/Strawberry"
+    },
+    {
+        "image_url": "assets/images/fruits/Watermelon.png",
+        "answer": "Watermelon",
+        "link": "https://en.wikipedia.org/wiki/Watermelon"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/bridges/Akashi Kaikyo.png",
+        "answer": "Akashi Kaikyo",
+        "link": "https://en.wikipedia.org/wiki/Akashi_Kaikyo_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Brooklyn.png",
+        "answer": "Brooklyn",
+        "link": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Chesapeake bay.png",
+        "answer": "Chesapeake bay",
+        "link": "https://en.wikipedia.org/wiki/Chesapeake_Bay_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Clifton Suspension.png",
+        "answer": "Clifton Suspension",
+        "link": "https://en.wikipedia.org/wiki/Clifton_Suspension_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Coronado.png",
+        "answer": "Coronado",
+        "link": "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Eshima Ohashi.png",
+        "answer": "Eshima Ohashi",
+        "link": "https://en.wikipedia.org/wiki/Eshima_Ohashi_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Forth.png",
+        "answer": "Forth",
+        "link": "https://en.wikipedia.org/wiki/Forth_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Golden Gate.png",
+        "answer": "Golden Gate",
+        "link": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Gravelly hill interchange.png",
+        "answer": "Gravelly hill interchange",
+        "link": "https://en.wikipedia.org/wiki/Spaghetti_Junction,_Birmingham"
+    },
+    {
+        "image_url": "assets/images/bridges/Great Belt.png",
+        "answer": "Great Belt",
+        "link": "https://en.wikipedia.org/wiki/Great_Belt_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Hangzhou Bay.png",
+        "answer": "Hangzhou Bay",
+        "link": "https://en.wikipedia.org/wiki/Hangzhou_Bay"
+    },
+    {
+        "image_url": "assets/images/bridges/Hartland Covered.png",
+        "answer": "Hartland Covered",
+        "link": "https://en.wikipedia.org/wiki/Hartland_Covered_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Juscelino Kubitschek.png",
+        "answer": "Juscelino Kubitschek",
+        "link": "https://en.wikipedia.org/wiki/Juscelino_Kubitschek_bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Margaret Hunt Hill.png",
+        "answer": "Margaret Hunt Hill",
+        "link": "https://en.wikipedia.org/wiki/Margaret_Hunt_Hill_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Seri Wawasan.png",
+        "answer": "Seri Wawasan",
+        "link": "https://en.wikipedia.org/wiki/Seri_Wawasan_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Sheikh Zayed.png",
+        "answer": "Sheikh Zayed",
+        "link": "https://visitabudhabi.ae/en/what-to-see/iconic-landmarks/sheikh-zayed-bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Sydney Harbor.png",
+        "answer": "Sydney Harbor",
+        "link": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Sz\u00e9chenyi Chain.png",
+        "answer": "Sz\u00e9chenyi Chain",
+        "link": "https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Chain_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Tower.png",
+        "answer": "Tower",
+        "link": "https://en.wikipedia.org/wiki/Tower_Bridge"
+    },
+    {
+        "image_url": "assets/images/bridges/Viaduc de Millau.png",
+        "answer": "Viaduc de Millau",
+        "link": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+    }
+]

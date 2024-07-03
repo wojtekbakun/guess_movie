@@ -2,14 +2,14 @@ import 'package:material_symbols_icons/material_symbols_icons.dart';
 
 List<List<dynamic>> categoriesAndFilesList = [
   [
-    'Tech Companies',
-    'assets/tech_companies.json',
+    'Actors',
+    'assets/actors.json',
     '20',
     Symbols.computer,
   ],
   [
-    'Extinct Animals',
-    'assets/extinct_animals.json',
+    'Animals',
+    'assets/animals.json',
     '20',
     Symbols.bug_report,
   ],
@@ -20,20 +20,20 @@ List<List<dynamic>> categoriesAndFilesList = [
     Symbols.raven,
   ],
   [
-    'Car Logos',
-    'assets/car_logos.json',
+    'Board Games',
+    'assets/board_games.json',
     '20',
     Symbols.car_repair,
   ],
   [
-    'Festivals',
-    'assets/festivals.json',
+    'Bridges',
+    'assets/bridges.json',
     '20',
     Symbols.party_mode,
   ],
   [
-    'Social Media',
-    'assets/social_media.json',
+    'Country Flags',
+    'assets/country_flags.json',
     '20',
     Symbols.play_circle,
   ],

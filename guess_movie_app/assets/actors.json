@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/actors/Angela Bassett.png",
+        "answer": "Angela Bassett",
+        "link": "https://en.wikipedia.org/wiki/Angela_Bassett"
+    },
+    {
+        "image_url": "assets/images/actors/Betty White.png",
+        "answer": "Betty White",
+        "link": "https://en.wikipedia.org/wiki/Betty_White"
+    },
+    {
+        "image_url": "assets/images/actors/Brad Pitt.png",
+        "answer": "Brad Pitt",
+        "link": "https://en.wikipedia.org/wiki/Brad_Pitt"
+    },
+    {
+        "image_url": "assets/images/actors/Denzel Washy.png",
+        "answer": "Denzel Washy",
+        "link": "https://en.wikipedia.org/wiki/Denzel_Washington"
+    },
+    {
+        "image_url": "assets/images/actors/Halle Berry.png",
+        "answer": "Halle Berry",
+        "link": "https://en.wikipedia.org/wiki/Halle_Berry"
+    },
+    {
+        "image_url": "assets/images/actors/Harrison Ford.png",
+        "answer": "Harrison Ford",
+        "link": "https://en.wikipedia.org/wiki/Harrison_Ford"
+    },
+    {
+        "image_url": "assets/images/actors/Jackie Chan.png",
+        "answer": "Jackie Chan",
+        "link": "https://en.wikipedia.org/wiki/Jackie_Chan"
+    },
+    {
+        "image_url": "assets/images/actors/Julia Roberts.png",
+        "answer": "Julia Roberts",
+        "link": "https://en.wikipedia.org/wiki/Julia_Roberts"
+    },
+    {
+        "image_url": "assets/images/actors/Keanu Reeves.png",
+        "answer": "Keanu Reeves",
+        "link": "https://en.wikipedia.org/wiki/Keanu_Reeves"
+    },
+    {
+        "image_url": "assets/images/actors/Margot Robbie.png",
+        "answer": "Margot Robbie",
+        "link": "https://en.wikipedia.org/wiki/Margot_Robbie"
+    },
+    {
+        "image_url": "assets/images/actors/Marlon Brando.png",
+        "answer": "Marlon Brando",
+        "link": "https://en.wikipedia.org/wiki/Marlon_Brando"
+    },
+    {
+        "image_url": "assets/images/actors/Morgan Freeman.png",
+        "answer": "Morgan Freeman",
+        "link": "https://en.wikipedia.org/wiki/Morgan_Freeman"
+    },
+    {
+        "image_url": "assets/images/actors/Pen\u00e9lope Cruz.png",
+        "answer": "Pen\u00e9lope Cruz",
+        "link": "https://en.wikipedia.org/wiki/Pen%C3%A9lope_Cruz"
+    },
+    {
+        "image_url": "assets/images/actors/Robin Williams.png",
+        "answer": "Robin Williams",
+        "link": "https://en.wikipedia.org/wiki/Robin_Williams"
+    },
+    {
+        "image_url": "assets/images/actors/Samuel L. Jackson.png",
+        "answer": "Samuel L. Jackson",
+        "link": "https://en.wikipedia.org/wiki/Samuel_L._Jackson"
+    },
+    {
+        "image_url": "assets/images/actors/Sandra Bullock.png",
+        "answer": "Sandra Bullock",
+        "link": "https://en.wikipedia.org/wiki/Sandra_Bullock"
+    },
+    {
+        "image_url": "assets/images/actors/Scarlett Johansson.png",
+        "answer": "Scarlett Johansson",
+        "link": "https://en.wikipedia.org/wiki/Scarlett_Johansson"
+    },
+    {
+        "image_url": "assets/images/actors/Sean Connery.png",
+        "answer": "Sean Connery",
+        "link": "https://en.wikipedia.org/wiki/Sean_Connery"
+    },
+    {
+        "image_url": "assets/images/actors/Viola Davies.png",
+        "answer": "Viola Davies",
+        "link": "https://en.wikipedia.org/wiki/Viola_Davis"
+    },
+    {
+        "image_url": "assets/images/actors/Zendaya.png",
+        "answer": "Zendaya",
+        "link": "https://en.wikipedia.org/wiki/Zendaya"
+    }
+]

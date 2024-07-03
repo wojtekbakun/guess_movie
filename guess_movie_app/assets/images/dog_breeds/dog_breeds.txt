@@ -1,0 +1,20 @@
+1. Akita - https://en.wikipedia.org/wiki/Akita_(dog_breed)
+2. Border Collie - https://en.wikipedia.org/wiki/Border_Collie
+3. Bullmastiff - https://en.wikipedia.org/wiki/Bullmastiff
+4. Chihuahua - https://en.wikipedia.org/wiki/Chihuahua_(dog_breed)
+5. Chow Chow - https://en.wikipedia.org/wiki/Chow_Chow
+6. Cocker Spaniel - https://en.wikipedia.org/wiki/Cocker_Spaniel
+7. Dachshund - https://en.wikipedia.org/wiki/Dachshund
+8. Dalmatian - https://en.wikipedia.org/wiki/Dalmatian_dog
+9. Dobermann - https://en.wikipedia.org/wiki/Dobermann
+10. French Bulldog - https://en.wikipedia.org/wiki/French_Bulldog
+11. German Shepherd - https://en.wikipedia.org/wiki/German_Shepherd
+12. Great Dane - https://en.wikipedia.org/wiki/Great_Dane
+13. Greyhound - https://en.wikipedia.org/wiki/Greyhound
+14. Jack Russell Terrier - https://en.wikipedia.org/wiki/Jack_Russell_Terrier
+15. Labrador Retriever - https://en.wikipedia.org/wiki/Labrador_Retriever
+16. Rottweiler - https://en.wikipedia.org/wiki/Rottweiler
+17. Samoyed - https://en.wikipedia.org/wiki/Samoyed_dog
+18. Siberian Husky - https://en.wikipedia.org/wiki/Siberian_Husky
+19. St. Bernard - https://en.wikipedia.org/wiki/St._Bernard_(dog_breed)
+20. Tibetan Mastiff - https://en.wikipedia.org/wiki/Tibetan_Mastiff

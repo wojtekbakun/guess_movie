@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/board_games/Abalone.png",
+        "answer": "Abalone",
+        "link": "https://en.wikipedia.org/wiki/Abalone_(board_game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Arimaa.png",
+        "answer": "Arimaa",
+        "link": "https://en.wikipedia.org/wiki/Arimaa"
+    },
+    {
+        "image_url": "assets/images/board_games/Backgammon.png",
+        "answer": "Backgammon",
+        "link": "https://en.wikipedia.org/wiki/Backgammon"
+    },
+    {
+        "image_url": "assets/images/board_games/Battleship.png",
+        "answer": "Battleship",
+        "link": "https://en.wikipedia.org/wiki/Battleship_(film)"
+    },
+    {
+        "image_url": "assets/images/board_games/Chess.png",
+        "answer": "Chess",
+        "link": "https://en.wikipedia.org/wiki/Chess"
+    },
+    {
+        "image_url": "assets/images/board_games/Connect Four.png",
+        "answer": "Connect Four",
+        "link": "https://en.wikipedia.org/wiki/Connect_Four"
+    },
+    {
+        "image_url": "assets/images/board_games/Downfall.png",
+        "answer": "Downfall",
+        "link": "https://en.wikipedia.org/wiki/Downfall_(game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Dvonn.png",
+        "answer": "Dvonn",
+        "link": "https://en.wikipedia.org/wiki/DVONN"
+    },
+    {
+        "image_url": "assets/images/board_games/GIPF.png",
+        "answer": "GIPF",
+        "link": "https://simple.wikipedia.org/wiki/Ghosts_(board_game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Ghosts.png",
+        "answer": "Ghosts",
+        "link": "https://en.wikipedia.org/wiki/GIPF_(game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Go.png",
+        "answer": "Go",
+        "link": "https://en.wikipedia.org/wiki/Go_(game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Gobblet.png",
+        "answer": "Gobblet",
+        "link": "https://en.wikipedia.org/wiki/Gobblet"
+    },
+    {
+        "image_url": "assets/images/board_games/Guess Who.png",
+        "answer": "Guess Who",
+        "link": "https://en.wikipedia.org/wiki/Guess_Who%3F"
+    },
+    {
+        "image_url": "assets/images/board_games/Houbds and Jackals.png",
+        "answer": "Houbds and Jackals",
+        "link": "https://en.wikipedia.org/wiki/Hounds_and_jackals"
+    },
+    {
+        "image_url": "assets/images/board_games/Jaipur.png",
+        "answer": "Jaipur",
+        "link": "https://en.wikipedia.org/wiki/Hounds_and_jackals"
+    },
+    {
+        "image_url": "assets/images/board_games/Khet.png",
+        "answer": "Khet",
+        "link": "https://en.wikipedia.org/wiki/Khet_(game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Ludo.png",
+        "answer": "Ludo",
+        "link": "https://en.wikipedia.org/wiki/Ludo"
+    },
+    {
+        "image_url": "assets/images/board_games/Mastermind.png",
+        "answer": "Mastermind",
+        "link": "https://en.wikipedia.org/wiki/Mastermind_(board_game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Onyx.png",
+        "answer": "Onyx",
+        "link": "https://en.wikipedia.org/wiki/Onyx_(game)"
+    },
+    {
+        "image_url": "assets/images/board_games/Snakes and Ladders.png",
+        "answer": "Snakes and Ladders",
+        "link": "https://en.wikipedia.org/wiki/Snakes_and_ladders"
+    }
+]

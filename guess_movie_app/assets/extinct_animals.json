@@ -1,82 +1,102 @@
 [
     {
-        "image_url": "assets/images/extinct_animals/Dodo.png",
-        "answer": "Dodo"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/saber-toothed tiger.png",
-        "answer": "sabertoothed tiger"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Pelagornis.png",
-        "answer": "Pelagornis"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/woolly rhinoceros.png",
-        "answer": "woolly rhinoceros"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Toolache Wallaby.png",
-        "answer": "Toolache Wallaby"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Great auk.png",
-        "answer": "Great auk"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Glyptodon.png",
-        "answer": "Glyptodon"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Laughing owl.png",
-        "answer": "Laughing owl"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Golden toad.png",
-        "answer": "Golden toad"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Labrador Duck.png",
-        "answer": "Labrador Duck"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/Woolly mammoth.png",
-        "answer": "Woolly mammoth"
-    },
-    {
         "image_url": "assets/images/extinct_animals/Arctocyon.png",
-        "answer": "Arctocyon"
-    },
-    {
-        "image_url": "assets/images/extinct_animals/huia.png",
-        "answer": "huia"
+        "answer": "Arctocyon",
+        "link": "https://en.wikipedia.org/wiki/Arctocyon"
     },
     {
         "image_url": "assets/images/extinct_animals/Caspian tiger.png",
-        "answer": "Caspian tiger"
+        "answer": "Caspian tiger",
+        "link": "https://en.wikipedia.org/wiki/Caspian_tiger"
     },
     {
-        "image_url": "assets/images/extinct_animals/Moa.png",
-        "answer": "Moa"
+        "image_url": "assets/images/extinct_animals/Dodo.png",
+        "answer": "Dodo",
+        "link": "https://en.wikipedia.org/wiki/Dodo"
     },
     {
-        "image_url": "assets/images/extinct_animals/Pyrenean ibex.png",
-        "answer": "Pyrenean ibex"
+        "image_url": "assets/images/extinct_animals/Glyptodon.png",
+        "answer": "Glyptodon",
+        "link": "https://en.wikipedia.org/wiki/Glyptodon"
     },
     {
-        "image_url": "assets/images/extinct_animals/Passenger pigeon.png",
-        "answer": "Passenger pigeon"
+        "image_url": "assets/images/extinct_animals/Golden toad.png",
+        "answer": "Golden toad",
+        "link": "https://en.wikipedia.org/wiki/Golden_toad"
     },
     {
-        "image_url": "assets/images/extinct_animals/Platybelodon.png",
-        "answer": "Platybelodon"
+        "image_url": "assets/images/extinct_animals/Great auk.png",
+        "answer": "Great auk",
+        "link": "https://en.wikipedia.org/wiki/Great_auk"
     },
     {
-        "image_url": "assets/images/extinct_animals/Tasmanian tiger.png",
-        "answer": "Tasmanian tiger"
+        "image_url": "assets/images/extinct_animals/Huia.png",
+        "answer": "Huia",
+        "link": "https://en.wikipedia.org/wiki/Huia"
     },
     {
         "image_url": "assets/images/extinct_animals/Irish elk.png",
-        "answer": "Irish elk"
+        "answer": "Irish elk",
+        "link": "https://en.wikipedia.org/wiki/Irish_elk"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Labrador Duck.png",
+        "answer": "Labrador Duck",
+        "link": "https://en.wikipedia.org/wiki/Labrador_duck"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Laughing owl.png",
+        "answer": "Laughing owl",
+        "link": "https://en.wikipedia.org/wiki/Laughing_owl"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Moa.png",
+        "answer": "Moa",
+        "link": "https://en.wikipedia.org/wiki/Moa"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Passenger pigeon.png",
+        "answer": "Passenger pigeon",
+        "link": "https://en.wikipedia.org/wiki/Passenger_pigeon"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Pelagornis.png",
+        "answer": "Pelagornis",
+        "link": "https://en.wikipedia.org/wiki/Pelagornis"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Platybelodon.png",
+        "answer": "Platybelodon",
+        "link": "https://en.wikipedia.org/wiki/Platybelodon"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Pyrenean ibex.png",
+        "answer": "Pyrenean ibex",
+        "link": "https://en.wikipedia.org/wiki/Pyrenean_ibex"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Saber-toothed tiger.png",
+        "answer": "Saber-toothed tiger",
+        "link": "https://en.wikipedia.org/wiki/Smilodon"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Tasmanian tiger.png",
+        "answer": "Tasmanian tiger",
+        "link": "https://en.wikipedia.org/wiki/Thylacine"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Toolache Wallaby.png",
+        "answer": "Toolache Wallaby",
+        "link": "https://en.wikipedia.org/wiki/Toolache_wallaby"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Woolly mammoth.png",
+        "answer": "Woolly mammoth",
+        "link": "https://en.wikipedia.org/wiki/Woolly_mammoth"
+    },
+    {
+        "image_url": "assets/images/extinct_animals/Woolly rhinoceros.png",
+        "answer": "Woolly rhinoceros",
+        "link": "https://en.wikipedia.org/wiki/Woolly_rhinoceros"
     }
 ]

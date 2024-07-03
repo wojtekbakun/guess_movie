@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/dog_breeds/Akita Inu.png",
+        "answer": "Akita Inu",
+        "link": "https://en.wikipedia.org/wiki/Akita_(dog_breed)"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Border collie.png",
+        "answer": "Border collie",
+        "link": "https://en.wikipedia.org/wiki/Border_Collie"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Bullmastiff.png",
+        "answer": "Bullmastiff",
+        "link": "https://en.wikipedia.org/wiki/Bullmastiff"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Chihuahua.png",
+        "answer": "Chihuahua",
+        "link": "https://en.wikipedia.org/wiki/Chihuahua_(dog_breed)"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Chow Chow.png",
+        "answer": "Chow Chow",
+        "link": "https://en.wikipedia.org/wiki/Chow_Chow"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Cocker spaniel.png",
+        "answer": "Cocker spaniel",
+        "link": "https://en.wikipedia.org/wiki/Cocker_Spaniel"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Dachshund.png",
+        "answer": "Dachshund",
+        "link": "https://en.wikipedia.org/wiki/Dachshund"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Dalmatian.png",
+        "answer": "Dalmatian",
+        "link": "https://en.wikipedia.org/wiki/Dalmatian_dog"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Doberman.png",
+        "answer": "Doberman",
+        "link": "https://en.wikipedia.org/wiki/Dobermann"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/French bulldog.png",
+        "answer": "French bulldog",
+        "link": "https://en.wikipedia.org/wiki/French_Bulldog"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/German shepherd.png",
+        "answer": "German shepherd",
+        "link": "https://en.wikipedia.org/wiki/German_Shepherd"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Great dane.png",
+        "answer": "Great dane",
+        "link": "https://en.wikipedia.org/wiki/Great_Dane"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Greyhound.png",
+        "answer": "Greyhound",
+        "link": "https://en.wikipedia.org/wiki/Greyhound"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Jack Russell Terrier.png",
+        "answer": "Jack Russell Terrier",
+        "link": "https://en.wikipedia.org/wiki/Jack_Russell_Terrier"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Labrador Retriever.png",
+        "answer": "Labrador Retriever",
+        "link": "https://en.wikipedia.org/wiki/Labrador_Retriever"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Rottweiler.png",
+        "answer": "Rottweiler",
+        "link": "https://en.wikipedia.org/wiki/Rottweiler"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Samoyed.png",
+        "answer": "Samoyed",
+        "link": "https://en.wikipedia.org/wiki/Samoyed_dog"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Siberian Husky.png",
+        "answer": "Siberian Husky",
+        "link": "https://en.wikipedia.org/wiki/Siberian_Husky"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/St. Bernard.png",
+        "answer": "St. Bernard",
+        "link": "https://en.wikipedia.org/wiki/St._Bernard_(dog_breed)"
+    },
+    {
+        "image_url": "assets/images/dog_breeds/Tibetan Mastiff.png",
+        "answer": "Tibetan Mastiff",
+        "link": "https://en.wikipedia.org/wiki/Tibetan_Mastiff"
+    }
+]

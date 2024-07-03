@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/animals/Bear.png",
+        "answer": "Bear",
+        "link": "https://en.m.wikipedia.org/wiki/Bear"
+    },
+    {
+        "image_url": "assets/images/animals/Beaver.png",
+        "answer": "Beaver",
+        "link": "https://en.m.wikipedia.org/wiki/Beaver"
+    },
+    {
+        "image_url": "assets/images/animals/Bison.png",
+        "answer": "Bison",
+        "link": "https://en.m.wikipedia.org/wiki/Bison"
+    },
+    {
+        "image_url": "assets/images/animals/Camel.png",
+        "answer": "Camel",
+        "link": "https://en.m.wikipedia.org/wiki/Camel"
+    },
+    {
+        "image_url": "assets/images/animals/Cheetah.png",
+        "answer": "Cheetah",
+        "link": "https://en.m.wikipedia.org/wiki/Cheetah"
+    },
+    {
+        "image_url": "assets/images/animals/Elephant.png",
+        "answer": "Elephant",
+        "link": "https://en.m.wikipedia.org/wiki/Elephantidae"
+    },
+    {
+        "image_url": "assets/images/animals/Fossa.png",
+        "answer": "Fossa",
+        "link": "https://en.m.wikipedia.org/wiki/Fossa_(animal)"
+    },
+    {
+        "image_url": "assets/images/animals/Giraffe.png",
+        "answer": "Giraffe",
+        "link": "https://en.m.wikipedia.org/wiki/Giraffe"
+    },
+    {
+        "image_url": "assets/images/animals/Gorilla.png",
+        "answer": "Gorilla",
+        "link": "https://en.m.wikipedia.org/wiki/Gorilla"
+    },
+    {
+        "image_url": "assets/images/animals/Hippopotamus.png",
+        "answer": "Hippopotamus",
+        "link": "https://en.m.wikipedia.org/wiki/Hippopotamus"
+    },
+    {
+        "image_url": "assets/images/animals/Horse.png",
+        "answer": "Horse",
+        "link": "https://en.m.wikipedia.org/wiki/Horse"
+    },
+    {
+        "image_url": "assets/images/animals/Jaguar.png",
+        "answer": "Jaguar",
+        "link": "https://en.m.wikipedia.org/wiki/Jaguar"
+    },
+    {
+        "image_url": "assets/images/animals/Kangaroo.png",
+        "answer": "Kangaroo",
+        "link": "https://en.m.wikipedia.org/wiki/Kangaroo"
+    },
+    {
+        "image_url": "assets/images/animals/Lion.png",
+        "answer": "Lion",
+        "link": "https://en.m.wikipedia.org/wiki/Lion"
+    },
+    {
+        "image_url": "assets/images/animals/Mongoose.png",
+        "answer": "Mongoose",
+        "link": "https://en.m.wikipedia.org/wiki/Mongoose"
+    },
+    {
+        "image_url": "assets/images/animals/Pangolin.png",
+        "answer": "Pangolin",
+        "link": "https://en.m.wikipedia.org/wiki/Pangolin"
+    },
+    {
+        "image_url": "assets/images/animals/Rabbit.png",
+        "answer": "Rabbit",
+        "link": "https://en.m.wikipedia.org/w/index.php?title=Rabbit&diffonly=true"
+    },
+    {
+        "image_url": "assets/images/animals/Rhinoceros.png",
+        "answer": "Rhinoceros",
+        "link": "https://en.m.wikipedia.org/wiki/Rhinoceros"
+    },
+    {
+        "image_url": "assets/images/animals/Sheep.png",
+        "answer": "Sheep",
+        "link": "https://en.m.wikipedia.org/wiki/Sheep"
+    },
+    {
+        "image_url": "assets/images/animals/Zebra.png",
+        "answer": "Zebra",
+        "link": "https://en.m.wikipedia.org/wiki/Zebra"
+    }
+]

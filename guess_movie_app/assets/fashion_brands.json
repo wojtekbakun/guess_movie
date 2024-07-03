@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/fashion_brands/Adidas.png",
+        "answer": "Adidas",
+        "link": "https://en.wikipedia.org/wiki/Adidas"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Balenciaga.png",
+        "answer": "Balenciaga",
+        "link": "https://en.wikipedia.org/wiki/Balenciaga"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Burberry.png",
+        "answer": "Burberry",
+        "link": "https://en.wikipedia.org/wiki/Burberry"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Calvin klein.png",
+        "answer": "Calvin klein",
+        "link": "https://en.wikipedia.org/wiki/Calvin_Klein_(fashion_house)"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Chanel.png",
+        "answer": "Chanel",
+        "link": "https://en.wikipedia.org/wiki/Chanel"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Fendi.png",
+        "answer": "Fendi",
+        "link": "https://en.wikipedia.org/wiki/Fendi"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Giorgio Armani.png",
+        "answer": "Giorgio Armani",
+        "link": "https://en.wikipedia.org/wiki/Armani"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Givency.png",
+        "answer": "Givency",
+        "link": "https://en.wikipedia.org/wiki/Givenchy"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Gucci.png",
+        "answer": "Gucci",
+        "link": "https://en.wikipedia.org/wiki/Gucci"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Hennes & Mauritz.png",
+        "answer": "Hennes & Mauritz",
+        "link": "https://en.wikipedia.org/wiki/H%26M"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Lacoste.png",
+        "answer": "Lacoste",
+        "link": "https://en.wikipedia.org/wiki/Lacoste"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Louis vuitton.png",
+        "answer": "Louis vuitton",
+        "link": "https://en.wikipedia.org/wiki/Louis_Vuitton"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Lululemon.png",
+        "answer": "Lululemon",
+        "link": "https://en.wikipedia.org/wiki/Lululemon_Athletica"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Michael Kors.png",
+        "answer": "Michael Kors",
+        "link": "https://golden.com/wiki/Michael_Kors_(brand)-X6GRE6"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Nike.png",
+        "answer": "Nike",
+        "link": "https://en.wikipedia.org/wiki/Nike,_Inc."
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Puma.png",
+        "answer": "Puma",
+        "link": "https://en.wikipedia.org/wiki/Puma_(brand)"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Ralph Lauren.png",
+        "answer": "Ralph Lauren",
+        "link": "https://en.wikipedia.org/wiki/Ralph_Lauren_Corporation"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Tommy hilfiger.png",
+        "answer": "Tommy hilfiger",
+        "link": "https://en.wikipedia.org/wiki/Tommy_Hilfiger_(company)"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Versace.png",
+        "answer": "Versace",
+        "link": "https://en.wikipedia.org/wiki/Versace"
+    },
+    {
+        "image_url": "assets/images/fashion_brands/Yves saint laurent.png",
+        "answer": "Yves saint laurent",
+        "link": "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(fashion_house)"
+    }
+]
