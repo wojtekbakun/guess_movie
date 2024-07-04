@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/music_bands/4 Non Blondes.png",
+        "answer": "4 Non Blondes",
+        "link": "https://en.wikipedia.org/wiki/4_Non_Blondes"
+    },
+    {
+        "image_url": "assets/images/music_bands/ACDC.png",
+        "answer": "ACDC",
+        "link": "https://en.wikipedia.org/wiki/AC/DC"
+    },
+    {
+        "image_url": "assets/images/music_bands/Aerosmith.png",
+        "answer": "Aerosmith",
+        "link": "https://en.wikipedia.org/wiki/Aerosmith"
+    },
+    {
+        "image_url": "assets/images/music_bands/Amber Run.png",
+        "answer": "Amber Run",
+        "link": "https://en.wikipedia.org/wiki/Amber_Run"
+    },
+    {
+        "image_url": "assets/images/music_bands/Artic Monkeys.png",
+        "answer": "Artic Monkeys",
+        "link": "https://en.wikipedia.org/wiki/Arctic_Monkeys"
+    },
+    {
+        "image_url": "assets/images/music_bands/Coldplay.png",
+        "answer": "Coldplay",
+        "link": "https://en.wikipedia.org/wiki/Coldplay"
+    },
+    {
+        "image_url": "assets/images/music_bands/Eagles.png",
+        "answer": "Eagles",
+        "link": "https://en.wikipedia.org/wiki/Eagles_(band)"
+    },
+    {
+        "image_url": "assets/images/music_bands/Foo Fighters.png",
+        "answer": "Foo Fighters",
+        "link": "https://en.wikipedia.org/wiki/Foo_Fighters"
+    },
+    {
+        "image_url": "assets/images/music_bands/Greenday.png",
+        "answer": "Greenday",
+        "link": "https://en.wikipedia.org/wiki/Green_Day"
+    },
+    {
+        "image_url": "assets/images/music_bands/Gune N' Roses.png",
+        "answer": "Gune N' Roses",
+        "link": "https://en.wikipedia.org/wiki/Guns_N%27_Roses"
+    },
+    {
+        "image_url": "assets/images/music_bands/Imagine Dragons.png",
+        "answer": "Imagine Dragons",
+        "link": "https://en.wikipedia.org/wiki/Imagine_Dragons"
+    },
+    {
+        "image_url": "assets/images/music_bands/Led Zeplin.png",
+        "answer": "Led Zeplin",
+        "link": "https://en.wikipedia.org/wiki/Led_Zeppelin"
+    },
+    {
+        "image_url": "assets/images/music_bands/Maroon 5.png",
+        "answer": "Maroon 5",
+        "link": "https://en.wikipedia.org/wiki/Maroon_5"
+    },
+    {
+        "image_url": "assets/images/music_bands/Metallica.png",
+        "answer": "Metallica",
+        "link": "https://en.wikipedia.org/wiki/Metallica"
+    },
+    {
+        "image_url": "assets/images/music_bands/One Direction.png",
+        "answer": "One Direction",
+        "link": "https://en.wikipedia.org/wiki/One_Direction"
+    },
+    {
+        "image_url": "assets/images/music_bands/Pearl Jam.png",
+        "answer": "Pearl Jam",
+        "link": "https://en.wikipedia.org/wiki/Pearl_Jam"
+    },
+    {
+        "image_url": "assets/images/music_bands/The Bangles.png",
+        "answer": "The Bangles",
+        "link": "https://en.wikipedia.org/wiki/The_Bangles"
+    },
+    {
+        "image_url": "assets/images/music_bands/The Beatles.png",
+        "answer": "The Beatles",
+        "link": "https://en.wikipedia.org/wiki/The_Beatles"
+    },
+    {
+        "image_url": "assets/images/music_bands/Van Halen.png",
+        "answer": "Van Halen",
+        "link": "https://en.wikipedia.org/wiki/Van_Halen"
+    },
+    {
+        "image_url": "assets/images/music_bands/Vixen.png",
+        "answer": "Vixen",
+        "link": "https://en.wikipedia.org/wiki/Vixen_(band)"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/social_media/Bluesky.png",
+        "answer": "Bluesky",
+        "link": "https://en.wikipedia.org/wiki/Bluesky_(social_network)"
+    },
+    {
+        "image_url": "assets/images/social_media/Discord.png",
+        "answer": "Discord",
+        "link": "https://en.wikipedia.org/wiki/Discord"
+    },
+    {
+        "image_url": "assets/images/social_media/Facebook.png",
+        "answer": "Facebook",
+        "link": "https://en.wikipedia.org/wiki/Facebook"
+    },
+    {
+        "image_url": "assets/images/social_media/Instagram.png",
+        "answer": "Instagram",
+        "link": "https://en.wikipedia.org/wiki/Instagram"
+    },
+    {
+        "image_url": "assets/images/social_media/Kuaishou.png",
+        "answer": "Kuaishou",
+        "link": "https://en.wikipedia.org/wiki/Kuaishou"
+    },
+    {
+        "image_url": "assets/images/social_media/LinkedIn.png",
+        "answer": "LinkedIn",
+        "link": "https://en.wikipedia.org/wiki/LinkedIn"
+    },
+    {
+        "image_url": "assets/images/social_media/Mastodon.png",
+        "answer": "Mastodon",
+        "link": "https://en.wikipedia.org/wiki/Mastodon_(social_network)"
+    },
+    {
+        "image_url": "assets/images/social_media/Qq.png",
+        "answer": "Qq",
+        "link": "https://en.wikipedia.org/wiki/Tencent_QQ"
+    },
+    {
+        "image_url": "assets/images/social_media/Reddit.png",
+        "answer": "Reddit",
+        "link": "https://en.wikipedia.org/wiki/Reddit"
+    },
+    {
+        "image_url": "assets/images/social_media/Snapchat.png",
+        "answer": "Snapchat",
+        "link": "https://en.wikipedia.org/wiki/Snapchat"
+    },
+    {
+        "image_url": "assets/images/social_media/Supernova.png",
+        "answer": "Supernova",
+        "link": "https://www.crunchbase.com/organization/baagloo"
+    },
+    {
+        "image_url": "assets/images/social_media/Telegram.png",
+        "answer": "Telegram",
+        "link": "https://en.wikipedia.org/wiki/Telegram_(software)"
+    },
+    {
+        "image_url": "assets/images/social_media/Threads.png",
+        "answer": "Threads",
+        "link": "https://en.wikipedia.org/wiki/Threads_(social_network)"
+    },
+    {
+        "image_url": "assets/images/social_media/TikTok.png",
+        "answer": "TikTok",
+        "link": "https://en.wikipedia.org/wiki/TikTok"
+    },
+    {
+        "image_url": "assets/images/social_media/Tumblr.png",
+        "answer": "Tumblr",
+        "link": "https://en.wikipedia.org/wiki/Tumblr"
+    },
+    {
+        "image_url": "assets/images/social_media/Twitch.png",
+        "answer": "Twitch",
+        "link": "https://en.wikipedia.org/wiki/Twitch_(service)"
+    },
+    {
+        "image_url": "assets/images/social_media/VKontakte.png",
+        "answer": "VKontakte",
+        "link": "https://en.wikipedia.org/wiki/VK_(service)"
+    },
+    {
+        "image_url": "assets/images/social_media/WeChat.png",
+        "answer": "WeChat",
+        "link": "https://en.wikipedia.org/wiki/WeChat"
+    },
+    {
+        "image_url": "assets/images/social_media/Weibo.png",
+        "answer": "Weibo",
+        "link": "https://en.wikipedia.org/wiki/Weibo"
+    },
+    {
+        "image_url": "assets/images/social_media/WhatsApp.png",
+        "answer": "WhatsApp",
+        "link": "https://en.wikipedia.org/wiki/WhatsApp"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/singers/Amy Winehouse.png",
+        "answer": "Amy Winehouse",
+        "link": "https://en.wikipedia.org/wiki/Amy_Winehouse"
+    },
+    {
+        "image_url": "assets/images/singers/Beyonce.png",
+        "answer": "Beyonce",
+        "link": "https://en.wikipedia.org/wiki/Beyonc%C3%A9"
+    },
+    {
+        "image_url": "assets/images/singers/Billie Eilish.png",
+        "answer": "Billie Eilish",
+        "link": "https://en.wikipedia.org/wiki/Billie_Eilish"
+    },
+    {
+        "image_url": "assets/images/singers/Bob Marley.png",
+        "answer": "Bob Marley",
+        "link": "https://en.wikipedia.org/wiki/Bob_Marley"
+    },
+    {
+        "image_url": "assets/images/singers/Celine Dion.png",
+        "answer": "Celine Dion",
+        "link": "https://en.wikipedia.org/wiki/Celine_Dion"
+    },
+    {
+        "image_url": "assets/images/singers/Elvis Presley.png",
+        "answer": "Elvis Presley",
+        "link": "https://en.wikipedia.org/wiki/Elvis_Presley"
+    },
+    {
+        "image_url": "assets/images/singers/Eminem.png",
+        "answer": "Eminem",
+        "link": "https://en.wikipedia.org/wiki/Eminem"
+    },
+    {
+        "image_url": "assets/images/singers/Freddie Mercury.png",
+        "answer": "Freddie Mercury",
+        "link": "https://en.wikipedia.org/wiki/Freddie_Mercury"
+    },
+    {
+        "image_url": "assets/images/singers/John Lennon.png",
+        "answer": "John Lennon",
+        "link": "https://en.wikipedia.org/wiki/John_Lennon"
+    },
+    {
+        "image_url": "assets/images/singers/Lady Gaga.png",
+        "answer": "Lady Gaga",
+        "link": "https://en.wikipedia.org/wiki/Lady_Gaga"
+    },
+    {
+        "image_url": "assets/images/singers/Mary Hopkin.png",
+        "answer": "Mary Hopkin",
+        "link": "https://en.wikipedia.org/wiki/Mary_Hopkin"
+    },
+    {
+        "image_url": "assets/images/singers/Michael Jackson.png",
+        "answer": "Michael Jackson",
+        "link": "https://en.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+        "image_url": "assets/images/singers/Post Malone.png",
+        "answer": "Post Malone",
+        "link": "https://en.wikipedia.org/wiki/Post_Malone"
+    },
+    {
+        "image_url": "assets/images/singers/Psy.png",
+        "answer": "Psy",
+        "link": "https://en.wikipedia.org/wiki/Psy"
+    },
+    {
+        "image_url": "assets/images/singers/Rag'n'Bone Man.png",
+        "answer": "Rag'n'Bone Man",
+        "link": "https://en.wikipedia.org/wiki/Rag%27n%27Bone_Man"
+    },
+    {
+        "image_url": "assets/images/singers/Shakira.png",
+        "answer": "Shakira",
+        "link": "https://en.wikipedia.org/wiki/Shakira"
+    },
+    {
+        "image_url": "assets/images/singers/Sia.png",
+        "answer": "Sia",
+        "link": "https://en.wikipedia.org/wiki/Sia"
+    },
+    {
+        "image_url": "assets/images/singers/Taylor Swift.png",
+        "answer": "Taylor Swift",
+        "link": "https://en.wikipedia.org/wiki/Taylor_Swift"
+    },
+    {
+        "image_url": "assets/images/singers/The Weeknd.png",
+        "answer": "The Weeknd",
+        "link": "https://en.wikipedia.org/wiki/The_Weeknd"
+    },
+    {
+        "image_url": "assets/images/singers/Whitney Houston.png",
+        "answer": "Whitney Houston",
+        "link": "https://en.wikipedia.org/wiki/Whitney_Houston"
+    }
+]

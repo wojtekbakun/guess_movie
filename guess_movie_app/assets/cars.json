@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/cars/Alfa Romeo.png",
+        "answer": "Alfa Romeo",
+        "link": "https://en.wikipedia.org/wiki/Alfa_Romeo"
+    },
+    {
+        "image_url": "assets/images/cars/Audi.png",
+        "answer": "Audi",
+        "link": "https://en.wikipedia.org/wiki/Audi"
+    },
+    {
+        "image_url": "assets/images/cars/Bentley.png",
+        "answer": "Bentley",
+        "link": "https://en.wikipedia.org/wiki/Bentley"
+    },
+    {
+        "image_url": "assets/images/cars/Buick.png",
+        "answer": "Buick",
+        "link": "https://en.wikipedia.org/wiki/Buick"
+    },
+    {
+        "image_url": "assets/images/cars/Cadillac.png",
+        "answer": "Cadillac",
+        "link": "https://en.wikipedia.org/wiki/Cadillac"
+    },
+    {
+        "image_url": "assets/images/cars/Chevrolet.png",
+        "answer": "Chevrolet",
+        "link": "https://en.wikipedia.org/wiki/Chevrolet"
+    },
+    {
+        "image_url": "assets/images/cars/Honda.png",
+        "answer": "Honda",
+        "link": "https://en.wikipedia.org/wiki/Honda"
+    },
+    {
+        "image_url": "assets/images/cars/Infinity.png",
+        "answer": "Infinity",
+        "link": "https://en.wikipedia.org/wiki/Lexus"
+    },
+    {
+        "image_url": "assets/images/cars/Lexus.png",
+        "answer": "Lexus",
+        "link": "https://en.wikipedia.org/wiki/Mazda"
+    },
+    {
+        "image_url": "assets/images/cars/Mazda.png",
+        "answer": "Mazda",
+        "link": "https://en.wikipedia.org/wiki/Infiniti"
+    },
+    {
+        "image_url": "assets/images/cars/Mercedes-Benz.png",
+        "answer": "Mercedes-Benz",
+        "link": "https://en.wikipedia.org/wiki/Mercedes-Benz"
+    },
+    {
+        "image_url": "assets/images/cars/Nio.png",
+        "answer": "Nio",
+        "link": "https://en.wikipedia.org/wiki/Nio_Inc."
+    },
+    {
+        "image_url": "assets/images/cars/Peugeot.png",
+        "answer": "Peugeot",
+        "link": "https://en.wikipedia.org/wiki/Peugeot"
+    },
+    {
+        "image_url": "assets/images/cars/Rimac.png",
+        "answer": "Rimac",
+        "link": "https://en.wikipedia.org/wiki/Rimac_Automobili"
+    },
+    {
+        "image_url": "assets/images/cars/Subaru.png",
+        "answer": "Subaru",
+        "link": "https://en.wikipedia.org/wiki/Subaru"
+    },
+    {
+        "image_url": "assets/images/cars/Tata.png",
+        "answer": "Tata",
+        "link": "https://en.wikipedia.org/wiki/Tata_Motors"
+    },
+    {
+        "image_url": "assets/images/cars/Tesla.png",
+        "answer": "Tesla",
+        "link": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+    },
+    {
+        "image_url": "assets/images/cars/Vauxhall.png",
+        "answer": "Vauxhall",
+        "link": "https://en.wikipedia.org/wiki/Vauxhall_Motors"
+    },
+    {
+        "image_url": "assets/images/cars/Vinfast.png",
+        "answer": "Vinfast",
+        "link": "https://en.wikipedia.org/wiki/VinFast"
+    },
+    {
+        "image_url": "assets/images/cars/Volkswagen.png",
+        "answer": "Volkswagen",
+        "link": "https://en.wikipedia.org/wiki/Volkswagen"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/mythical_creatures/Aqrabuamelu.png",
+        "answer": "Aqrabuamelu",
+        "link": "https://warriorsofmyth.fandom.com/wiki/Aqrabuamelu"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Basilisk.png",
+        "answer": "Basilisk",
+        "link": "https://en.wikipedia.org/wiki/Basilisk"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Bigfoot.png",
+        "answer": "Bigfoot",
+        "link": "https://en.wikipedia.org/wiki/Bigfoot"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Centaur.png",
+        "answer": "Centaur",
+        "link": "https://en.wikipedia.org/wiki/Centaur"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Chimera.png",
+        "answer": "Chimera",
+        "link": "https://en.wikipedia.org/wiki/Chimera_(mythology)"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Cyclops.png",
+        "answer": "Cyclops",
+        "link": "https://en.wikipedia.org/wiki/Cyclopes"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Dragon.png",
+        "answer": "Dragon",
+        "link": "https://en.wikipedia.org/wiki/Dragon"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Fairy.png",
+        "answer": "Fairy",
+        "link": "https://en.wikipedia.org/wiki/Fairy"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Gnome.png",
+        "answer": "Gnome",
+        "link": "https://en.wikipedia.org/wiki/Gnome"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Goblin.png",
+        "answer": "Goblin",
+        "link": "https://en.wikipedia.org/wiki/Goblin"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Gorgons.png",
+        "answer": "Gorgons",
+        "link": "https://en.wikipedia.org/wiki/Gorgons"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Kraken.png",
+        "answer": "Kraken",
+        "link": "https://en.wikipedia.org/wiki/Kraken"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Leprechaun.png",
+        "answer": "Leprechaun",
+        "link": "https://en.wikipedia.org/wiki/Leprechaun"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Loch Ness Monster.png",
+        "answer": "Loch Ness Monster",
+        "link": "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Mermaid.png",
+        "answer": "Mermaid",
+        "link": "https://en.wikipedia.org/wiki/Mermaid"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Ogre.png",
+        "answer": "Ogre",
+        "link": "https://en.wikipedia.org/wiki/Ogre"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Troll.png",
+        "answer": "Troll",
+        "link": "https://en.wikipedia.org/wiki/Troll"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Vampire.png",
+        "answer": "Vampire",
+        "link": "https://en.wikipedia.org/wiki/Vampire"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Werewolf.png",
+        "answer": "Werewolf",
+        "link": "https://en.wikipedia.org/wiki/Werewolf"
+    },
+    {
+        "image_url": "assets/images/mythical_creatures/Yeti.png",
+        "answer": "Yeti",
+        "link": "https://en.wikipedia.org/wiki/Yeti"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/animated_series/Adventure Time.png",
+        "answer": "Adventure Time",
+        "link": "https://en.wikipedia.org/wiki/Adventure_Time"
+    },
+    {
+        "image_url": "assets/images/animated_series/Aladdin.png",
+        "answer": "Aladdin",
+        "link": "https://en.wikipedia.org/wiki/Aladdin_(animated_TV_series)"
+    },
+    {
+        "image_url": "assets/images/animated_series/Ben 10.png",
+        "answer": "Ben 10",
+        "link": "https://en.wikipedia.org/wiki/Ben_10"
+    },
+    {
+        "image_url": "assets/images/animated_series/Captain Planet and the Planeteers.png",
+        "answer": "Captain Planet and the Planeteers",
+        "link": "https://en.wikipedia.org/wiki/Captain_Planet_and_the_Planeteers"
+    },
+    {
+        "image_url": "assets/images/animated_series/Codename Kids Next Door.png",
+        "answer": "Codename Kids Next Door",
+        "link": "https://en.wikipedia.org/wiki/Codename:_Kids_Next_Door"
+    },
+    {
+        "image_url": "assets/images/animated_series/Dexter's laboratory.png",
+        "answer": "Dexter's laboratory",
+        "link": "https://en.wikipedia.org/wiki/Dexter%27s_Laboratory"
+    },
+    {
+        "image_url": "assets/images/animated_series/Ed, Edd n Eddy.png",
+        "answer": "Ed, Edd n Eddy",
+        "link": "https://en.wikipedia.org/wiki/Ed,_Edd_n_Eddy"
+    },
+    {
+        "image_url": "assets/images/animated_series/Family Guy.png",
+        "answer": "Family Guy",
+        "link": "https://en.wikipedia.org/wiki/Family_Guy"
+    },
+    {
+        "image_url": "assets/images/animated_series/Futurama.png",
+        "answer": "Futurama",
+        "link": "https://en.wikipedia.org/wiki/Futurama"
+    },
+    {
+        "image_url": "assets/images/animated_series/Johnny Bravo.png",
+        "answer": "Johnny Bravo",
+        "link": "https://en.wikipedia.org/wiki/Johnny_Bravo"
+    },
+    {
+        "image_url": "assets/images/animated_series/Justice League.png",
+        "answer": "Justice League",
+        "link": "https://en.wikipedia.org/wiki/Justice_League_(TV_series)"
+    },
+    {
+        "image_url": "assets/images/animated_series/Peppa Pig.png",
+        "answer": "Peppa Pig",
+        "link": "https://en.wikipedia.org/wiki/Peppa_Pig"
+    },
+    {
+        "image_url": "assets/images/animated_series/Pingu.png",
+        "answer": "Pingu",
+        "link": "https://en.wikipedia.org/wiki/Pingu"
+    },
+    {
+        "image_url": "assets/images/animated_series/Popeye.png",
+        "answer": "Popeye",
+        "link": "https://en.wikipedia.org/wiki/Popeye"
+    },
+    {
+        "image_url": "assets/images/animated_series/Samurai Jack.png",
+        "answer": "Samurai Jack",
+        "link": "https://en.wikipedia.org/wiki/Samurai_Jack"
+    },
+    {
+        "image_url": "assets/images/animated_series/South Park.png",
+        "answer": "South Park",
+        "link": "https://en.wikipedia.org/wiki/South_Park"
+    },
+    {
+        "image_url": "assets/images/animated_series/The Flintstones.png",
+        "answer": "The Flintstones",
+        "link": "https://en.wikipedia.org/wiki/The_Flintstones"
+    },
+    {
+        "image_url": "assets/images/animated_series/The Jetsons.png",
+        "answer": "The Jetsons",
+        "link": "https://en.wikipedia.org/wiki/The_Jetsons"
+    },
+    {
+        "image_url": "assets/images/animated_series/The Powerpuff Girls.png",
+        "answer": "The Powerpuff Girls",
+        "link": "https://en.wikipedia.org/wiki/The_Powerpuff_Girls"
+    },
+    {
+        "image_url": "assets/images/animated_series/Tom and Jerry.png",
+        "answer": "Tom and Jerry",
+        "link": "https://en.wikipedia.org/wiki/Tom_and_Jerry"
+    }
+]

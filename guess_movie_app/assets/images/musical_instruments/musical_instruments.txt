@@ -1,0 +1,20 @@
+1. Accordion - https://en.wikipedia.org/wiki/Accordion
+2. Bagpipes - https://en.wikipedia.org/wiki/Bagpipes
+3. Clarinet - https://en.wikipedia.org/wiki/Clarinet
+4. Didgeridoo - https://en.wikipedia.org/wiki/Didgeridoo
+5. Flute - https://en.wikipedia.org/wiki/Flute
+6. French horn - https://en.wikipedia.org/wiki/French_horn
+7. Grand Piano - https://en.wikipedia.org/wiki/Piano#Grand
+8. Guitar - https://en.wikipedia.org/wiki/Guitar
+9. Harmonica - https://en.wikipedia.org/wiki/Harmonica
+10. Harp - https://en.wikipedia.org/wiki/Harp
+11. Kalimba - https://en.wikipedia.org/wiki/Mbira
+12. Oud - https://en.wikipedia.org/wiki/Oud
+13. Saxophone - https://en.wikipedia.org/wiki/Saxophone
+14. Shamisen - https://en.wikipedia.org/wiki/Shamisen
+15. Sitar - https://en.wikipedia.org/wiki/Sitar
+16. Tabla - https://en.wikipedia.org/wiki/Tabla
+17. Tambourine - https://en.wikipedia.org/wiki/Tambourine
+18. Trumpet - https://en.wikipedia.org/wiki/Trumpet
+19. Violin - https://en.wikipedia.org/wiki/Violin
+20. Xylophone - https://en.wikipedia.org/wiki/Xylophone

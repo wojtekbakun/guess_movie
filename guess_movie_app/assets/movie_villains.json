@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/movie_villains/Annie Wilkes.png",
+        "answer": "Annie Wilkes",
+        "link": "https://en.wikipedia.org/wiki/Annie_Wilkes"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Anton Chigurh.png",
+        "answer": "Anton Chigurh",
+        "link": "https://en.wikipedia.org/wiki/Anton_Chigurh"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Calvin candie.png",
+        "answer": "Calvin candie",
+        "link": "https://djangounchained.fandom.com/wiki/Calvin_Candie"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Darth vader.png",
+        "answer": "Darth vader",
+        "link": "https://en.wikipedia.org/wiki/Darth_Vader"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Evil Queen.png",
+        "answer": "Evil Queen",
+        "link": "https://en.wikipedia.org/wiki/Evil_Queen_(Disney)"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Freddy Krueger.png",
+        "answer": "Freddy Krueger",
+        "link": "https://en.wikipedia.org/wiki/Freddy_Krueger"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Gollum.png",
+        "answer": "Gollum",
+        "link": "https://en.wikipedia.org/wiki/Gollum"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Hal 9000.png",
+        "answer": "Hal 9000",
+        "link": "https://en.wikipedia.org/wiki/HAL_9000"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Hannibal lecter.png",
+        "answer": "Hannibal lecter",
+        "link": "https://en.wikipedia.org/wiki/Hannibal_Lecter"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Hans Gruber.png",
+        "answer": "Hans Gruber",
+        "link": "https://en.wikipedia.org/wiki/Hans_Gruber"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Hans Landa.png",
+        "answer": "Hans Landa",
+        "link": "https://en.wikipedia.org/wiki/Hans_Landa"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Jack torrance.png",
+        "answer": "Jack torrance",
+        "link": "https://en.wikipedia.org/wiki/Jack_Torrance"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Joker.png",
+        "answer": "Joker",
+        "link": "https://en.wikipedia.org/wiki/Joker_(character)"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Keyser S\u00f6ze.png",
+        "answer": "Keyser S\u00f6ze",
+        "link": "https://en.wikipedia.org/wiki/Keyser_S%C3%B6ze"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Lord voldemort.png",
+        "answer": "Lord voldemort",
+        "link": "https://en.wikipedia.org/wiki/Lord_Voldemort"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Norman Bates.png",
+        "answer": "Norman Bates",
+        "link": "https://en.wikipedia.org/wiki/Norman_Bates"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Nurse Ratchet.png",
+        "answer": "Nurse Ratchet",
+        "link": "https://en.wikipedia.org/wiki/Nurse_Ratched"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Terminator.png",
+        "answer": "Terminator",
+        "link": "https://en.wikipedia.org/wiki/Terminator_(character)"
+    },
+    {
+        "image_url": "assets/images/movie_villains/The Wicked Witch of the West.png",
+        "answer": "The Wicked Witch of the West",
+        "link": "https://en.wikipedia.org/wiki/Wicked_Witch_of_the_West"
+    },
+    {
+        "image_url": "assets/images/movie_villains/Xenomorph.png",
+        "answer": "Xenomorph",
+        "link": "https://en.wikipedia.org/wiki/Xenomorph"
+    }
+]
