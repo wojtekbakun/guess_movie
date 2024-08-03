@@ -1,4 +1,4 @@
-package com.example.guess_movie
+package com.visual.quest
 
 import io.flutter.embedding.android.FlutterActivity
 

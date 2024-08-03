@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "2192688994",
+    "project_id": "visual-quest-9c0c8",
+    "storage_bucket": "visual-quest-9c0c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2192688994:android:159ded259eaf615c2c4e3b",
+        "android_client_info": {
+          "package_name": "com.visual.quest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOOromSXF_nsfZi3-J-LzCaUukKjgI72w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
