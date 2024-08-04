@@ -76,10 +76,45 @@ flutter:
     - assets/icons/puzzle.svg
     - assets/images/actors/
     - assets/images/animals/
+    - assets/images/animated_movies/
+    - assets/images/animated_series/
     - assets/images/birds/
     - assets/images/board_games/
     - assets/images/bridges/
     - assets/images/country_flags/
+    - assets/images/cars/
+    - assets/images/disney_characters/
+    - assets/images/djs/
+    - assets/images/dog_breeds/
+    - assets/images/enterpreneurs_and_founders/
+    - assets/images/extinct_animals/
+    - assets/images/fashion_brands/
+    - assets/images/festivals/
+    - assets/images/flowers/
+    - assets/images/food_chain/
+    - assets/images/fruits/
+    - assets/images/game_characters/
+    - assets/images/guess_the_movie/
+    - assets/images/historical_figures/
+    - assets/images/mobile_games/
+    - assets/images/movie_villains/
+    - assets/images/movies/
+    - assets/images/music_bands/
+    - assets/images/musical_instruments/
+    - assets/images/mythical_creatures/
+    - assets/images/nobel_peace_prize_winners/
+    - assets/images/olympic_sports/
+    - assets/images/paintings/
+    - assets/images/sea_creatures/
+    - assets/images/singers/
+    - assets/images/social_media/
+    - assets/images/spices/
+    - assets/images/superhero/
+    - assets/images/supervillains/
+    - assets/images/tech_companies/
+    - assets/images/vegetables/
+    - assets/images/video_game/
+    - assets/images/world_landmarks/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

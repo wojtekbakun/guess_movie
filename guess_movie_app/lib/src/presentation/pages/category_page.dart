@@ -61,10 +61,7 @@ class CategoryPanel extends StatelessWidget {
               width: 2,
             ),
           ),
-          child: Icon(
-            categoriesAndFilesList[index][3],
-            color: Theme.of(context).colorScheme.onPrimary,
-          ),
+          child: categoriesAndFilesList[index][3],
         ),
         trailing: Column(
           mainAxisAlignment: MainAxisAlignment.center,

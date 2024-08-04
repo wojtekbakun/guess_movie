@@ -1,40 +1,338 @@
-import 'package:material_symbols_icons/material_symbols_icons.dart';
+import 'package:flutter/material.dart';
 
 List<List<dynamic>> categoriesAndFilesList = [
   [
     'Actors',
     'assets/actors.json',
     '20',
-    Symbols.computer,
+    Image.asset('assets/images/actors/Angela Bassett.png'),
   ],
   [
     'Animals',
     'assets/animals.json',
     '20',
-    Symbols.bug_report,
+    Image.asset('assets/images/animals/Bear.png'),
   ],
   [
-    'Birds',
-    'assets/birds.json',
+    //!TODO Add Car Logos
+    'Car Logos',
+    'assets/cars.json',
     '20',
-    Symbols.raven,
+    Image.asset('assets/images/car_logos/Alfa Romeo.png'),
   ],
   [
-    'Board Games',
-    'assets/board_games.json',
+    'Disney Characters',
+    'assets/disney_characters.json',
     '20',
-    Symbols.car_repair,
-  ],
-  [
-    'Bridges',
-    'assets/bridges.json',
-    '20',
-    Symbols.party_mode,
+    Image.asset('assets/images/disney_characters/Bambi.png'),
   ],
   [
     'Country Flags',
     'assets/country_flags.json',
     '20',
-    Symbols.play_circle,
+    Image.asset('assets/images/country_flags/Albania.png'),
+  ],
+  [
+    'Fashion Brands',
+    'assets/fashion_brands.json',
+    '20',
+    Image.asset('assets/images/fashion_brands/Adidas.png'),
+  ],
+  [
+    'Food Chain',
+    'assets/food_chain.json',
+    '20',
+    Image.asset('assets/images/food_chain/Applebees.png'),
+  ],
+  [
+    'Flowers',
+    'assets/flowers.json',
+    '20',
+    Image.asset('assets/images/flowers/Carnation.png'),
+  ],
+  [
+    'Mobile Games',
+    'assets/mobile_games.json',
+    '20',
+    Image.asset('assets/images/mobile_games/AFK arena.png'),
+  ],
+  //!TODO Animal - Q&A
+  [
+    'Animal - Q&A',
+    'assets/animal-QandA.json',
+    '20',
+    Image.asset('assets/images/animal-QandA/xxx.png'),
+  ],
+  [
+    'Animated Movies',
+    'assets/animated_movies.json',
+    '20',
+    Image.asset('assets/images/animated_movies/Akira.png'),
+  ],
+  [
+    'DJs',
+    'assets/djs.json',
+    '20',
+    Image.asset('assets/images/djs/Amber Bross.png'),
+  ],
+  [
+    'Fashion Brands',
+    'assets/fashion_brands.json',
+    '20',
+    Image.asset('assets/images/fashion_brands/Adidas.png'),
+  ],
+  //!TODO add sportspersons
+  [
+    'Sportspersons',
+    'assets/sportspersons.json',
+    '20',
+    Image.asset('assets/images/sportspersons/xxx.png'),
+  ],
+  [
+    'Fruits',
+    'assets/fruits.json',
+    '20',
+    Image.asset('assets/images/fruits/Apple.png'),
+  ],
+  [
+    'Sea Creatures',
+    'assets/sea_creatures.json',
+    '20',
+    Image.asset('assets/images/sea_creatures/Angelfish.png'),
+  ],
+  [
+    'Singers',
+    'assets/singers.json',
+    '20',
+    Image.asset('assets/images/singers/Amy Winehouse.png'),
+  ],
+  [
+    'Social Media',
+    'assets/social_media.json',
+    '20',
+    Image.asset('assets/images/social_media/Instagram.png'),
+  ],
+  [
+    'Animated Series',
+    'assets/animated_series.json',
+    '20',
+    Image.asset('assets/images/animated_series/Alladin.png'),
+  ],
+  [
+    'Fashion Brands',
+    'assets/fashion_brands.json',
+    '20',
+    Image.asset('assets/images/fashion_brands/Adidas.png'),
+  ],
+  //!TODO Video Games
+  [
+    'Video Games',
+    'assets/video_game.json',
+    '20',
+    Image.asset('assets/images/video_game/Bioshock.png'),
+  ],
+  //!TODO Tech - Q&A
+  [
+    'Tech - Q&A',
+    'assets/tech_QandA.json',
+    '20',
+    Image.asset('assets/images/tech_QandA/xxx.png'),
+  ],
+  [
+    'Musical Instruments',
+    'assets/musical_instruments.json',
+    '20',
+    Image.asset('assets/images/musical_instruments/Flute.png'),
+  ],
+  [
+    'Dog Breeds',
+    'assets/dog_breeds.json',
+    '20',
+    Image.asset('assets/images/dog_breeds/Chow Chow.png'),
+  ],
+  [
+    'Game Characters',
+    'assets/game_characters.json',
+    '20',
+    Image.asset('assets/images/game_characters/Agent 47.png'),
+  ],
+  [
+    'Movies',
+    'assets/movies.json',
+    '20',
+    Image.asset('assets/images/movies/Casino.png'),
+  ],
+  [
+    'Vegetables',
+    'assets/vegetables.json',
+    '20',
+    Image.asset('assets/images/vegetables/Broccoli.png'),
+  ],
+  //!TODO add nuts
+  [
+    'Nuts',
+    'assets/nuts.json',
+    '20',
+    Image.asset('assets/images/nuts/xxx.png'),
+  ],
+  [
+    'Music Band',
+    'assets/music_bands.json',
+    '20',
+    Image.asset('assets/images/music_bands/ACDC.png'),
+  ],
+  [
+    'Mythical Creatures',
+    'assets/mythical_creatures.json',
+    '20',
+    Image.asset('assets/images/mythical_creatures/Fairy.png'),
+  ],
+  [
+    'Fashion Brands',
+    'assets/fashion_brands.json',
+    '20',
+    Image.asset('assets/images/fashion_brands/Adidas.png'),
+  ],
+  [
+    'Movie Villains',
+    'assets/movie_villains.json',
+    '20',
+    Image.asset('assets/images/movie_villains/Gollum.png'),
+  ],
+  //!TODO add history Q&A
+  [
+    'History - Q&A',
+    'assets/history-QandA.json',
+    '20',
+    Image.asset('assets/images/history-QandA/xxx.png'),
+  ],
+  [
+    'Superhero',
+    'assets/superhero.json',
+    '20',
+    Image.asset('assets/images/superhero/Batman.png'),
+  ],
+  //!TODO add sports
+  [
+    'Sports',
+    'assets/sports.json',
+    '20',
+    Image.asset('assets/images/sports/xxx.png'),
+  ],
+  //!TODO add spices txt
+  [
+    'Spices',
+    'assets/spices.json',
+    '20',
+    Image.asset('assets/images/spices/All Spice.png'),
+  ],
+  //!TODO add tech companies txt
+  [
+    'Tech Companies',
+    'assets/tech_companies.json',
+    '20',
+    Image.asset('assets/images/tech_companies/Adobe.png'),
+  ],
+  //!TODO add TV Shows
+  [
+    'TV Shows',
+    'assets/tv_shows.json',
+    '20',
+    Image.asset('assets/images/tv_shows/xxx.png'),
+  ],
+  //!TODO add Olympic Sports
+  [
+    'Olympic Sports',
+    'assets/olympic_sports.json',
+    '20',
+    Image.asset('assets/images/olympic_sports/xxx.png'),
+  ],
+  [
+    'Supervillains',
+    'assets/supervillains.json',
+    '20',
+    Image.asset('assets/images/supervillains/Bane.png'),
+  ],
+  [
+    'Festivals',
+    'assets/festivals.json',
+    '20',
+    Image.asset('assets/images/festivals/Timkat.png'),
+  ],
+  [
+    'Extinct Animals',
+    'assets/extinct_animals.json',
+    '20',
+    Image.asset('assets/images/extinct_animals/Dodo.png'),
+  ],
+  //!TODO add geography
+  [
+    'Geography - Q&A',
+    'assets/geography-QandA.json',
+    '20',
+    Image.asset('assets/images/geography-QandA/Bane.png'),
+  ],
+  [
+    'Birds',
+    'assets/birds.json',
+    '20',
+    Image.asset('assets/images/birds/Emu.png'),
+  ],
+  [
+    'Guess the movie quotes',
+    'assets/guess_the_movie.json',
+    '20',
+    Image.asset('assets/images/guess_the_movie/Apollo 13.png'),
+  ],
+  //!TODO add Historical Figures
+  [
+    'Historical Figures',
+    'assets/historical_figures.json',
+    '20',
+    Image.asset('assets/images/historical_fugures/Marc Twane.png'),
+  ],
+  [
+    'Enterpreneurs and Founders',
+    'assets/enterpreneurs_and_founders.json',
+    '20',
+    Image.asset('assets/images/enterpreneurs_and_founders/Bill Gates.png'),
+  ],
+  [
+    'Board Games',
+    'assets/board_games.json',
+    '20',
+    Image.asset('assets/images/board_games/Chess.png'),
+  ],
+  //!TODO add history Q&A
+  [
+    'World Landamarks',
+    'assets/world_landmarks.json',
+    '20',
+    Image.asset('assets/images/world_landmarks/Colosseum.png'),
+  ],
+  [
+    'Nobel Peace Prize Winners',
+    'assets/nobel_peace_prize_winners.json',
+    '20',
+    Image.asset('assets/images/nobel_peace_prize_winners/Mother Teresa.png'),
+  ],
+  [
+    'Paintings',
+    'assets/paintings.json',
+    '20',
+    Image.asset('assets/images/paintings/The Kiss.png'),
+  ],
+  [
+    'Bridges',
+    'assets/bridges.json',
+    '20',
+    Image.asset('assets/images/bridges/Brooklyn.png'),
+  ],
+  //!TODO add history Q&A
+  [
+    'Science - Q&A',
+    'assets/science-QandA.json',
+    '20',
+    Image.asset('assets/images/science-QandA/xxx.png'),
   ],
 ];
