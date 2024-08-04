@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Anwar El-Sadat.png",
+        "answer": "Anwar El-Sadat",
+        "link": "https://en.wikipedia.org/wiki/Anwar_Sadat"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Aung san suu kyi.png",
+        "answer": "Aung san suu kyi",
+        "link": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Barack Obama.png",
+        "answer": "Barack Obama",
+        "link": "https://en.wikipedia.org/wiki/Barack_Obama"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Desmond Tutu.png",
+        "answer": "Desmond Tutu",
+        "link": "https://en.wikipedia.org/wiki/Desmond_Tutu"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Elie wiesel.png",
+        "answer": "Elie wiesel",
+        "link": "https://en.wikipedia.org/wiki/Elie_Wiesel"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Henry kissinger.png",
+        "answer": "Henry kissinger",
+        "link": "https://en.wikipedia.org/wiki/Henry_Kissinger"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Jane Addams.png",
+        "answer": "Jane Addams",
+        "link": "https://en.wikipedia.org/wiki/Jane_Addams"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Jimmy Carter.png",
+        "answer": "Jimmy Carter",
+        "link": "https://en.wikipedia.org/wiki/Jane_Addams"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Kofi Annan.png",
+        "answer": "Kofi Annan",
+        "link": "https://en.wikipedia.org/wiki/Kofi_Annan"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Martin Luther King Jr..png",
+        "answer": "Martin Luther King Jr.",
+        "link": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Mikhail gorbachev.png",
+        "answer": "Mikhail gorbachev",
+        "link": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Mohamed ElBaradei.png",
+        "answer": "Mohamed ElBaradei",
+        "link": "https://en.wikipedia.org/wiki/Mother_Teresa"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Mother Teresa.png",
+        "answer": "Mother Teresa",
+        "link": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Nelson Mandela.png",
+        "answer": "Nelson Mandela",
+        "link": "https://en.wikipedia.org/wiki/Shimon_Peres"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Shimon Peres.png",
+        "answer": "Shimon Peres",
+        "link": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Tenzin Gyatso.png",
+        "answer": "Tenzin Gyatso",
+        "link": "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Theodore roosevelt.png",
+        "answer": "Theodore roosevelt",
+        "link": "https://en.wikipedia.org/wiki/Woodrow_Wilson"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Woodrow Wilson.png",
+        "answer": "Woodrow Wilson",
+        "link": "https://en.wikipedia.org/wiki/Yasser_Arafat"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Yasser arafat.png",
+        "answer": "Yasser arafat",
+        "link": "https://en.wikipedia.org/wiki/Mohamed_ElBaradei"
+    },
+    {
+        "image_url": "assets/images/nobel_peace_prize_winners/Yitzhak rabin.png",
+        "answer": "Yitzhak rabin",
+        "link": "https://en.wikipedia.org/wiki/Yitzhak_Rabin"
+    }
+]

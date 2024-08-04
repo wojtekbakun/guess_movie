@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/food_chain/Applebee_s.png",
+        "answer": "Applebee_s",
+        "link": "https://en.wikipedia.org/wiki/Applebee%27s"
+    },
+    {
+        "image_url": "assets/images/food_chain/Auntie Anne_s.png",
+        "answer": "Auntie Anne_s",
+        "link": "https://en.wikipedia.org/wiki/Auntie_Anne%27s"
+    },
+    {
+        "image_url": "assets/images/food_chain/Baskin Robbins.png",
+        "answer": "Baskin Robbins",
+        "link": "https://en.wikipedia.org/wiki/Baskin-Robbins"
+    },
+    {
+        "image_url": "assets/images/food_chain/Chili_s.png",
+        "answer": "Chili_s",
+        "link": "https://en.wikipedia.org/wiki/Chili%27s"
+    },
+    {
+        "image_url": "assets/images/food_chain/Chipotle.png",
+        "answer": "Chipotle",
+        "link": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill"
+    },
+    {
+        "image_url": "assets/images/food_chain/Dairy Queen.png",
+        "answer": "Dairy Queen",
+        "link": "https://en.wikipedia.org/wiki/Dairy_Queen"
+    },
+    {
+        "image_url": "assets/images/food_chain/Domino_s.png",
+        "answer": "Domino_s",
+        "link": "https://en.wikipedia.org/wiki/Domino%27s_Pizza_Group"
+    },
+    {
+        "image_url": "assets/images/food_chain/Greggs.png",
+        "answer": "Greggs",
+        "link": "https://en.wikipedia.org/wiki/Greggs"
+    },
+    {
+        "image_url": "assets/images/food_chain/Hardee_s.png",
+        "answer": "Hardee_s",
+        "link": "https://en.wikipedia.org/wiki/Hardee%27s"
+    },
+    {
+        "image_url": "assets/images/food_chain/Jollibee.png",
+        "answer": "Jollibee",
+        "link": "https://en.wikipedia.org/wiki/Jollibee"
+    },
+    {
+        "image_url": "assets/images/food_chain/KFC.png",
+        "answer": "KFC",
+        "link": "https://en.wikipedia.org/wiki/KFC"
+    },
+    {
+        "image_url": "assets/images/food_chain/Little Caesers.png",
+        "answer": "Little Caesers",
+        "link": "https://en.wikipedia.org/wiki/Mixue_Ice_Cream_%26_Tea"
+    },
+    {
+        "image_url": "assets/images/food_chain/Mixue Ice Cream & Tea.png",
+        "answer": "Mixue Ice Cream & Tea",
+        "link": "https://en.wikipedia.org/wiki/Pizza_Hut"
+    },
+    {
+        "image_url": "assets/images/food_chain/Pizza Hut.png",
+        "answer": "Pizza Hut",
+        "link": "https://en.wikipedia.org/wiki/Popeyes"
+    },
+    {
+        "image_url": "assets/images/food_chain/Popeyes.png",
+        "answer": "Popeyes",
+        "link": "https://en.wikipedia.org/wiki/Starbucks"
+    },
+    {
+        "image_url": "assets/images/food_chain/Starbucks.png",
+        "answer": "Starbucks",
+        "link": "https://en.wikipedia.org/wiki/Subway_(restaurant)"
+    },
+    {
+        "image_url": "assets/images/food_chain/Subway.png",
+        "answer": "Subway",
+        "link": "https://en.wikipedia.org/wiki/Taco_Bell"
+    },
+    {
+        "image_url": "assets/images/food_chain/Taco Bell.png",
+        "answer": "Taco Bell",
+        "link": "https://en.wikipedia.org/wiki/Wendy%27s"
+    },
+    {
+        "image_url": "assets/images/food_chain/Wendy_s.png",
+        "answer": "Wendy_s",
+        "link": "https://en.wikipedia.org/wiki/Little_Caesars"
+    },
+    {
+        "image_url": "assets/images/food_chain/mcdonald_s.png",
+        "answer": "mcdonald_s",
+        "link": "https://en.wikipedia.org/wiki/McDonald%27s"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/disney_characters/Bambi.png",
+        "answer": "Bambi",
+        "link": "https://en.wikipedia.org/wiki/Bambi_(character)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Belle.png",
+        "answer": "Belle",
+        "link": "https://en.wikipedia.org/wiki/Belle_(Disney_character)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Cinderella.png",
+        "answer": "Cinderella",
+        "link": "https://en.wikipedia.org/wiki/Cinderella_(Disney_character)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Cruella De Vil.png",
+        "answer": "Cruella De Vil",
+        "link": "https://en.wikipedia.org/wiki/Cruella_de_Vil"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Dory.png",
+        "answer": "Dory",
+        "link": "https://en.wikipedia.org/wiki/Dory_(Finding_Nemo)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Dumbo.png",
+        "answer": "Dumbo",
+        "link": "https://disney.fandom.com/wiki/Dumbo_(character)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Eve.png",
+        "answer": "Eve",
+        "link": "https://disney.fandom.com/wiki/EVE"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Genie.png",
+        "answer": "Genie",
+        "link": "https://en.wikipedia.org/wiki/Genie_(Disney)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Maleficent.png",
+        "answer": "Maleficent",
+        "link": "https://en.wikipedia.org/wiki/Maleficent"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Maui.png",
+        "answer": "Maui",
+        "link": "https://en.wikipedia.org/wiki/Maui_(Moana)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Mickey Mouse.png",
+        "answer": "Mickey Mouse",
+        "link": "https://en.wikipedia.org/wiki/Mickey_Mouse"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Mirabel.png",
+        "answer": "Mirabel",
+        "link": "https://en.wikipedia.org/wiki/Mirabel_Madrigal"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Mr.Big.png",
+        "answer": "Mr.Big",
+        "link": "https://disney.fandom.com/wiki/Mr._Big_(Zootopia)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Mulan.png",
+        "answer": "Mulan",
+        "link": "https://en.wikipedia.org/wiki/Mulan_(Disney_character)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Peter Pan.png",
+        "answer": "Peter Pan",
+        "link": "https://en.wikipedia.org/wiki/Peter_Pan"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Rapunzel.png",
+        "answer": "Rapunzel",
+        "link": "https://en.wikipedia.org/wiki/Rapunzel_(Tangled)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Roger Rabbit.png",
+        "answer": "Roger Rabbit",
+        "link": "https://en.wikipedia.org/wiki/Roger_Rabbit"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Snow white.png",
+        "answer": "Snow white",
+        "link": "https://en.wikipedia.org/wiki/Snow_White_(Disney_character)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Ursula.png",
+        "answer": "Ursula",
+        "link": "https://en.wikipedia.org/wiki/Ursula_(The_Little_Mermaid)"
+    },
+    {
+        "image_url": "assets/images/disney_characters/Winnie The Pooh.png",
+        "answer": "Winnie The Pooh",
+        "link": "https://en.wikipedia.org/wiki/Winnie_the_Pooh_(Disney_character)"
+    }
+]

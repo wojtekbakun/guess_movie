@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/guess_the_movie/A Few Good Men.png",
+        "answer": "A Few Good Men",
+        "link": "https://en.wikipedia.org/wiki/A_Few_Good_Men"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/All about Eve.png",
+        "answer": "All about Eve",
+        "link": "https://en.wikipedia.org/wiki/All_About_Eve"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Apocalypse Now.png",
+        "answer": "Apocalypse Now",
+        "link": "https://en.wikipedia.org/wiki/Apocalypse_Now"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Apollo 13.png",
+        "answer": "Apollo 13",
+        "link": "https://en.wikipedia.org/wiki/Apollo_13_(film)"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Casablanca.png",
+        "answer": "Casablanca",
+        "link": "https://en.wikipedia.org/wiki/Casablanca_(film)"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Citizen Kane.png",
+        "answer": "Citizen Kane",
+        "link": "https://en.wikipedia.org/wiki/Citizen_Kane"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Field of Dreams.png",
+        "answer": "Field of Dreams",
+        "link": "https://en.wikipedia.org/wiki/Field_of_Dreams"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Forrest Gump.png",
+        "answer": "Forrest Gump",
+        "link": "https://en.wikipedia.org/wiki/Forrest_Gump"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Gone with the wind.png",
+        "answer": "Gone with the wind",
+        "link": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Jerry Maguire.png",
+        "answer": "Jerry Maguire",
+        "link": "https://en.wikipedia.org/wiki/Jerry_Maguire"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Maltese Falcon.png",
+        "answer": "Maltese Falcon",
+        "link": "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Scarface.png",
+        "answer": "Scarface",
+        "link": "https://en.wikipedia.org/wiki/Scarface_(1983_film)"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Star Wars.png",
+        "answer": "Star Wars",
+        "link": "https://drive.google.com/drive/folders/1s575RVNoUcM5srf2MC5uagcreihyYbPa"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Sudden Impact.png",
+        "answer": "Sudden Impact",
+        "link": "https://en.wikipedia.org/wiki/Sudden_Impact"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/Taxi Driver.png",
+        "answer": "Taxi Driver",
+        "link": "https://en.wikipedia.org/wiki/Taxi_Driver"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/The Godfather.png",
+        "answer": "The Godfather",
+        "link": "https://en.wikipedia.org/wiki/The_Godfather"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/The Sixth Sense.png",
+        "answer": "The Sixth Sense",
+        "link": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/The Terminator.png",
+        "answer": "The Terminator",
+        "link": "https://en.wikipedia.org/wiki/The_Terminator"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/The Usual Suspects.png",
+        "answer": "The Usual Suspects",
+        "link": "https://en.wikipedia.org/wiki/The_Usual_Suspects"
+    },
+    {
+        "image_url": "assets/images/guess_the_movie/The Wizard of Oz.png",
+        "answer": "The Wizard of Oz",
+        "link": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/flowers/Carnation.png",
+        "answer": "Carnation",
+        "link": "https://en.wikipedia.org/wiki/Dianthus_caryophyllus"
+    },
+    {
+        "image_url": "assets/images/flowers/Daffodil.png",
+        "answer": "Daffodil",
+        "link": "https://en.wikipedia.org/wiki/Narcissus_(plant)"
+    },
+    {
+        "image_url": "assets/images/flowers/Dahlia.png",
+        "answer": "Dahlia",
+        "link": "https://en.wikipedia.org/wiki/Dahlia"
+    },
+    {
+        "image_url": "assets/images/flowers/Daisy.png",
+        "answer": "Daisy",
+        "link": "https://en.wikipedia.org/wiki/Bellis_perennis"
+    },
+    {
+        "image_url": "assets/images/flowers/Gardenia.png",
+        "answer": "Gardenia",
+        "link": "https://en.wikipedia.org/wiki/Gardenia"
+    },
+    {
+        "image_url": "assets/images/flowers/Iris.png",
+        "answer": "Iris",
+        "link": "https://en.wikipedia.org/wiki/Iris_(plant)"
+    },
+    {
+        "image_url": "assets/images/flowers/Jasmine.png",
+        "answer": "Jasmine",
+        "link": "https://en.wikipedia.org/wiki/Jasmine"
+    },
+    {
+        "image_url": "assets/images/flowers/Lavender.png",
+        "answer": "Lavender",
+        "link": "https://en.wikipedia.org/wiki/Lavandula"
+    },
+    {
+        "image_url": "assets/images/flowers/Lily.png",
+        "answer": "Lily",
+        "link": "https://en.wikipedia.org/wiki/Lilium"
+    },
+    {
+        "image_url": "assets/images/flowers/Lotus.png",
+        "answer": "Lotus",
+        "link": "https://en.wikipedia.org/wiki/Nelumbo_nucifera"
+    },
+    {
+        "image_url": "assets/images/flowers/Marigold.png",
+        "answer": "Marigold",
+        "link": "https://en.wikipedia.org/wiki/Tagetes"
+    },
+    {
+        "image_url": "assets/images/flowers/Orchids.png",
+        "answer": "Orchids",
+        "link": "https://en.wikipedia.org/wiki/Orchid"
+    },
+    {
+        "image_url": "assets/images/flowers/Peony.png",
+        "answer": "Peony",
+        "link": "https://en.wikipedia.org/wiki/Peony"
+    },
+    {
+        "image_url": "assets/images/flowers/Poppy.png",
+        "answer": "Poppy",
+        "link": "https://en.wikipedia.org/wiki/Poppy"
+    },
+    {
+        "image_url": "assets/images/flowers/Rose.png",
+        "answer": "Rose",
+        "link": "https://en.wikipedia.org/wiki/Rose"
+    },
+    {
+        "image_url": "assets/images/flowers/Snapdragon.png",
+        "answer": "Snapdragon",
+        "link": "https://en.wikipedia.org/wiki/Antirrhinum"
+    },
+    {
+        "image_url": "assets/images/flowers/Sunflowers.png",
+        "answer": "Sunflowers",
+        "link": "https://en.wikipedia.org/wiki/Helianthus"
+    },
+    {
+        "image_url": "assets/images/flowers/Tulip.png",
+        "answer": "Tulip",
+        "link": "https://en.wikipedia.org/wiki/Tulip"
+    },
+    {
+        "image_url": "assets/images/flowers/Violet.png",
+        "answer": "Violet",
+        "link": "https://en.wikipedia.org/wiki/Viola_(plant)"
+    },
+    {
+        "image_url": "assets/images/flowers/Zinnia.png",
+        "answer": "Zinnia",
+        "link": "https://en.wikipedia.org/wiki/Zinnia"
+    }
+]

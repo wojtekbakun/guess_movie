@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/game_characters/Agent 47.png",
+        "answer": "Agent 47",
+        "link": "https://en.wikipedia.org/wiki/Agent_47"
+    },
+    {
+        "image_url": "assets/images/game_characters/Atreus.png",
+        "answer": "Atreus",
+        "link": "https://godofwar.fandom.com/wiki/Atreus"
+    },
+    {
+        "image_url": "assets/images/game_characters/Captain Price.png",
+        "answer": "Captain Price",
+        "link": "https://en.wikipedia.org/wiki/Captain_Price"
+    },
+    {
+        "image_url": "assets/images/game_characters/Cayde-6.png",
+        "answer": "Cayde-6",
+        "link": "https://en.wikipedia.org/wiki/Cayde-6"
+    },
+    {
+        "image_url": "assets/images/game_characters/Chun-Li.png",
+        "answer": "Chun-Li",
+        "link": "https://en.wikipedia.org/wiki/Chun-Li"
+    },
+    {
+        "image_url": "assets/images/game_characters/Cloud strife.png",
+        "answer": "Cloud strife",
+        "link": "https://en.wikipedia.org/wiki/Cloud_Strife"
+    },
+    {
+        "image_url": "assets/images/game_characters/Geralt of Rivia.png",
+        "answer": "Geralt of Rivia",
+        "link": "https://en.wikipedia.org/wiki/Geralt_of_Rivia"
+    },
+    {
+        "image_url": "assets/images/game_characters/Gordon Freeman.png",
+        "answer": "Gordon Freeman",
+        "link": "https://en.wikipedia.org/wiki/Gordon_Freeman"
+    },
+    {
+        "image_url": "assets/images/game_characters/Isaac clarke.png",
+        "answer": "Isaac clarke",
+        "link": "https://en.wikipedia.org/wiki/Isaac_Clarke"
+    },
+    {
+        "image_url": "assets/images/game_characters/Kassandra.png",
+        "answer": "Kassandra",
+        "link": "https://assassinscreed.fandom.com/wiki/Kassandra"
+    },
+    {
+        "image_url": "assets/images/game_characters/Link.png",
+        "answer": "Link",
+        "link": "https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)"
+    },
+    {
+        "image_url": "assets/images/game_characters/Mario.png",
+        "answer": "Mario",
+        "link": "https://en.wikipedia.org/wiki/Mario"
+    },
+    {
+        "image_url": "assets/images/game_characters/Nathan Drake.png",
+        "answer": "Nathan Drake",
+        "link": "https://en.wikipedia.org/wiki/Nathan_Drake"
+    },
+    {
+        "image_url": "assets/images/game_characters/Pikachu.png",
+        "answer": "Pikachu",
+        "link": "https://en.wikipedia.org/wiki/Pikachu"
+    },
+    {
+        "image_url": "assets/images/game_characters/Sam Fisher.png",
+        "answer": "Sam Fisher",
+        "link": "https://en.wikipedia.org/wiki/Sam_Fisher_(Splinter_Cell)"
+    },
+    {
+        "image_url": "assets/images/game_characters/Solid Snake.png",
+        "answer": "Solid Snake",
+        "link": "https://en.wikipedia.org/wiki/Solid_Snake"
+    },
+    {
+        "image_url": "assets/images/game_characters/Sonic the Hedgehog.png",
+        "answer": "Sonic the Hedgehog",
+        "link": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+    },
+    {
+        "image_url": "assets/images/game_characters/Steve.png",
+        "answer": "Steve",
+        "link": "https://en.wikipedia.org/wiki/Steve_(Minecraft)"
+    },
+    {
+        "image_url": "assets/images/game_characters/Tommy vercetti.png",
+        "answer": "Tommy vercetti",
+        "link": "https://en.wikipedia.org/wiki/Tommy_Vercetti"
+    },
+    {
+        "image_url": "assets/images/game_characters/Wolf.png",
+        "answer": "Wolf",
+        "link": "https://www.ign.com/wikis/sekiro-shadows-die-twice/The_Wolf"
+    }
+]

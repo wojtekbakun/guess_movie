@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/animated_movies/Akira.png",
+        "answer": "Akira",
+        "link": "https://en.wikipedia.org/wiki/Akira_(1988_film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Coco.png",
+        "answer": "Coco",
+        "link": "https://en.wikipedia.org/wiki/Coco_(2017_film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Klaus.png",
+        "answer": "Klaus",
+        "link": "https://en.wikipedia.org/wiki/Klaus_(film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Kubo and the two strings.png",
+        "answer": "Kubo and the two strings",
+        "link": "https://en.wikipedia.org/wiki/Kubo_and_the_Two_Strings"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Nimona.png",
+        "answer": "Nimona",
+        "link": "https://en.wikipedia.org/wiki/Nimona_(film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Orion and the Dark.png",
+        "answer": "Orion and the Dark",
+        "link": "https://en.wikipedia.org/wiki/Orion_and_the_Dark"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Persepolis.png",
+        "answer": "Persepolis",
+        "link": "https://en.wikipedia.org/wiki/Persepolis_(film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Raya and the Last dragon.png",
+        "answer": "Raya and the Last dragon",
+        "link": "https://en.wikipedia.org/wiki/Raya_and_the_Last_Dragon"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Song of the sea.png",
+        "answer": "Song of the sea",
+        "link": "https://en.wikipedia.org/wiki/Song_of_the_Sea_(2014_film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Spirited Away.png",
+        "answer": "Spirited Away",
+        "link": "https://en.wikipedia.org/wiki/Spirited_Away"
+    },
+    {
+        "image_url": "assets/images/animated_movies/The Breadwinner.png",
+        "answer": "The Breadwinner",
+        "link": "https://en.wikipedia.org/wiki/The_Breadwinner_(film)"
+    },
+    {
+        "image_url": "assets/images/animated_movies/The Iron Giant.png",
+        "answer": "The Iron Giant",
+        "link": "https://en.wikipedia.org/wiki/The_Iron_Giant"
+    },
+    {
+        "image_url": "assets/images/animated_movies/The Lion King.png",
+        "answer": "The Lion King",
+        "link": "https://en.wikipedia.org/wiki/The_Lion_King"
+    },
+    {
+        "image_url": "assets/images/animated_movies/The Mitchells vs. the Machines.png",
+        "answer": "The Mitchells vs. the Machines",
+        "link": "https://en.wikipedia.org/wiki/The_Mitchells_vs._the_Machines"
+    },
+    {
+        "image_url": "assets/images/animated_movies/The Nightmare before Christmas.png",
+        "answer": "The Nightmare before Christmas",
+        "link": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas"
+    },
+    {
+        "image_url": "assets/images/animated_movies/The Prince of Egypt.png",
+        "answer": "The Prince of Egypt",
+        "link": "https://en.wikipedia.org/wiki/The_Prince_of_Egypt"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Toy Story.png",
+        "answer": "Toy Story",
+        "link": "https://en.wikipedia.org/wiki/Toy_Story"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Wall-E.png",
+        "answer": "Wall-E",
+        "link": "https://en.wikipedia.org/wiki/WALL-E"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Wolfwalkers.png",
+        "answer": "Wolfwalkers",
+        "link": "https://en.wikipedia.org/wiki/Wolfwalkers"
+    },
+    {
+        "image_url": "assets/images/animated_movies/Your Name.png",
+        "answer": "Your Name",
+        "link": "https://en.wikipedia.org/wiki/Your_Name"
+    }
+]
