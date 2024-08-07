@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/tv_shows/13 Reasons Why.png",
+        "answer": "13 Reasons Why",
+        "link": "https://en.wikipedia.org/wiki/13_Reasons_Why"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Breaking Bad.png",
+        "answer": "Breaking Bad",
+        "link": "https://en.wikipedia.org/wiki/Breaking_Bad"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Elite.png",
+        "answer": "Elite",
+        "link": "https://en.wikipedia.org/wiki/Elite_(TV_series)"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Friends.png",
+        "answer": "Friends",
+        "link": "https://en.wikipedia.org/wiki/Friends"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Game of Thrones.png",
+        "answer": "Game of Thrones",
+        "link": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Gossip Girl.png",
+        "answer": "Gossip Girl",
+        "link": "https://en.wikipedia.org/wiki/Gossip_Girl"
+    },
+    {
+        "image_url": "assets/images/tv_shows/How I met your mother.png",
+        "answer": "How I met your mother",
+        "link": "https://en.wikipedia.org/wiki/How_I_Met_Your_Mother"
+    },
+    {
+        "image_url": "assets/images/tv_shows/How to get away with murder.png",
+        "answer": "How to get away with murder",
+        "link": "https://en.wikipedia.org/wiki/How_to_Get_Away_with_Murder"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Money Heist.png",
+        "answer": "Money Heist",
+        "link": "https://en.wikipedia.org/wiki/Money_Heist"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Prison Break.png",
+        "answer": "Prison Break",
+        "link": "https://en.wikipedia.org/wiki/Prison_Break"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Queen of the south.png",
+        "answer": "Queen of the south",
+        "link": "https://en.wikipedia.org/wiki/Queen_of_the_South_(TV_series)"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Sherlock.png",
+        "answer": "Sherlock",
+        "link": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Sho\u0304gun.png",
+        "answer": "Sho\u0304gun",
+        "link": "https://en.wikipedia.org/wiki/Sh%C5%8Dgun_(2024_TV_series)"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Squid Game.png",
+        "answer": "Squid Game",
+        "link": "https://en.wikipedia.org/wiki/Squid_Game"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Suits.png",
+        "answer": "Suits",
+        "link": "https://en.wikipedia.org/wiki/Suits_(American_TV_series)"
+    },
+    {
+        "image_url": "assets/images/tv_shows/The Big Bang Theory.png",
+        "answer": "The Big Bang Theory",
+        "link": "https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
+    },
+    {
+        "image_url": "assets/images/tv_shows/The Office.png",
+        "answer": "The Office",
+        "link": "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)"
+    },
+    {
+        "image_url": "assets/images/tv_shows/The Sopranos.png",
+        "answer": "The Sopranos",
+        "link": "https://en.wikipedia.org/wiki/The_Sopranos"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Twin Peaks.png",
+        "answer": "Twin Peaks",
+        "link": "https://en.wikipedia.org/wiki/Twin_Peaks"
+    },
+    {
+        "image_url": "assets/images/tv_shows/Two and a half men.png",
+        "answer": "Two and a half men",
+        "link": "https://en.wikipedia.org/wiki/Two_and_a_Half_Men"
+    }
+]

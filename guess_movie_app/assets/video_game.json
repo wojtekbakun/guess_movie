@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/video_game/Apex Legends.png",
+        "answer": "Apex Legends",
+        "link": "https://en.wikipedia.org/wiki/Apex_Legends"
+    },
+    {
+        "image_url": "assets/images/video_game/Bioshock.png",
+        "answer": "Bioshock",
+        "link": "https://en.wikipedia.org/wiki/BioShock"
+    },
+    {
+        "image_url": "assets/images/video_game/Bloodborne.png",
+        "answer": "Bloodborne",
+        "link": "https://en.wikipedia.org/wiki/Bloodborne"
+    },
+    {
+        "image_url": "assets/images/video_game/Chrono Trigger.png",
+        "answer": "Chrono Trigger",
+        "link": "https://en.wikipedia.org/wiki/Chrono_Trigger"
+    },
+    {
+        "image_url": "assets/images/video_game/Counter Strike.png",
+        "answer": "Counter Strike",
+        "link": "https://en.wikipedia.org/wiki/Counter-Strike"
+    },
+    {
+        "image_url": "assets/images/video_game/Devil May Cry.png",
+        "answer": "Devil May Cry",
+        "link": "https://en.wikipedia.org/wiki/Devil_May_Cry"
+    },
+    {
+        "image_url": "assets/images/video_game/Disco Elysium.png",
+        "answer": "Disco Elysium",
+        "link": "https://en.wikipedia.org/wiki/Disco_Elysium"
+    },
+    {
+        "image_url": "assets/images/video_game/Fortnite.png",
+        "answer": "Fortnite",
+        "link": "https://en.wikipedia.org/wiki/Fortnite"
+    },
+    {
+        "image_url": "assets/images/video_game/God of War.png",
+        "answer": "God of War",
+        "link": "https://en.wikipedia.org/wiki/God_of_War_(franchise)"
+    },
+    {
+        "image_url": "assets/images/video_game/Hades.png",
+        "answer": "Hades",
+        "link": "https://en.wikipedia.org/wiki/Hades_(video_game)"
+    },
+    {
+        "image_url": "assets/images/video_game/Halo.png",
+        "answer": "Halo",
+        "link": "https://en.wikipedia.org/wiki/Halo_(franchise)"
+    },
+    {
+        "image_url": "assets/images/video_game/Hollow Knight.png",
+        "answer": "Hollow Knight",
+        "link": "https://en.wikipedia.org/wiki/Hollow_Knight"
+    },
+    {
+        "image_url": "assets/images/video_game/Inside.png",
+        "answer": "Inside",
+        "link": "https://en.wikipedia.org/wiki/Inside_(video_game)"
+    },
+    {
+        "image_url": "assets/images/video_game/Metroid Prime.png",
+        "answer": "Metroid Prime",
+        "link": "https://en.wikipedia.org/wiki/Metroid_Prime"
+    },
+    {
+        "image_url": "assets/images/video_game/Minecraft.png",
+        "answer": "Minecraft",
+        "link": "https://en.wikipedia.org/wiki/Minecraft"
+    },
+    {
+        "image_url": "assets/images/video_game/Pac-Man.png",
+        "answer": "Pac-Man",
+        "link": "https://en.wikipedia.org/wiki/Pac-Man"
+    },
+    {
+        "image_url": "assets/images/video_game/Red Dead Redemption.png",
+        "answer": "Red Dead Redemption",
+        "link": "https://en.wikipedia.org/wiki/Red_Dead_Redemption"
+    },
+    {
+        "image_url": "assets/images/video_game/Road Rash.png",
+        "answer": "Road Rash",
+        "link": "https://en.wikipedia.org/wiki/Road_Rash"
+    },
+    {
+        "image_url": "assets/images/video_game/Super Mario.png",
+        "answer": "Super Mario",
+        "link": "https://en.wikipedia.org/wiki/Super_Mario"
+    },
+    {
+        "image_url": "assets/images/video_game/The Last of Us.png",
+        "answer": "The Last of Us",
+        "link": "https://en.wikipedia.org/wiki/The_Last_of_Us"
+    }
+]

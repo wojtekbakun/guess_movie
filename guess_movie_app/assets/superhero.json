@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/superhero/Ant-Man.png",
+        "answer": "Ant-Man",
+        "link": "https://en.wikipedia.org/wiki/Ant-Man"
+    },
+    {
+        "image_url": "assets/images/superhero/Batman.png",
+        "answer": "Batman",
+        "link": "https://en.wikipedia.org/wiki/Batman"
+    },
+    {
+        "image_url": "assets/images/superhero/Black Panther.png",
+        "answer": "Black Panther",
+        "link": "https://en.wikipedia.org/wiki/Black_Panther_(character)"
+    },
+    {
+        "image_url": "assets/images/superhero/Black Widow.png",
+        "answer": "Black Widow",
+        "link": "https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)"
+    },
+    {
+        "image_url": "assets/images/superhero/Captain America.png",
+        "answer": "Captain America",
+        "link": "https://en.wikipedia.org/wiki/Captain_America"
+    },
+    {
+        "image_url": "assets/images/superhero/Catwoman.png",
+        "answer": "Catwoman",
+        "link": "https://en.wikipedia.org/wiki/Catwoman"
+    },
+    {
+        "image_url": "assets/images/superhero/Daredevil.png",
+        "answer": "Daredevil",
+        "link": "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)"
+    },
+    {
+        "image_url": "assets/images/superhero/Deadpool.png",
+        "answer": "Deadpool",
+        "link": "https://en.wikipedia.org/wiki/Deadpool"
+    },
+    {
+        "image_url": "assets/images/superhero/Green lantern.png",
+        "answer": "Green lantern",
+        "link": "https://en.wikipedia.org/wiki/Green_Lantern"
+    },
+    {
+        "image_url": "assets/images/superhero/Hellboy.png",
+        "answer": "Hellboy",
+        "link": "https://en.wikipedia.org/wiki/Hellboy"
+    },
+    {
+        "image_url": "assets/images/superhero/Hulk.png",
+        "answer": "Hulk",
+        "link": "https://en.wikipedia.org/wiki/Hulk"
+    },
+    {
+        "image_url": "assets/images/superhero/Iron Fist.png",
+        "answer": "Iron Fist",
+        "link": "https://en.wikipedia.org/wiki/Iron_Fist_(character)"
+    },
+    {
+        "image_url": "assets/images/superhero/Iron Man.png",
+        "answer": "Iron Man",
+        "link": "https://en.wikipedia.org/wiki/Iron_Man"
+    },
+    {
+        "image_url": "assets/images/superhero/Nightcrawler.png",
+        "answer": "Nightcrawler",
+        "link": "https://en.wikipedia.org/wiki/Nightcrawler_(character)"
+    },
+    {
+        "image_url": "assets/images/superhero/Robin.png",
+        "answer": "Robin",
+        "link": "https://en.wikipedia.org/wiki/Robin_(character)"
+    },
+    {
+        "image_url": "assets/images/superhero/Spider-Man.png",
+        "answer": "Spider-Man",
+        "link": "https://en.wikipedia.org/wiki/Spider-Man"
+    },
+    {
+        "image_url": "assets/images/superhero/Storm.png",
+        "answer": "Storm",
+        "link": "https://en.wikipedia.org/wiki/Storm_(Marvel_Comics)"
+    },
+    {
+        "image_url": "assets/images/superhero/Superman.png",
+        "answer": "Superman",
+        "link": "https://en.wikipedia.org/wiki/Superman"
+    },
+    {
+        "image_url": "assets/images/superhero/Thor.png",
+        "answer": "Thor",
+        "link": "https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)"
+    },
+    {
+        "image_url": "assets/images/superhero/Wolverine.png",
+        "answer": "Wolverine",
+        "link": "https://en.wikipedia.org/wiki/Wolverine_(character)"
+    }
+]

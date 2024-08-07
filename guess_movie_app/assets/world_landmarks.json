@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/world_landmarks/Alhambra.png",
+        "answer": "Alhambra",
+        "link": "https://en.wikipedia.org/wiki/Alhambra"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Angkor Wat.png",
+        "answer": "Angkor Wat",
+        "link": "https://en.wikipedia.org/wiki/Angkor_Wat"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Chich\u00e9n Itz\u00e1.png",
+        "answer": "Chich\u00e9n Itz\u00e1",
+        "link": "https://en.wikipedia.org/wiki/Chichen_Itza"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Christ the Redeemer.png",
+        "answer": "Christ the Redeemer",
+        "link": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Colosseum.png",
+        "answer": "Colosseum",
+        "link": "https://en.wikipedia.org/wiki/Colosseum"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Eiffel Tower.png",
+        "answer": "Eiffel Tower",
+        "link": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Grand Palace.png",
+        "answer": "Grand Palace",
+        "link": "https://en.wikipedia.org/wiki/Grand_Palace"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/La Sagrada Familia.png",
+        "answer": "La Sagrada Familia",
+        "link": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Leaning Tower of Pisa.png",
+        "answer": "Leaning Tower of Pisa",
+        "link": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Machu Picchu.png",
+        "answer": "Machu Picchu",
+        "link": "https://en.wikipedia.org/wiki/Machu_Picchu"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Moai.png",
+        "answer": "Moai",
+        "link": "https://en.wikipedia.org/wiki/Moai"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Mont Saint-Michel.png",
+        "answer": "Mont Saint-Michel",
+        "link": "https://en.wikipedia.org/wiki/Mont-Saint-Michel"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Neuschwanstein Castle.png",
+        "answer": "Neuschwanstein Castle",
+        "link": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Petra.png",
+        "answer": "Petra",
+        "link": "https://en.wikipedia.org/wiki/Petra"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Potala Palace.png",
+        "answer": "Potala Palace",
+        "link": "https://en.wikipedia.org/wiki/Potala_Palace"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Statue of Liberty.png",
+        "answer": "Statue of Liberty",
+        "link": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Stonehenge.png",
+        "answer": "Stonehenge",
+        "link": "https://en.wikipedia.org/wiki/Stonehenge"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Sydney Opera House.png",
+        "answer": "Sydney Opera House",
+        "link": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Taj Mahal.png",
+        "answer": "Taj Mahal",
+        "link": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+        "image_url": "assets/images/world_landmarks/Victoria Falls.png",
+        "answer": "Victoria Falls",
+        "link": "https://en.wikipedia.org/wiki/Victoria_Falls"
+    }
+]

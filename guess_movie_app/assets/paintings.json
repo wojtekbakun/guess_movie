@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/paintings/A Sunday Afternoon on the Island of La Grande Jatte.png",
+        "answer": "A Sunday Afternoon on the Island of La Grande Jatte",
+        "link": "https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte"
+    },
+    {
+        "image_url": "assets/images/paintings/American Goth.png",
+        "answer": "American Goth",
+        "link": "https://en.wikipedia.org/wiki/American_Gothic"
+    },
+    {
+        "image_url": "assets/images/paintings/Cafe Terrace at Night.png",
+        "answer": "Cafe Terrace at Night",
+        "link": "https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night"
+    },
+    {
+        "image_url": "assets/images/paintings/Girl with a Pearl Earring.png",
+        "answer": "Girl with a Pearl Earring",
+        "link": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+    },
+    {
+        "image_url": "assets/images/paintings/Guernica.png",
+        "answer": "Guernica",
+        "link": "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+    },
+    {
+        "image_url": "assets/images/paintings/Las Meninas.png",
+        "answer": "Las Meninas",
+        "link": "https://en.wikipedia.org/wiki/Las_Meninas"
+    },
+    {
+        "image_url": "assets/images/paintings/Mona Lisa.png",
+        "answer": "Mona Lisa",
+        "link": "https://en.wikipedia.org/wiki/Mona_Lisa"
+    },
+    {
+        "image_url": "assets/images/paintings/PicassoGuernica.png",
+        "answer": "PicassoGuernica",
+        "link": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)"
+    },
+    {
+        "image_url": "assets/images/paintings/Salvator Mundi.png",
+        "answer": "Salvator Mundi",
+        "link": "https://www.diegorivera.org/flowercarrier.jsp"
+    },
+    {
+        "image_url": "assets/images/paintings/The Flower Carrier.png",
+        "answer": "The Flower Carrier",
+        "link": "https://en.wikipedia.org/wiki/Impression,_Sunrise"
+    },
+    {
+        "image_url": "assets/images/paintings/The Kiss.png",
+        "answer": "The Kiss",
+        "link": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)"
+    },
+    {
+        "image_url": "assets/images/paintings/The Last Supper.png",
+        "answer": "The Last Supper",
+        "link": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)"
+    },
+    {
+        "image_url": "assets/images/paintings/The Night Watch.png",
+        "answer": "The Night Watch",
+        "link": "https://en.wikipedia.org/wiki/The_Night_Watch"
+    },
+    {
+        "image_url": "assets/images/paintings/The Persistence of Memory.png",
+        "answer": "The Persistence of Memory",
+        "link": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory"
+    },
+    {
+        "image_url": "assets/images/paintings/The Scream.png",
+        "answer": "The Scream",
+        "link": "https://en.wikipedia.org/wiki/The_Scream"
+    },
+    {
+        "image_url": "assets/images/paintings/The Son of Man.png",
+        "answer": "The Son of Man",
+        "link": "https://en.wikipedia.org/wiki/The_Son_of_Man"
+    },
+    {
+        "image_url": "assets/images/paintings/The starry night.png",
+        "answer": "The starry night",
+        "link": "https://en.wikipedia.org/wiki/The_Starry_Night"
+    },
+    {
+        "image_url": "assets/images/paintings/Three Musicians.png",
+        "answer": "Three Musicians",
+        "link": "https://en.wikipedia.org/wiki/Three_Musicians_(Picasso)"
+    },
+    {
+        "image_url": "assets/images/paintings/Water lilies.png",
+        "answer": "Water lilies",
+        "link": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)"
+    },
+    {
+        "image_url": "assets/images/paintings/Whistler's Mother.png",
+        "answer": "Whistler's Mother",
+        "link": "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+    }
+]

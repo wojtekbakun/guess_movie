@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/olympic_sports/Acrobatic gymnastics.png",
+        "answer": "Acrobatic gymnastics",
+        "link": "https://en.wikipedia.org/wiki/Acrobatic_gymnastics"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Archery.png",
+        "answer": "Archery",
+        "link": "https://en.wikipedia.org/wiki/Archery"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Artistic Swimming.png",
+        "answer": "Artistic Swimming",
+        "link": "https://en.wikipedia.org/wiki/Synchronized_swimming"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/BMX Freestyle.png",
+        "answer": "BMX Freestyle",
+        "link": "https://en.wikipedia.org/wiki/Badminton"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Badminton.png",
+        "answer": "Badminton",
+        "link": "https://en.wikipedia.org/wiki/Basketball"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Basketball.png",
+        "answer": "Basketball",
+        "link": "https://en.wikipedia.org/wiki/Beach_handball"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Beach Handball.png",
+        "answer": "Beach Handball",
+        "link": "https://en.wikipedia.org/wiki/Biathlon"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Beach Volleyball.png",
+        "answer": "Beach Volleyball",
+        "link": "https://en.wikipedia.org/wiki/Freestyle_BMX"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Biathlon.png",
+        "answer": "Biathlon",
+        "link": "https://en.wikipedia.org/wiki/Bobsleigh"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Bobsleigh.png",
+        "answer": "Bobsleigh",
+        "link": "https://en.wikipedia.org/wiki/Breakdancing"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Breaking.png",
+        "answer": "Breaking",
+        "link": "https://en.wikipedia.org/wiki/Canoe_slalom"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Canoe Slalom.png",
+        "answer": "Canoe Slalom",
+        "link": "https://en.wikipedia.org/wiki/Curling"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Curling.png",
+        "answer": "Curling",
+        "link": "https://en.wikipedia.org/wiki/Fencing"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Fencing.png",
+        "answer": "Fencing",
+        "link": "https://en.wikipedia.org/wiki/Figure_skating"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Figure Skating.png",
+        "answer": "Figure Skating",
+        "link": "https://en.wikipedia.org/wiki/Golf"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Golf.png",
+        "answer": "Golf",
+        "link": "https://en.wikipedia.org/wiki/Hockey"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Hockey.png",
+        "answer": "Hockey",
+        "link": "https://en.wikipedia.org/wiki/Karate"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Karate.png",
+        "answer": "Karate",
+        "link": "https://en.wikipedia.org/wiki/Rowing"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Rowing.png",
+        "answer": "Rowing",
+        "link": "https://en.wikipedia.org/wiki/Sailing"
+    },
+    {
+        "image_url": "assets/images/olympic_sports/Sailing.png",
+        "answer": "Sailing",
+        "link": "https://en.wikipedia.org/wiki/Beach_volleyball"
+    }
+]

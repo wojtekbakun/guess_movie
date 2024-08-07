@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/nuts/Acorn.png",
+        "answer": "Acorn",
+        "link": "https://en.wikipedia.org/wiki/Acorn"
+    },
+    {
+        "image_url": "assets/images/nuts/Almond.png",
+        "answer": "Almond",
+        "link": "https://en.wikipedia.org/wiki/Almond"
+    },
+    {
+        "image_url": "assets/images/nuts/Baru.png",
+        "answer": "Baru",
+        "link": "https://en.wikipedia.org/wiki/Dipteryx_alata#Baru_seed"
+    },
+    {
+        "image_url": "assets/images/nuts/Betel.png",
+        "answer": "Betel",
+        "link": "https://en.wikipedia.org/wiki/Areca_nut"
+    },
+    {
+        "image_url": "assets/images/nuts/Candlenut.png",
+        "answer": "Candlenut",
+        "link": "https://en.wikipedia.org/wiki/Hickory"
+    },
+    {
+        "image_url": "assets/images/nuts/Cashewnut.png",
+        "answer": "Cashewnut",
+        "link": "https://en.wikipedia.org/wiki/Aleurites_moluccanus"
+    },
+    {
+        "image_url": "assets/images/nuts/Chestnut.png",
+        "answer": "Chestnut",
+        "link": "https://en.wikipedia.org/wiki/Cashew#Nut_and_shell"
+    },
+    {
+        "image_url": "assets/images/nuts/Hazelnut.png",
+        "answer": "Hazelnut",
+        "link": "https://en.wikipedia.org/wiki/Chestnut"
+    },
+    {
+        "image_url": "assets/images/nuts/Kola.png",
+        "answer": "Kola",
+        "link": "https://en.wikipedia.org/wiki/Ginkgo"
+    },
+    {
+        "image_url": "assets/images/nuts/Macadamia.png",
+        "answer": "Macadamia",
+        "link": "https://en.wikipedia.org/wiki/Hazelnut"
+    },
+    {
+        "image_url": "assets/images/nuts/Nutss.png",
+        "answer": "Nutss",
+        "link": "https://en.wikipedia.org/wiki/Kola_nut"
+    },
+    {
+        "image_url": "assets/images/nuts/Peanut.png",
+        "answer": "Peanut",
+        "link": "https://en.wikipedia.org/wiki/Macadamia"
+    },
+    {
+        "image_url": "assets/images/nuts/Pecan.png",
+        "answer": "Pecan",
+        "link": "https://en.wikipedia.org/wiki/Peanut"
+    },
+    {
+        "image_url": "assets/images/nuts/Pili.png",
+        "answer": "Pili",
+        "link": "https://en.wikipedia.org/wiki/Pecan#Uses"
+    },
+    {
+        "image_url": "assets/images/nuts/Pine.png",
+        "answer": "Pine",
+        "link": "https://en.wikipedia.org/wiki/Canarium_ovatum"
+    },
+    {
+        "image_url": "assets/images/nuts/Pistachio.png",
+        "answer": "Pistachio",
+        "link": "https://en.wikipedia.org/wiki/Pine_nut"
+    },
+    {
+        "image_url": "assets/images/nuts/Soy.png",
+        "answer": "Soy",
+        "link": "https://en.wikipedia.org/wiki/Pistachio"
+    },
+    {
+        "image_url": "assets/images/nuts/Tiger.png",
+        "answer": "Tiger",
+        "link": "https://en.wikipedia.org/wiki/Soy_nut"
+    },
+    {
+        "image_url": "assets/images/nuts/Walnut.png",
+        "answer": "Walnut",
+        "link": "https://en.wikipedia.org/wiki/Cyperus_esculentus#Food"
+    },
+    {
+        "image_url": "assets/images/nuts/gingko.png",
+        "answer": "gingko",
+        "link": "https://en.wikipedia.org/wiki/Walnut"
+    }
+]

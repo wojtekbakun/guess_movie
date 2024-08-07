@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/supervillains/Bane.png",
+        "answer": "Bane",
+        "link": "https://en.wikipedia.org/wiki/Bane_(DC_Comics)"
+    },
+    {
+        "image_url": "assets/images/supervillains/Deacon Frost.png",
+        "answer": "Deacon Frost",
+        "link": "https://en.wikipedia.org/wiki/Deacon_Frost"
+    },
+    {
+        "image_url": "assets/images/supervillains/Doctor Octopus.png",
+        "answer": "Doctor Octopus",
+        "link": "https://en.wikipedia.org/wiki/Doctor_Octopus"
+    },
+    {
+        "image_url": "assets/images/supervillains/Gerald Zod.png",
+        "answer": "Gerald Zod",
+        "link": "https://en.wikipedia.org/wiki/General_Zod"
+    },
+    {
+        "image_url": "assets/images/supervillains/Green Goblin.png",
+        "answer": "Green Goblin",
+        "link": "https://en.wikipedia.org/wiki/Green_Goblin"
+    },
+    {
+        "image_url": "assets/images/supervillains/Harley quinn.png",
+        "answer": "Harley quinn",
+        "link": "https://en.wikipedia.org/wiki/Harley_Quinn"
+    },
+    {
+        "image_url": "assets/images/supervillains/Hela.png",
+        "answer": "Hela",
+        "link": "https://en.wikipedia.org/wiki/Hela_(character)"
+    },
+    {
+        "image_url": "assets/images/supervillains/High Evolutionary.png",
+        "answer": "High Evolutionary",
+        "link": "https://en.wikipedia.org/wiki/High_Evolutionary"
+    },
+    {
+        "image_url": "assets/images/supervillains/Killmonger.png",
+        "answer": "Killmonger",
+        "link": "https://en.wikipedia.org/wiki/Erik_Killmonger"
+    },
+    {
+        "image_url": "assets/images/supervillains/Loki laufeyson.png",
+        "answer": "Loki laufeyson",
+        "link": "https://en.wikipedia.org/wiki/Loki_(Marvel_Cinematic_Universe)"
+    },
+    {
+        "image_url": "assets/images/supervillains/Mysterio.png",
+        "answer": "Mysterio",
+        "link": "https://en.wikipedia.org/wiki/Mysterio"
+    },
+    {
+        "image_url": "assets/images/supervillains/Mystique.png",
+        "answer": "Mystique",
+        "link": "https://en.wikipedia.org/wiki/Mystique_(character)"
+    },
+    {
+        "image_url": "assets/images/supervillains/Penguin.png",
+        "answer": "Penguin",
+        "link": "https://en.wikipedia.org/wiki/Penguin"
+    },
+    {
+        "image_url": "assets/images/supervillains/Ra's al Ghul.png",
+        "answer": "Ra's al Ghul",
+        "link": "https://en.wikipedia.org/wiki/Ra%27s_al_Ghul"
+    },
+    {
+        "image_url": "assets/images/supervillains/Red Skull.png",
+        "answer": "Red Skull",
+        "link": "https://en.wikipedia.org/wiki/Red_Skull"
+    },
+    {
+        "image_url": "assets/images/supervillains/Riddler.png",
+        "answer": "Riddler",
+        "link": "https://en.wikipedia.org/wiki/Riddler"
+    },
+    {
+        "image_url": "assets/images/supervillains/Scarecrow.png",
+        "answer": "Scarecrow",
+        "link": "https://en.wikipedia.org/wiki/Scarecrow_(DC_Comics)"
+    },
+    {
+        "image_url": "assets/images/supervillains/Thanos.png",
+        "answer": "Thanos",
+        "link": "https://en.wikipedia.org/wiki/Thanos"
+    },
+    {
+        "image_url": "assets/images/supervillains/Two Face.png",
+        "answer": "Two Face",
+        "link": "https://en.wikipedia.org/wiki/Two-Face"
+    },
+    {
+        "image_url": "assets/images/supervillains/Venom.png",
+        "answer": "Venom",
+        "link": "https://en.wikipedia.org/wiki/Venom_(character)"
+    }
+]

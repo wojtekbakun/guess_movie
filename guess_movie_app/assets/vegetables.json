@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/vegetables/Artichoke.png",
+        "answer": "Artichoke",
+        "link": "https://en.wikipedia.org/wiki/Artichoke"
+    },
+    {
+        "image_url": "assets/images/vegetables/Asparagus.png",
+        "answer": "Asparagus",
+        "link": "https://en.wikipedia.org/wiki/Asparagus"
+    },
+    {
+        "image_url": "assets/images/vegetables/Beetroot.png",
+        "answer": "Beetroot",
+        "link": "https://en.wikipedia.org/wiki/Beetroot"
+    },
+    {
+        "image_url": "assets/images/vegetables/Broccoli.png",
+        "answer": "Broccoli",
+        "link": "https://en.wikipedia.org/wiki/Broccoli"
+    },
+    {
+        "image_url": "assets/images/vegetables/Brussels sprout.png",
+        "answer": "Brussels sprout",
+        "link": "https://en.wikipedia.org/wiki/Brussels_sprout"
+    },
+    {
+        "image_url": "assets/images/vegetables/Butternut squash.png",
+        "answer": "Butternut squash",
+        "link": "https://en.wikipedia.org/wiki/Butternut_squash"
+    },
+    {
+        "image_url": "assets/images/vegetables/Cabbage.png",
+        "answer": "Cabbage",
+        "link": "https://en.wikipedia.org/wiki/Cabbage"
+    },
+    {
+        "image_url": "assets/images/vegetables/Carrot.png",
+        "answer": "Carrot",
+        "link": "https://en.wikipedia.org/wiki/Carrot"
+    },
+    {
+        "image_url": "assets/images/vegetables/Cassava.png",
+        "answer": "Cassava",
+        "link": "https://en.wikipedia.org/wiki/Cassava"
+    },
+    {
+        "image_url": "assets/images/vegetables/Cauliflower.png",
+        "answer": "Cauliflower",
+        "link": "https://en.wikipedia.org/wiki/Cauliflower"
+    },
+    {
+        "image_url": "assets/images/vegetables/Fennel.png",
+        "answer": "Fennel",
+        "link": "https://en.wikipedia.org/wiki/Fennel"
+    },
+    {
+        "image_url": "assets/images/vegetables/Jicama.png",
+        "answer": "Jicama",
+        "link": "https://en.wikipedia.org/wiki/Pachyrhizus_erosus"
+    },
+    {
+        "image_url": "assets/images/vegetables/Kohlrabi.png",
+        "answer": "Kohlrabi",
+        "link": "https://en.wikipedia.org/wiki/Kohlrabi"
+    },
+    {
+        "image_url": "assets/images/vegetables/Mushroom.png",
+        "answer": "Mushroom",
+        "link": "https://en.wikipedia.org/wiki/Mushroom"
+    },
+    {
+        "image_url": "assets/images/vegetables/Okra.png",
+        "answer": "Okra",
+        "link": "https://en.wikipedia.org/wiki/Okra"
+    },
+    {
+        "image_url": "assets/images/vegetables/Peas.png",
+        "answer": "Peas",
+        "link": "https://en.wikipedia.org/wiki/Pea"
+    },
+    {
+        "image_url": "assets/images/vegetables/Radish.png",
+        "answer": "Radish",
+        "link": "https://en.wikipedia.org/wiki/Radish"
+    },
+    {
+        "image_url": "assets/images/vegetables/Rutabaga.png",
+        "answer": "Rutabaga",
+        "link": "https://en.wikipedia.org/wiki/Rutabaga"
+    },
+    {
+        "image_url": "assets/images/vegetables/Sweet potato.png",
+        "answer": "Sweet potato",
+        "link": "https://en.wikipedia.org/wiki/Sweet_potato"
+    },
+    {
+        "image_url": "assets/images/vegetables/Taro.png",
+        "answer": "Taro",
+        "link": "https://en.wikipedia.org/wiki/Taro"
+    }
+]

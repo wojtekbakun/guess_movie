@@ -1,0 +1,20 @@
+1. Workday - https://en.wikipedia.org/wiki/Workday,_Inc.
+2. Adobe - https://en.wikipedia.org/wiki/Adobe_Inc.
+3. Alibaba - https://en.wikipedia.org/wiki/Alibaba_Group
+4. Amazon - https://en.wikipedia.org/wiki/Amazon_(company)
+5. AMD - https://en.wikipedia.org/wiki/AMD
+6. Apple Inc - https://en.wikipedia.org/wiki/Apple_Inc.
+7. Applied Materials - https://en.wikipedia.org/wiki/Applied_Materials
+8. Fortinet - https://en.wikipedia.org/wiki/Fortinet
+9. Cisco - https://en.wikipedia.org/wiki/Cisco
+10. Dassault Systèmes - https://en.wikipedia.org/wiki/Dassault_Syst%C3%A8mes
+11. Equinix - https://en.wikipedia.org/wiki/Equinix
+12. Google - https://en.wikipedia.org/wiki/Google
+13. Microsoft - https://en.wikipedia.org/wiki/Microsoft
+14. Nvidia - https://en.wikipedia.org/wiki/Nvidia
+15. Oracle - https://en.wikipedia.org/wiki/Oracle
+16. PayPal - https://en.wikipedia.org/wiki/PayPal
+17. Qualcomm - https://en.wikipedia.org/wiki/Qualcommc
+18. ServiceNow - https://en.wikipedia.org/wiki/ServiceNow
+19. Micron Technology - https://en.wikipedia.org/wiki/Micron_Technology
+20. Texas Instruments - https://en.wikipedia.org/wiki/Texas_Instruments

@@ -1,0 +1,20 @@
+1. Ant-Man - https://en.wikipedia.org/wiki/Ant-Man
+2. Batman - https://en.wikipedia.org/wiki/Batman
+3. Black Panther - https://en.wikipedia.org/wiki/Black_Panther_(character)
+4. Black Widow - https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)
+5. Captain America - https://en.wikipedia.org/wiki/Captain_America
+6. Catwoman - https://en.wikipedia.org/wiki/Catwoman
+7. Daredevil - https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)
+8. Deadpool - https://en.wikipedia.org/wiki/Deadpool
+9. Green Lantern - https://en.wikipedia.org/wiki/Green_Lantern
+10. Hellboy - https://en.wikipedia.org/wiki/Hellboy
+11. Hulk - https://en.wikipedia.org/wiki/Hulk
+12. Iron Fist - https://en.wikipedia.org/wiki/Iron_Fist_(character)
+13. Iron Man - https://en.wikipedia.org/wiki/Iron_Man
+14. Nightcrawler  - https://en.wikipedia.org/wiki/Nightcrawler_(character)
+15. Robin - https://en.wikipedia.org/wiki/Robin_(character)
+16. Spider-Man - https://en.wikipedia.org/wiki/Spider-Man
+17. Storm - https://en.wikipedia.org/wiki/Storm_(Marvel_Comics)
+18. Superman - https://en.wikipedia.org/wiki/Superman
+19. Thor - https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)
+20. Wolverine - https://en.wikipedia.org/wiki/Wolverine_(character)

@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/spices/Ajwain.png",
+        "answer": "Ajwain",
+        "link": "https://en.wikipedia.org/wiki/Ajwain"
+    },
+    {
+        "image_url": "assets/images/spices/All Spice.png",
+        "answer": "All Spice",
+        "link": "https://en.wikipedia.org/wiki/Allspice"
+    },
+    {
+        "image_url": "assets/images/spices/Black Pepper.png",
+        "answer": "Black Pepper",
+        "link": "https://en.wikipedia.org/wiki/Black_pepper"
+    },
+    {
+        "image_url": "assets/images/spices/Cardamom.png",
+        "answer": "Cardamom",
+        "link": "https://en.wikipedia.org/wiki/Cardamom"
+    },
+    {
+        "image_url": "assets/images/spices/Cinnamon.png",
+        "answer": "Cinnamon",
+        "link": "https://en.wikipedia.org/wiki/Cinnamon"
+    },
+    {
+        "image_url": "assets/images/spices/Clove.png",
+        "answer": "Clove",
+        "link": "https://en.wikipedia.org/wiki/Clove"
+    },
+    {
+        "image_url": "assets/images/spices/Coriander.png",
+        "answer": "Coriander",
+        "link": "https://en.wikipedia.org/wiki/Coriander"
+    },
+    {
+        "image_url": "assets/images/spices/Cumin.png",
+        "answer": "Cumin",
+        "link": "https://en.wikipedia.org/wiki/Cumin"
+    },
+    {
+        "image_url": "assets/images/spices/Fennel.png",
+        "answer": "Fennel",
+        "link": "https://en.wikipedia.org/wiki/Fennel"
+    },
+    {
+        "image_url": "assets/images/spices/Fenugreek.png",
+        "answer": "Fenugreek",
+        "link": "https://en.wikipedia.org/wiki/Fenugreek"
+    },
+    {
+        "image_url": "assets/images/spices/Ginger.png",
+        "answer": "Ginger",
+        "link": "https://en.wikipedia.org/wiki/Ginger"
+    },
+    {
+        "image_url": "assets/images/spices/Juniper Berry.png",
+        "answer": "Juniper Berry",
+        "link": "https://en.wikipedia.org/wiki/Juniper_berry"
+    },
+    {
+        "image_url": "assets/images/spices/Mace.png",
+        "answer": "Mace",
+        "link": "https://www.thespicehouse.com/blogs/news/what-is-mace"
+    },
+    {
+        "image_url": "assets/images/spices/Mustard.png",
+        "answer": "Mustard",
+        "link": "https://en.wikipedia.org/wiki/Mustard_seed"
+    },
+    {
+        "image_url": "assets/images/spices/Nutmeg.png",
+        "answer": "Nutmeg",
+        "link": "https://en.wikipedia.org/wiki/Nutmeg"
+    },
+    {
+        "image_url": "assets/images/spices/Poppy Seed.png",
+        "answer": "Poppy Seed",
+        "link": "https://en.wikipedia.org/wiki/Poppy_seed"
+    },
+    {
+        "image_url": "assets/images/spices/Saffron.png",
+        "answer": "Saffron",
+        "link": "https://en.wikipedia.org/wiki/Saffron"
+    },
+    {
+        "image_url": "assets/images/spices/Sesame.png",
+        "answer": "Sesame",
+        "link": "https://en.wikipedia.org/wiki/Sesame"
+    },
+    {
+        "image_url": "assets/images/spices/Star Anise.png",
+        "answer": "Star Anise",
+        "link": "https://en.wikipedia.org/wiki/Sesame"
+    },
+    {
+        "image_url": "assets/images/spices/Turmeric.png",
+        "answer": "Turmeric",
+        "link": "https://en.wikipedia.org/wiki/Turmeric"
+    }
+]

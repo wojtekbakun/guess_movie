@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/historical_figures/Abraham Lincoln.png",
+        "answer": "Abraham Lincoln",
+        "link": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Albert Einstein.png",
+        "answer": "Albert Einstein",
+        "link": "https://en.wikipedia.org/wiki/Albert_Einstein"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Carl linnaeus.png",
+        "answer": "Carl linnaeus",
+        "link": "https://en.wikipedia.org/wiki/Carl_Linnaeus"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Charles Darwin.png",
+        "answer": "Charles Darwin",
+        "link": "https://en.wikipedia.org/wiki/Charles_Darwin"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Charles Dickens.png",
+        "answer": "Charles Dickens",
+        "link": "https://en.wikipedia.org/wiki/Charles_Dickens"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Christopher Columbus.png",
+        "answer": "Christopher Columbus",
+        "link": "https://en.wikipedia.org/wiki/Christopher_Columbus"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Dante alighieri.png",
+        "answer": "Dante alighieri",
+        "link": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Galileo Galilei.png",
+        "answer": "Galileo Galilei",
+        "link": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Genghis Khan.png",
+        "answer": "Genghis Khan",
+        "link": "https://en.wikipedia.org/wiki/Genghis_Khan"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Isaac Newton.png",
+        "answer": "Isaac Newton",
+        "link": "https://en.wikipedia.org/wiki/Isaac_Newton"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Karl Marx.png",
+        "answer": "Karl Marx",
+        "link": "https://en.wikipedia.org/wiki/Karl_Marx"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Leonardo Da Vinci.png",
+        "answer": "Leonardo Da Vinci",
+        "link": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Ludwig Van Beethoven.png",
+        "answer": "Ludwig Van Beethoven",
+        "link": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Mark Twain.png",
+        "answer": "Mark Twain",
+        "link": "https://en.wikipedia.org/wiki/Mark_Twain"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Napoleon bonaparte.png",
+        "answer": "Napoleon bonaparte",
+        "link": "https://en.wikipedia.org/wiki/Napoleon"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Nikola Tesla.png",
+        "answer": "Nikola Tesla",
+        "link": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Oscar Wilde.png",
+        "answer": "Oscar Wilde",
+        "link": "https://en.wikipedia.org/wiki/Oscar_Wilde"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Thomas Edison.png",
+        "answer": "Thomas Edison",
+        "link": "https://en.wikipedia.org/wiki/Thomas_Edison"
+    },
+    {
+        "image_url": "assets/images/historical_figures/William Shakespeare.png",
+        "answer": "William Shakespeare",
+        "link": "https://en.wikipedia.org/wiki/William_Shakespeare"
+    },
+    {
+        "image_url": "assets/images/historical_figures/Wolfgang Amadeus Mozart.png",
+        "answer": "Wolfgang Amadeus Mozart",
+        "link": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+    }
+]

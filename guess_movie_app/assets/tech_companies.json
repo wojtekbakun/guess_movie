@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/tech_companies/AMD.png",
+        "answer": "AMD",
+        "link": "https://en.wikipedia.org/wiki/Workday,_Inc."
+    },
+    {
+        "image_url": "assets/images/tech_companies/Adobe.png",
+        "answer": "Adobe",
+        "link": "https://en.wikipedia.org/wiki/Adobe_Inc."
+    },
+    {
+        "image_url": "assets/images/tech_companies/Alibaba.png",
+        "answer": "Alibaba",
+        "link": "https://en.wikipedia.org/wiki/Alibaba_Group"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Amazon.png",
+        "answer": "Amazon",
+        "link": "https://en.wikipedia.org/wiki/Amazon_(company)"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Apple.png",
+        "answer": "Apple",
+        "link": "https://en.wikipedia.org/wiki/AMD"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Applied Materials.png",
+        "answer": "Applied Materials",
+        "link": "https://en.wikipedia.org/wiki/Apple_Inc."
+    },
+    {
+        "image_url": "assets/images/tech_companies/Channels4.png",
+        "answer": "Channels4",
+        "link": "https://en.wikipedia.org/wiki/Applied_Materials"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Cisco.png",
+        "answer": "Cisco",
+        "link": "https://en.wikipedia.org/wiki/Fortinet"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Dassault Syst\u00e8mes.png",
+        "answer": "Dassault Syst\u00e8mes",
+        "link": "https://en.wikipedia.org/wiki/Cisco"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Equinix.png",
+        "answer": "Equinix",
+        "link": "https://en.wikipedia.org/wiki/Dassault_Syst%C3%A8mes"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Google.png",
+        "answer": "Google",
+        "link": "https://en.wikipedia.org/wiki/Equinix"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Micron Technology.png",
+        "answer": "Micron Technology",
+        "link": "https://en.wikipedia.org/wiki/Google"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Microsoft.png",
+        "answer": "Microsoft",
+        "link": "https://en.wikipedia.org/wiki/Microsoft"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Nvidia.png",
+        "answer": "Nvidia",
+        "link": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Oracle.png",
+        "answer": "Oracle",
+        "link": "https://en.wikipedia.org/wiki/Oracle"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Paypal.png",
+        "answer": "Paypal",
+        "link": "https://en.wikipedia.org/wiki/PayPal"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Qualcomm.png",
+        "answer": "Qualcomm",
+        "link": "https://en.wikipedia.org/wiki/Qualcommc"
+    },
+    {
+        "image_url": "assets/images/tech_companies/ServiceNow.png",
+        "answer": "ServiceNow",
+        "link": "https://en.wikipedia.org/wiki/ServiceNow"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Texas Instruments.png",
+        "answer": "Texas Instruments",
+        "link": "https://en.wikipedia.org/wiki/Texas_Instruments"
+    },
+    {
+        "image_url": "assets/images/tech_companies/Workday adaptive planning.png",
+        "answer": "Workday adaptive planning",
+        "link": "https://en.wikipedia.org/wiki/Micron_Technology"
+    }
+]

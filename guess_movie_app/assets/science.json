@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/science/Bandage.png",
+        "answer": "Bandage",
+        "link": "https://en.wikipedia.org/wiki/Telescope"
+    },
+    {
+        "image_url": "assets/images/science/Beaker.png",
+        "answer": "Beaker",
+        "link": "https://en.wikipedia.org/wiki/Petri_dish"
+    },
+    {
+        "image_url": "assets/images/science/Electrocardiography.png",
+        "answer": "Electrocardiography",
+        "link": "https://en.wikipedia.org/wiki/Syringe"
+    },
+    {
+        "image_url": "assets/images/science/Magnifying glass.png",
+        "answer": "Magnifying glass",
+        "link": "https://en.wikipedia.org/wiki/Reflex_hammer"
+    },
+    {
+        "image_url": "assets/images/science/Medical glove.png",
+        "answer": "Medical glove",
+        "link": "https://en.wikipedia.org/wiki/Stretcher"
+    },
+    {
+        "image_url": "assets/images/science/Microscope.png",
+        "answer": "Microscope",
+        "link": "https://en.wikipedia.org/wiki/Medical_glove"
+    },
+    {
+        "image_url": "assets/images/science/Petri dish.png",
+        "answer": "Petri dish",
+        "link": "https://en.wikipedia.org/wiki/Thermometer"
+    },
+    {
+        "image_url": "assets/images/science/Pulse oximetry.png",
+        "answer": "Pulse oximetry",
+        "link": "https://en.wikipedia.org/wiki/Pulse_oximetry"
+    },
+    {
+        "image_url": "assets/images/science/Reflex hammer.png",
+        "answer": "Reflex hammer",
+        "link": "https://en.wikipedia.org/wiki/Surgical_mask"
+    },
+    {
+        "image_url": "assets/images/science/Scalpel.png",
+        "answer": "Scalpel",
+        "link": "https://en.wikipedia.org/wiki/Electrocardiography"
+    },
+    {
+        "image_url": "assets/images/science/Stethoscope.png",
+        "answer": "Stethoscope",
+        "link": "https://en.wikipedia.org/wiki/Beaker_(laboratory_equipment)"
+    },
+    {
+        "image_url": "assets/images/science/Stretcher.png",
+        "answer": "Stretcher",
+        "link": "https://en.wikipedia.org/wiki/Wheelchair"
+    },
+    {
+        "image_url": "assets/images/science/Surgical mask.png",
+        "answer": "Surgical mask",
+        "link": "https://en.wikipedia.org/wiki/Stethoscope"
+    },
+    {
+        "image_url": "assets/images/science/Syringe.png",
+        "answer": "Syringe",
+        "link": "https://en.wikipedia.org/wiki/Bandage"
+    },
+    {
+        "image_url": "assets/images/science/Telescope.png",
+        "answer": "Telescope",
+        "link": "https://en.wikipedia.org/wiki/Magnifying_glass"
+    },
+    {
+        "image_url": "assets/images/science/Test tube.png",
+        "answer": "Test tube",
+        "link": "https://en.wikipedia.org/wiki/Scalpel"
+    },
+    {
+        "image_url": "assets/images/science/Thermometer.png",
+        "answer": "Thermometer",
+        "link": "https://en.wikipedia.org/wiki/White_coat"
+    },
+    {
+        "image_url": "assets/images/science/Wheelchair.png",
+        "answer": "Wheelchair",
+        "link": "https://en.wikipedia.org/wiki/X-ray"
+    },
+    {
+        "image_url": "assets/images/science/White coat.png",
+        "answer": "White coat",
+        "link": "https://en.wikipedia.org/wiki/Test_tube"
+    },
+    {
+        "image_url": "assets/images/science/X-ray.png",
+        "answer": "X-ray",
+        "link": "https://en.wikipedia.org/wiki/Microscope"
+    }
+]
