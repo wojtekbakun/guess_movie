@@ -56,13 +56,13 @@ List<List<dynamic>> categoriesAndFilesList = [
     '20',
     Image.asset('assets/images/mobile_games/AFK arena.png'),
   ],
-  //!TODO Animal - Q&A
-  [
-    'Animal - Q&A',
-    'assets/animal-QandA.json',
-    '20',
-    Image.asset('assets/images/animal-QandA/xxx.png'),
-  ],
+  // //!TODO Animal - Q&A
+  // [
+  //   'Animal - Q&A',
+  //   'assets/animal-QandA.json',
+  //   '20',
+  //   Image.asset('assets/images/animal-QandA/xxx.png'),
+  // ],
   [
     'Animated Movies',
     'assets/animated_movies.json',
@@ -131,13 +131,13 @@ List<List<dynamic>> categoriesAndFilesList = [
     '20',
     Image.asset('assets/images/video_game/Bioshock.png'),
   ],
-  //!TODO Tech - Q&A
-  [
-    'Tech - Q&A',
-    'assets/tech_QandA.json',
-    '20',
-    Image.asset('assets/images/tech_QandA/xxx.png'),
-  ],
+  // //!TODO Tech - Q&A
+  // [
+  //   'Tech - Q&A',
+  //   'assets/tech_QandA.json',
+  //   '20',
+  //   Image.asset('assets/images/tech_QandA/xxx.png'),
+  // ],
   [
     'Musical Instruments',
     'assets/musical_instruments.json',
@@ -199,13 +199,13 @@ List<List<dynamic>> categoriesAndFilesList = [
     '20',
     Image.asset('assets/images/movie_villains/Gollum.png'),
   ],
-  //!TODO add history Q&A
-  [
-    'History - Q&A',
-    'assets/history-QandA.json',
-    '20',
-    Image.asset('assets/images/history-QandA/xxx.png'),
-  ],
+  // //!TODO add history Q&A
+  // [
+  //   'History - Q&A',
+  //   'assets/history-QandA.json',
+  //   '20',
+  //   Image.asset('assets/images/history-QandA/xxx.png'),
+  // ],
   [
     'Superhero',
     'assets/superhero.json',
@@ -265,13 +265,13 @@ List<List<dynamic>> categoriesAndFilesList = [
     '20',
     Image.asset('assets/images/extinct_animals/Dodo.png'),
   ],
-  //!TODO add geography
-  [
-    'Geography - Q&A',
-    'assets/geography-QandA.json',
-    '20',
-    Image.asset('assets/images/geography-QandA/Bane.png'),
-  ],
+  // //!TODO add geography
+  // [
+  //   'Geography - Q&A',
+  //   'assets/geography-QandA.json',
+  //   '20',
+  //   Image.asset('assets/images/geography-QandA/Bane.png'),
+  // ],
   [
     'Birds',
     'assets/birds.json',
@@ -328,11 +328,11 @@ List<List<dynamic>> categoriesAndFilesList = [
     '20',
     Image.asset('assets/images/bridges/Brooklyn.png'),
   ],
-  //!TODO add history Q&A
-  [
-    'Science - Q&A',
-    'assets/science-QandA.json',
-    '20',
-    Image.asset('assets/images/science-QandA/xxx.png'),
-  ],
+  // //!TODO add science Q&A
+  // [
+  //   'Science - Q&A',
+  //   'assets/science-QandA.json',
+  //   '20',
+  //   Image.asset('assets/images/science-QandA/xxx.png'),
+  // ],
 ];
