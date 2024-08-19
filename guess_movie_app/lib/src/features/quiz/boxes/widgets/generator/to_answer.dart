@@ -14,24 +14,25 @@ Widget toAnswerBoxGenerator({
 
   int calculateNumberOfColumns(int numberOfAllLetters) {
     int numberOfColumns = 0;
-    numberOfAllLetters ~/ 8 > 0
-        ? numberOfColumns = (numberOfAllLetters ~/ 8) + 1
-        : numberOfColumns = numberOfAllLetters ~/ 8;
+    numberOfAllLetters ~/ 6 > 0
+        ? numberOfColumns = (numberOfAllLetters ~/ 6) + 1
+        : numberOfColumns = numberOfAllLetters ~/ 6;
+    debugPrint('Number of columns: $numberOfColumns');
     return numberOfColumns;
   }
 
   int calculateNumberOfRows(int numberOfAllLetters, int currentColumn) {
     int numberOfRows = 0;
-    int defaultNumberOfRows = 8;
+    int defaultNumberOfRows = 6;
     debugPrint('Number of all letters: $numberOfAllLetters');
     for (int lettersLeft = numberOfAllLetters;
         lettersLeft >= 0;
-        lettersLeft -= 8) {
-      if (numberOfAllLetters - (currentColumn * defaultNumberOfRows) <= 8) {
+        lettersLeft -= 6) {
+      if (numberOfAllLetters - (currentColumn * defaultNumberOfRows) <= 6) {
         numberOfRows =
             numberOfAllLetters - (currentColumn * defaultNumberOfRows);
       } else {
-        numberOfRows = 8;
+        numberOfRows = 6;
       }
     }
     debugPrint('Number of rows: $numberOfRows');
@@ -54,7 +55,7 @@ Widget toAnswerBoxGenerator({
           children: List.generate(
             calculateNumberOfRows(getLettersToDisplay().length, columnIndex),
             (rowIndex) {
-              int letterIndex = rowIndex + (columnIndex * 8);
+              int letterIndex = rowIndex + (columnIndex * 6);
               return Padding(
                 padding: const EdgeInsets.all(2.0),
                 child: GestureDetector(

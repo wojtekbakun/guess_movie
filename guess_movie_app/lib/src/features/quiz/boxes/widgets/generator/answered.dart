@@ -12,6 +12,7 @@ Widget answeredGenerator({
   AnswerModel? model,
 }) {
   int numberOfColumns = model?.splitIntoWords(model.correctAnswer).length ?? 1;
+
   return Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: List.generate(

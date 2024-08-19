@@ -9,8 +9,8 @@ class ImageBox extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 48.0),
       child: SizedBox(
-        height: 200, // TODO: change to responsive
-        width: 200,
+        height: 240, // TODO: change to responsive
+        width: 240,
         child: Image.asset(imageUrl),
       ),
     );

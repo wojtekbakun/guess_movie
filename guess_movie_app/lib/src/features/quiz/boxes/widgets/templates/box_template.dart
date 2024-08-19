@@ -15,15 +15,11 @@ class BoxWithLetter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double screenwWitdth = ScreenSizeHelper.screenWidth;
-    double boxWidth = 36;
-    if (screenwWitdth < 375) {
-      boxWidth = 28;
-    } else if (screenwWitdth >= 414) {
-      boxWidth = 32;
-    }
+    double boxWidth = screenwWitdth / 8;
+
     return Container(
-      height: boxWidth, //TODO change it to responsive
-      width: boxWidth, //TODO change it to responsive
+      height: boxWidth,
+      width: boxWidth,
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary,
         borderRadius: BorderRadius.circular(8),
@@ -56,15 +52,11 @@ class BoxWithoutLetter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double screenwWitdth = ScreenSizeHelper.screenWidth;
-    double boxWidth = 36;
-    if (screenwWitdth < 375) {
-      boxWidth = 28;
-    } else if (screenwWitdth >= 414) {
-      boxWidth = 32;
-    }
+    double boxWidth = screenwWitdth / 8;
+
     return Container(
-      height: boxWidth, //TODO change it to responsive
-      width: boxWidth, //TODO change it to responsive
+      height: boxWidth,
+      width: boxWidth,
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.primary,
         borderRadius: BorderRadius.circular(8),

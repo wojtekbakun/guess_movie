@@ -224,7 +224,7 @@ class AnswerModel extends ChangeNotifier {
   List<String> generateRandomLetters(bool isWordLenghtEven) {
     int howManyLettersToGenerate = 0;
     List<String> randomLetters = [];
-    howManyLettersToGenerate = isWordLenghtEven ? 6 : 5;
+    howManyLettersToGenerate = isWordLenghtEven ? 3 : 2;
     randomLetters = String.fromCharCodes(List.generate(
             howManyLettersToGenerate, (index) => Random().nextInt(25) + 97))
         .toUpperCase()
