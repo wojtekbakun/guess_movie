@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "assets/images/movies/Apocalypto.png",
+        "answer": "Apocalypto",
+        "link": "https://en.wikipedia.org/wiki/Apocalypto"
+    },
+    {
+        "image_url": "assets/images/movies/Back To The Future.png",
+        "answer": "Back To The Future",
+        "link": "https://en.wikipedia.org/wiki/Back_to_the_Future"
+    },
+    {
+        "image_url": "assets/images/movies/Black Panther.png",
+        "answer": "Black Panther",
+        "link": "https://en.wikipedia.org/wiki/Black_Panther_(film)"
+    },
+    {
+        "image_url": "assets/images/movies/Casino.png",
+        "answer": "Casino",
+        "link": "https://en.wikipedia.org/wiki/Casino_(1995_film)"
+    },
+    {
+        "image_url": "assets/images/movies/Citizen Kane.png",
+        "answer": "Citizen Kane",
+        "link": "https://en.wikipedia.org/wiki/Citizen_Kane"
+    },
+    {
+        "image_url": "assets/images/movies/Eraserhead.png",
+        "answer": "Eraserhead",
+        "link": "https://en.wikipedia.org/wiki/Eraserhead"
+    },
+    {
+        "image_url": "assets/images/movies/Finding Nemo.png",
+        "answer": "Finding Nemo",
+        "link": "https://en.wikipedia.org/wiki/Finding_Nemo"
+    },
+    {
+        "image_url": "assets/images/movies/Gone With The Wind.png",
+        "answer": "Gone With The Wind",
+        "link": "https://en.wikipedia.org/wiki/Finding_Nemo"
+    },
+    {
+        "image_url": "assets/images/movies/Harry Potter.png",
+        "answer": "Harry Potter",
+        "link": "https://en.wikipedia.org/wiki/Harry_Potter"
+    },
+    {
+        "image_url": "assets/images/movies/Hunger Games.png",
+        "answer": "Hunger Games",
+        "link": "https://en.wikipedia.org/wiki/The_Hunger_Games_(film)"
+    },
+    {
+        "image_url": "assets/images/movies/Kung Fu Panda.png",
+        "answer": "Kung Fu Panda",
+        "link": "https://en.wikipedia.org/wiki/Kung_Fu_Panda"
+    },
+    {
+        "image_url": "assets/images/movies/Maze Runner.png",
+        "answer": "Maze Runner",
+        "link": "https://en.wikipedia.org/wiki/Maze_Runner_(film_series)"
+    },
+    {
+        "image_url": "assets/images/movies/Psycho.png",
+        "answer": "Psycho",
+        "link": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
+    },
+    {
+        "image_url": "assets/images/movies/Slumdog Millionaire.png",
+        "answer": "Slumdog Millionaire",
+        "link": "https://en.wikipedia.org/wiki/Slumdog_Millionaire"
+    },
+    {
+        "image_url": "assets/images/movies/Star Wars.png",
+        "answer": "Star Wars",
+        "link": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+    },
+    {
+        "image_url": "assets/images/movies/The Godfather.png",
+        "answer": "The Godfather",
+        "link": "https://en.wikipedia.org/wiki/The_Godfather"
+    },
+    {
+        "image_url": "assets/images/movies/The Passion of the Christ.png",
+        "answer": "The Passion of the Christ",
+        "link": "https://en.wikipedia.org/wiki/The_Passion_of_the_Christ"
+    },
+    {
+        "image_url": "assets/images/movies/The Prestige.png",
+        "answer": "The Prestige",
+        "link": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+    },
+    {
+        "image_url": "assets/images/movies/The Shinning.png",
+        "answer": "The Shinning",
+        "link": "https://en.wikipedia.org/wiki/The_Shining_(film)"
+    },
+    {
+        "image_url": "assets/images/movies/Wizard of Oz.png",
+        "answer": "Wizard of Oz",
+        "link": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz"
+    }
+]

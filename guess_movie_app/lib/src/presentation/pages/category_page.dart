@@ -54,14 +54,15 @@ class CategoryPanel extends StatelessWidget {
           height: 60,
           width: 60,
           decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.onSurface,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(
-              color: Theme.of(context).colorScheme.onPrimary,
-              width: 2,
-            ),
-          ),
-          child: categoriesAndFilesList[index][3],
+              color: Theme.of(context).colorScheme.onSurface,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: Theme.of(context).colorScheme.onPrimary,
+                width: 2,
+              ),
+              image: DecorationImage(
+                image: AssetImage(categoriesAndFilesList[index][3]),
+              )),
         ),
         trailing: Column(
           mainAxisAlignment: MainAxisAlignment.center,

@@ -76,7 +76,7 @@ flutter:
     - assets/icons/puzzle.svg
     - assets/images/actors/
     - assets/images/animals/
-    - assets/images/animals-QandA/
+    # - assets/images/animals-QandA/
     - assets/images/animated_movies/
     - assets/images/animated_series/
     - assets/images/birds/
@@ -97,7 +97,7 @@ flutter:
     - assets/images/game_characters/
     - assets/images/guess_the_movie/
     - assets/images/historical_figures/
-    - assets/images/history-QandA/
+    # - assets/images/history-QandA/
     - assets/images/mobile_games/
     - assets/images/movie_villains/
     - assets/images/movies/
@@ -116,15 +116,15 @@ flutter:
     - assets/images/sportspersons/
     - assets/images/supervillains/
     - assets/images/tech_companies/
-    - assets/images/tech-QandA/
+    # - assets/images/tech-QandA/
     - assets/images/movies/
     - assets/images/vegetables/
     - assets/images/video_game/
     - assets/images/world_landmarks/
     - assets/images/nuts/
     - assets/images/tv_shows/
-    - assets/images/geography-QandA/
-    - assets/images/science-QandA/
+    # - assets/images/geography-QandA/
+    # - assets/images/science-QandA/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
