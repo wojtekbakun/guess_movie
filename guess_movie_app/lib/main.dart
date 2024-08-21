@@ -54,7 +54,7 @@ class QuizGameApp extends StatelessWidget {
     Provider.of<QuizScoreModel>(context, listen: false).getAllScores();
     ScreenSizeHelper.initialize(context);
     return MaterialApp(
-      title: 'Quiz Game App',
+      title: 'Visual Quest',
       initialRoute: '/homePage',
       routes: {
         '/homePage': (context) => const HomePage(),
@@ -80,23 +80,23 @@ class QuizGameApp extends StatelessWidget {
         textTheme: TextTheme(
           titleMedium: TextStyle(
             fontFamily: 'Inter',
-            fontSize: 18,
+            fontSize: 20,
             fontWeight: FontWeight.bold,
             color: Theme.of(context).colorScheme.onPrimary,
           ),
           titleSmall: TextStyle(
             fontFamily: 'Inter',
-            fontSize: 14,
+            fontSize: 18,
             color: Theme.of(context).colorScheme.background,
           ),
           bodyLarge: TextStyle(
             fontFamily: 'Inter',
-            fontSize: 20,
+            fontSize: 24,
             color: Theme.of(context).colorScheme.onPrimary,
           ),
           bodySmall: TextStyle(
             fontFamily: 'Inter',
-            fontSize: 14,
+            fontSize: 18,
             color: Theme.of(context).colorScheme.onPrimary,
           ),
           labelLarge: TextStyle(

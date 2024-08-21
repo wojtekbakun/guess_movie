@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         title: Text(
-          'Quiz Game App',
+          'Visual Quest',
           style: Theme.of(context).textTheme.titleMedium,
         ),
         automaticallyImplyLeading: false,
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SwitchPage(
+          SwitchPageButton(
             page: '/categoryPage',
             text: 'START',
             special: true,

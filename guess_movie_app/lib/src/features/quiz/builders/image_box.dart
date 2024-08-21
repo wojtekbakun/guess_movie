@@ -6,13 +6,19 @@ class ImageBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 48.0),
-      child: SizedBox(
-        height: 240, // TODO: change to responsive
-        width: 240,
-        child: Image.asset(imageUrl),
-      ),
+    final double screenWidth = MediaQuery.of(context).size.width;
+    final double imageWidth = screenWidth / 2;
+    return Column(
+      children: [
+        const SizedBox(
+          height: 20,
+        ),
+        SizedBox(
+          height: imageWidth,
+          width: imageWidth,
+          child: Image.asset(imageUrl),
+        ),
+      ],
     );
   }
 }

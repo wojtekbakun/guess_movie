@@ -8,7 +8,7 @@ PreferredSizeWidget myAppBar(BuildContext context, {bool? quitQuiz}) {
   return AppBar(
     backgroundColor: Theme.of(context).colorScheme.onSurface,
     title: Text(
-      'Quiz Game App',
+      'Visual Quest',
       style: Theme.of(context).textTheme.titleMedium,
     ),
     leading: IconButton(
@@ -19,7 +19,7 @@ PreferredSizeWidget myAppBar(BuildContext context, {bool? quitQuiz}) {
       onPressed: () {
         Navigator.of(context).pop();
         quitQuiz ?? false
-            ? Provider.of<AnswerModel>(context, listen: false).clearTables()
+            ? Provider.of<AnswerModel>(context, listen: false).toogleAnswer()
             : null;
       },
     ),

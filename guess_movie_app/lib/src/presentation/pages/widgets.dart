@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class SwitchPage extends StatelessWidget {
+class SwitchPageButton extends StatelessWidget {
   final String page;
   final String text;
   final bool? special;
-  const SwitchPage(
+  const SwitchPageButton(
       {super.key, required this.page, required this.text, this.special});
 
   @override
@@ -19,9 +19,12 @@ class SwitchPage extends StatelessWidget {
       onPressed: () {
         Navigator.pushNamed(context, page);
       },
-      child: Text(
-        text,
-        style: Theme.of(context).textTheme.titleMedium,
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Text(
+          text,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
       ),
     );
   }

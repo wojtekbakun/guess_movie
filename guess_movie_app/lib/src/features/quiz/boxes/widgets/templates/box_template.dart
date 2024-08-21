@@ -33,7 +33,7 @@ class BoxWithLetter extends StatelessWidget {
           lettersToDisplay[index].toUpperCase(),
           style: TextStyle(
             color: Theme.of(context).colorScheme.onPrimary,
-            fontSize: 14,
+            fontSize: 18,
             fontWeight: FontWeight.bold,
           ),
         ),
